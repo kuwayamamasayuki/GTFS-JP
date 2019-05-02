@@ -47,7 +47,60 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 ## 出力結果例
 
 次の図は，福岡県古賀市のコガバス（古賀市公共施設等連絡バス）のデータを，テスト用にわざと誤りが含まれるように修正したものを検証した結果の一部です。
-![出力例](キャプチャ.png)
+![出力例](キャプチャ.PNG)
+
+## 主な拡張内容
+
+- extensions.GTFS-JP.GtfsFactory:
+  - 'agency_jp.txt', 'route_jp.txt', 'office_jp.txt', 'translations.txt' を追加
+  - 'fare_attributes.txt' 及び 'feed_info.txt' が必須であることを追加
+
+- extensions.GTFS-JP.Agency:
+  - 'agency_id'が必須項目であることの確認の追加
+  - 'agency_timezone'が'Asia/Tokyo'（固定文字列）であることの確認を追加
+  - 'agency_lang'が'ja'（固定文字列）であることの確認を追加
+
+- extensions.GTFS-JP.Agency_jp
+  - 'agency_id'が必須項目であることの確認を追加
+  - 'agency_zip_number'がハイフンなしの半角７桁であることの確認を追加
+  - 'agency_president_name'で，姓と名の間に全角スペース１文字があることの確認を追加
+
+- extensions.GTFS-JP.Stop
+  - 'platform_code'を追加
+  - 'stop_timezone'が設定されていた場合，不要である旨警告を出すようにした
+  - 'wheelchair_boarding'が設定されていた場合，不要である旨警告を出すようにした
+
+- extensions.GTFS-JP.Route
+  - 'agency_id'が必須項目であることの確認を追加
+  - 'route_type'が'3'（固定値）であることの確認を追加
+  - 'jp_parent_route_id'（任意項目）を追加
+
+- extensions.GTFS-JP.Route_jp
+  - 'route_id'が必須項目であることの確認を追加
+  - 'route_update_dateが適切な書式の日付であるかどうかの確認を追加
+
+- extensions.GTFS-JP.Trip
+  - 'jp_trip_desc', 'jp_trip_desc_symbol', 'jp_office_id'（いずれも任意項目）を追加
+  - 'jp_office_id'の値が，'office_jp.txt'内で定義されているかの確認を追加
+
+- extensions.GTFS-JP.Office_jp
+  - 'office_id'及び'office_name'が必須項目であることの確認を追加
+  - 'office_url'が有効なURLであることの確認を追加
+
+- extensions.GTFS-JP.FareAttribute
+  - 'currency_type'の値が'JPY'（固定値）であることの確認を追加
+
+- extensions.GTFS-JP.FareRules
+  - 'contains_id'が設定されていた場合，不要である旨警告を出すようにした
+
+- extensions.GTFS-JP.Shape
+  - 'shape_dist_traveled'が設定されていた場合，不要である旨警告を出すようにした
+
+- extensions.GTFS-JP.feed_info
+  - 'feed_lang'の値が'ja'（固定値）であることの確認を追加
+
+- extensions.GTFS-JP.translations
+  - 'trans_id', 'lang', 'translation'が必須項目であることの確認を追加
 
 ## 既知のバグ
 
