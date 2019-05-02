@@ -46,7 +46,7 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 
 ## 出力結果例
 
-次の図は，福岡県古賀市のコガバス（古賀市公共施設等連絡バス）のデータを，テスト用にわざと誤りが含まれるように修正したものを検証した結果の一部です。
+次の図は，福岡県古賀市のコガバス（古賀市公共施設等連絡バス）様のデータを，テスト用にわざと誤りが含まれるように修正したものを検証した結果の一部です。
 ![出力例](キャプチャ.PNG)
 
 これ以外の各交通事業者のGTFSファイルを検証した結果は，[http://35.192.87.3/FeedValidator-extension-for-GTFS-JP/output.html](http://35.192.87.3/FeedValidator-extension-for-GTFS-JP/output.html)にあります。
