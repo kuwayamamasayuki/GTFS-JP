@@ -1,0 +1,32 @@
+validating inputs/gtfs.1049.oramachi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 邑楽～太田線：ｊａ中野支所経由 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value 邑楽～太田線：ｊａ中野支所経由 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 邑楽～太田線：県緑化ｃ経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R003".
+ column route_long_name
+Invalid value 邑楽～太田線：高島小～中野経由 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R006".
+ column route_long_name
+Invalid value 邑楽～太田線：高島小～緑化経由 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R008"
+and "R007".
+ERROR: 1 warning found

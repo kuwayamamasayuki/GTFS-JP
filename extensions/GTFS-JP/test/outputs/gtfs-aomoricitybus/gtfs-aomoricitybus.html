@@ -1,0 +1,276 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FeedValidator: gtfs-aomoricitybus.zip</title>
+<style>
+body {font-family: Georgia, serif; background-color: white}
+.path {color: gray}
+div.problem {max-width: 500px}
+table.dump td,th {background-color: khaki; padding: 2px; font-family:monospace}
+table.dump td.problem,th.problem {background-color: dc143c; color: white; padding: 2px; font-family:monospace}
+table.count_outside td {vertical-align: top}
+table.count_outside {border-spacing: 0px; }
+table {border-spacing: 5px 0px; margin-top: 3px}
+h3.issueHeader {padding-left: 0.5em}
+h4.issueHeader {padding-left: 1em}
+.pass {background-color: lightgreen}
+.fail {background-color: yellow}
+.notice {background-color: yellow}
+.pass, .fail {font-size: 16pt}
+.header {background-color: white; font-family: Georgia, serif; padding: 0px}
+th.header {text-align: right; font-weight: normal; color: gray}
+.footer {font-size: 10pt}
+</style>
+</head>
+<body>
+GTFS validation results for feed:<br>
+<code><span class="path">inputs/</span><b>gtfs-aomoricitybus.zip</b></code><br>
+FeedValidator extension used: extensions.GTFS-JP
+<br><br>
+<table>
+<tr><th class="header">Agencies:</th><td class="header"><a href="http://www.city.aomori.aomori.jp/koutsu/top.html">青森市営バス(03.05)</a></td></tr>
+<tr><th class="header">Routes:</th><td class="header">249</td></tr>
+<tr><th class="header">Stops:</th><td class="header">823</td></tr>
+<tr><th class="header">Trips:</th><td class="header">1626</td></tr>
+<tr><th class="header">Shapes:</th><td class="header">249</td></tr>
+<tr><th class="header">Effective:</th><td class="header">March 25, 2019 to March 23, 2020</td></tr>
+</table>
+<br>
+During the upcoming service dates Thu May 02 to Sun Jun 30:
+<table>
+<tr><th class="header">Average trips per date:</th><td class="header">831</td></tr>
+<tr><th class="header">Most trips on a date:</th><td class="header">875, on 39 service dates (Tue May 07, Wed May 08, Thu May 09, ...)</td></tr>
+<tr><th class="header">Least trips on a date:</th><td class="header">751, on 21 service dates (Thu May 02, Fri May 03, Sat May 04, ...)</td></tr>
+</table>
+<br>
+<span class="fail">Found these problems:</span>
+<table class="count_outside">
+<tr><td><span class="fail">53 warnings</span></td></tr>
+<tr><td>
+<table><tr><td>53</td><td><a href="#WarningInvalidValue">Invalid Values</a></td></tr>
+</table>
+</td>
+</table>
+<br><br>
+<h3 class="issueHeader">Warnings:</h3><h4 class="issueHeader"><a name="WarningInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value 野木・大別内線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 14 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>33091</td><td>4000020022012</td><td class="problem">野木・大別内線</td><td>野木・大別内線[33091]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 野木・大別内線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 15 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>33092</td><td>4000020022012</td><td class="problem">野木・大別内線</td><td>野木・大別内線[33092]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 野木・大別内線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 16 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>33101</td><td>4000020022012</td><td class="problem">野木・大別内線</td><td>野木・大別内線[33101]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 野木・大別内線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 17 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>33102</td><td>4000020022012</td><td class="problem">野木・大別内線</td><td>野木・大別内線[33102]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 30 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44331</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44331]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 31 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44332</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44332]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 32 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44341</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44341]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 33 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44342</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44342]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 34 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48041</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48041]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 54 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16031</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16031]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 55 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16032</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16032]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 56 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16041</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16041]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 57 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16042</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16042]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 58 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16051</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16051]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 59 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16052</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16052]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 60 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16092</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16092]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 61 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16121</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16121]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 62 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16131</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16131]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 63 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16132</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16132]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 南部工業団地線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 77 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>20121</td><td>4000020022012</td><td class="problem">南部工業団地線</td><td>南部工業団地線[20121]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 南部工業団地線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 78 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>20131</td><td>4000020022012</td><td class="problem">南部工業団地線</td><td>南部工業団地線[20131]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 南部工業団地線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 79 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>20132</td><td>4000020022012</td><td class="problem">南部工業団地線</td><td>南部工業団地線[20132]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 117 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36271</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36271]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 130 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36212</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36212]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 133 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36221</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36221]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 134 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36222</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36222]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 137 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36232</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36232]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 138 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36242</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36242]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 139 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36252</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36252]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 野木・大別内線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 140 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>33062</td><td>4000020022012</td><td class="problem">野木・大別内線</td><td>野木・大別内線[33062]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 野木・大別内線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 141 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>33071</td><td>4000020022012</td><td class="problem">野木・大別内線</td><td>野木・大別内線[33071]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 142 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36201</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36201]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 143 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36202</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36202]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三内丸山遺跡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 144 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>36251</td><td>4000020022012</td><td class="problem">三内丸山遺跡線</td><td>三内丸山遺跡線[36251]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 187 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44181</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44181]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 188 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44182</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44182]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value つくしが丘病院・岩渡線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 189 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>44301</td><td>4000020022012</td><td class="problem">つくしが丘病院・岩渡線</td><td>つくしが丘病院・岩渡線[44301]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 206 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48012</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48012]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 207 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48021</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48021]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 208 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48131</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48131]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 209 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48132</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48132]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 210 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48142</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48142]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 211 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48161</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48161]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 212 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48171</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48171]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 213 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48172</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48172]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 214 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48181</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48181]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 215 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48211</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48211]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 216 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48212</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48212]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 福祉増進センター線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 217 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>48252</td><td>4000020022012</td><td class="problem">福祉増進センター線</td><td>福祉増進センター線[48252]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 浪館・中央循環線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 237 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>82011</td><td>4000020022012</td><td class="problem">浪館・中央循環線</td><td>浪館・中央循環線[82011]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 浪館・中央循環線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 238 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>82021</td><td>4000020022012</td><td class="problem">浪館・中央循環線</td><td>浪館・中央循環線[82021]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 244 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16151</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16151]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青森公立大学線 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 245 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>16152</td><td>4000020022012</td><td class="problem">青森公立大学線</td><td>青森公立大学線[16152]</td><td></td><td>3</td><td>80FF80</td><td>000000</td></tr></table>
+<br></li>
+</ul>
+
+<div class="footer">
+Generated by <a href="https://github.com/google/transitfeed/wiki/FeedValidator">
+FeedValidator</a> version 1.2.16 on May 02, 2019 at 12:11 AM UTC.
+</div>
+</body>
+</html>

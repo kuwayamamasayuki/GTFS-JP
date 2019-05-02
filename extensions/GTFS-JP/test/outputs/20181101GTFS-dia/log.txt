@@ -1,0 +1,302 @@
+validating inputs/20181101GTFS-dia.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "大空５丁目" (ID S011200023800000) and "大空５丁目" (ID
+S011200023800001) are 0.00m apart and probably represent the same location.
+The stops "大空３丁目" (ID S011200023700000) and "大空３丁目" (ID
+S011200023700001) are 0.00m apart and probably represent the same location.
+The stops "大空７丁目" (ID S011200023900000) and "大空７丁目" (ID
+S011200023900001) are 0.00m apart and probably represent the same location.
+The stops "大空２丁目" (ID S011200023600000) and "大空２丁目" (ID
+S011200023600001) are 0.00m apart and probably represent the same location.
+The stops "大空８丁目" (ID S011200024000000) and "大空８丁目" (ID
+S011200024000001) are 0.00m apart and probably represent the same location.
+The stops "大空団地入口" (ID S011200023500000) and "大空団地入口"
+(ID S011200023500001) are 0.00m apart and probably represent the same
+location.
+The stops "大空１０丁目" (ID S011200024100000) and "大空１０丁目"
+(ID S011200024100001) are 0.00m apart and probably represent the same
+location.
+The stops "イトーヨーカドー前" (ID S011200025600000) and
+"イトーヨーカドー前" (ID S011200025600001) are 0.00m apart and
+probably represent the same location.
+The stops "帯広の森スピードスケート場" (ID S011200026400000) and
+"帯広の森スピードスケート場" (ID S011200026400001) are 0.00m
+apart and probably represent the same location.
+The stops "帯広の森体育館前" (ID S011200026300000) and
+"帯広の森体育館前" (ID S011200026300001) are 0.00m apart and probably
+represent the same location.
+The stops "帯広の森野球場前" (ID S011200023300000) and
+"帯広の森野球場前" (ID S011200023300001) are 0.00m apart and probably
+represent the same location.
+The stops "芽室駅前" (ID S011200020800000) and "芽室駅前" (ID
+S011200020800001) are 0.00m apart and probably represent the same location.
+The stops "帯広駅ＢＴ" (ID S011200002800000) and "帯広駅ＢＴ" (ID
+S011200002800001) are 0.00m apart and probably represent the same location.
+The stops "大通１１丁目" (ID S011200028200000) and "大通１１丁目"
+(ID S011200028200001) are 0.00m apart and probably represent the same
+location.
+The stops "東２条１１丁目" (ID S011200028300000) and
+"東２条１１丁目" (ID S011200028300001) are 0.00m apart and probably
+represent the same location.
+The stops "東４条１１丁目" (ID S011200028400000) and
+"東４条１１丁目" (ID S011200028400001) are 0.00m apart and probably
+represent the same location.
+The stations "新緑通１６条" (ID S0112000016) and "白樺通１６条"
+(ID S0112000182) are 0.00m apart and probably represent the same location.
+The parent_station of stop "白樺通１６条" (ID S011200018200000) is not
+station "新緑通１６条" (ID S0112000016) but they are only 0.00m apart.
+The parent_station of stop "新緑通１６条" (ID S011200001600000) is not
+station "白樺通１６条" (ID S0112000182) but they are only 0.00m apart.
+The stops "新緑通１６条" (ID S011200001600000) and "白樺通１６条"
+(ID S011200018200000) are 0.00m apart and probably represent the same
+location.
+The stops "東４条１０丁目" (ID S011200073600000) and
+"東４条１０丁目" (ID S011200073600001) are 0.00m apart and probably
+represent the same location.
+The stops "東４条９丁目" (ID S011200029000000) and "東４条９丁目"
+(ID S011200029000001) are 0.00m apart and probably represent the same
+location.
+The stops "西２条８丁目" (ID S011200003200000) and "西２条８丁目"
+(ID S011200003200001) are 0.00m apart and probably represent the same
+location.
+The stops "ＮＨＫ前" (ID S011200017400000) and "ＮＨＫ前" (ID
+S011200017400001) are 0.00m apart and probably represent the same location.
+The stops "東４条７丁目" (ID S011200029100000) and "東４条７丁目"
+(ID S011200029100001) are 0.00m apart and probably represent the same
+location.
+The stops "国道西２４条" (ID S011200026100000) and "国道西２４条"
+(ID S011200026100001) are 0.00m apart and probably represent the same
+location.
+The stops "西２条６丁目" (ID S011200003400000) and "西２条６丁目"
+(ID S011200003400001) are 0.00m apart and probably represent the same
+location.
+The stops "東４条６丁目" (ID S011200029200000) and "東４条６丁目"
+(ID S011200029200001) are 0.00m apart and probably represent the same
+location.
+The stops "西２条４丁目" (ID S011200003500000) and "西２条４丁目"
+(ID S011200003500001) are 0.00m apart and probably represent the same
+location.
+The stops "西２４条北１丁目" (ID S011200025900000) and
+"西２４条北１丁目" (ID S011200025900001) are 0.00m apart and probably
+represent the same location.
+The stops "西２３条北１丁目" (ID S011200025800000) and
+"西２３条北１丁目" (ID S011200025800001) are 0.00m apart and probably
+represent the same location.
+The stops "柏葉高校前" (ID S011200029300000) and "柏葉高校前" (ID
+S011200029300001) are 0.00m apart and probably represent the same location.
+The stops "本社南口" (ID S011200025700000) and "本社南口" (ID
+S011200025700001) are 0.00m apart and probably represent the same location.
+The stops "十勝バス本社" (ID S011200000100000) and "十勝バス本社"
+(ID S011200000100001) are 0.00m apart and probably represent the same
+location.
+The stops "帯広神社前" (ID S011200029400000) and "帯広神社前" (ID
+S011200029400001) are 0.00m apart and probably represent the same location.
+The stops "大通１丁目" (ID S011200029500000) and "大通１丁目" (ID
+S011200029500001) are 0.00m apart and probably represent the same location.
+The stops "西２条１丁目" (ID S011200003700000) and "西２条１丁目"
+(ID S011200003700001) are 0.00m apart and probably represent the same
+location.
+The stops "大川町" (ID S011200055000000) and "大川町" (ID
+S011200055000001) are 0.00m apart and probably represent the same location.
+The stops "上士幌８区" (ID S011200011700000) and "上士幌８区" (ID
+S011200011700001) are 0.00m apart and probably represent the same location.
+The stops "上士幌" (ID S011200011800000) and "上士幌" (ID
+S011200011800001) are 0.00m apart and probably represent the same location.
+ column route_long_name
+Invalid value 循環線［東西南北］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200011000000" and "R011200011010000".
+ column route_long_name
+Invalid value 南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200025030000" and "R011200025020000".
+ column route_long_name
+Invalid value 畜大線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200022000000" and "R011200022010000".
+ column route_long_name
+Invalid value 南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200025000000" and "R011200025020000".
+ column route_long_name
+Invalid value 学園通線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200004010000" and "R011200004000000".
+ column route_long_name
+Invalid value 帯広・陸別線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200018000000" and "R011200018010000".
+ column route_long_name
+Invalid value 水光線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200015000000" and "R011200015010000".
+ column route_long_name
+Invalid value 西地区コミュニティー in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200017010000" and "R011200017000000".
+ column route_long_name
+Invalid value 南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200025010000" and "R011200025020000".
+ column route_long_name
+Invalid value 大空団地線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200020020000" and "R011200020030000".
+ column route_long_name
+Invalid value 循環線［東西南北］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200011030000" and "R011200011010000".
+ column route_long_name
+Invalid value 幕別線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200027010000" and "R011200027000000".
+ column route_long_name
+Invalid value 清水帯広線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200016010000" and "R011200016000000".
+ column route_long_name
+Invalid value 新町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200013010000" and "R011200013000000".
+ column route_long_name
+Invalid value 上士幌線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200012000000" and "R011200012010000".
+ column route_long_name
+Invalid value 南商・あかしや線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200024000000" and "R011200024010000".
+ column route_long_name
+Invalid value ぬかびら線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200001010000" and "R011200001000000".
+ column route_long_name
+Invalid value 十勝川温泉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200009000000" and "R011200009010000".
+ column route_long_name
+Invalid value 広尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200007010000" and "R011200007000000".
+ column route_long_name
+Invalid value 循環線［東西南北］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200011020000" and "R011200011010000".
+ column route_long_name
+Invalid value 東八条線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200023000000" and "R011200023010000".
+ column route_long_name
+Invalid value 芽室線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200003010000" and "R011200003000000".
+ column route_long_name
+Invalid value 自衛隊・稲田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200008000000" and "R011200008010000".
+ column route_long_name
+Invalid value 音更線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"R011200002010000" and "R011200002000000".
+Trip T0112000148 has 6 consecutive stop times all with the same
+arrival/departure time: 09:33:00.
+Trip T0112000147 has 6 consecutive stop times all with the same
+arrival/departure time: 07:39:00.
+Trip T0112000149 has 6 consecutive stop times all with the same
+arrival/departure time: 11:48:00.
+Trip T0112000150 has 6 consecutive stop times all with the same
+arrival/departure time: 13:54:00.
+Trip T0112000151 has 6 consecutive stop times all with the same
+arrival/departure time: 15:01:00.
+Trip T0112000152 has 6 consecutive stop times all with the same
+arrival/departure time: 15:54:00.
+Trip T0112000153 has 6 consecutive stop times all with the same
+arrival/departure time: 17:19:00.
+Trip T0112000154 has 6 consecutive stop times all with the same
+arrival/departure time: 18:39:00.
+High speed travel detected in trip T0112000120: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000121: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000122: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000123: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000124: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000125: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000126: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000127: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000115: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000114: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000117: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000116: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000111: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000110: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000113: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000112: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+High speed travel detected in trip T0112000119: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+ column stoptimes.shape_dist_traveled
+Invalid value 400.0 in field stoptimes.shape_dist_traveled
+For the trip T0112000443 the stop S011200050100000 has
+shape_dist_traveled=400.0, which should be larger than the previous ones. In
+this case, the previous distance was 400.0.
+High speed travel detected in trip T0112000108: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000109: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000102: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000103: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000100: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000101: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000106: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000107: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000104: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000105: 十勝協和 to 高台. 2099
+meters in 60 seconds. (126 km/h).
+High speed travel detected in trip T0112000118: 更別南９線 to
+更別南６線. 1685 meters in 60 seconds. (101 km/h).
+ERROR: 1 error and 2 warnings found

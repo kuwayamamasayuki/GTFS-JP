@@ -1,0 +1,143 @@
+validating inputs/gtfs.1007.gunma_bus.zip
+FeedValidator extension used: extensions.GTFS-JP
+南新井 (ID S00142AGC5070001008881H002) is too far from its parent station
+南新井 (ID S00142AGC5070001008881T000) : 122.58 meters.
+下豊岡 (ID S00102AGC5070001008881H004) is too far from its parent station
+下豊岡 (ID S00102AGC5070001008881T000) : 115.31 meters.
+下豊岡 (ID S00102AGC5070001008881H002) is too far from its parent station
+下豊岡 (ID S00102AGC5070001008881T000) : 101.44 meters.
+八丁目 (ID S00090AGC5070001008881H002) is too far from its parent station
+八丁目 (ID S00090AGC5070001008881T000) : 111.36 meters.
+八丁目 (ID S00090AGC5070001008881H001) is too far from its parent station
+八丁目 (ID S00090AGC5070001008881T000) : 111.36 meters.
+ column route_long_name
+Invalid value 前橋～大渡橋・国府～高崎線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R047"
+and "R046".
+ column route_long_name
+Invalid value 前橋～県庁・大橋～イオン高崎線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R045"
+and "R044".
+ column route_long_name
+Invalid value 前橋駅～日赤病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R049"
+and "R048".
+ column route_long_name
+Invalid value イオン高崎～長岡～榛東村役場線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value イオン高崎～群馬支所～箕郷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R000".
+ column route_long_name
+Invalid value 高崎～板鼻・新島学園～市役所線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R021"
+and "R022".
+ column route_long_name
+Invalid value 安中駅～安中市役所線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R004".
+ column route_long_name
+Invalid value 前橋～金古～箕郷線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R043"
+and "R042".
+ column route_long_name
+Invalid value 渋川駅～上の原～伊香保線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R039"
+and "R040".
+ column route_long_name
+Invalid value 箕郷～貸切バスセンター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R050"
+and "R051".
+ column route_long_name
+Invalid value 室田～里見・本郷～イオン高崎線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R037"
+and "R038".
+ column route_long_name
+Invalid value 室田～大番道～権田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R035"
+and "R036".
+ column route_long_name
+Invalid value 室田～岩氷～権田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R034"
+and "R033".
+ column route_long_name
+Invalid value 高崎～水沢～伊香保線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R019"
+and "R020".
+ column route_long_name
+Invalid value 高崎～里見～室田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R030"
+and "R029".
+ column route_long_name
+Invalid value 高崎～経済大学前線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R018".
+ column route_long_name
+Invalid value 高崎～岩氷～権田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R016"
+and "R015".
+ column route_long_name
+Invalid value 高崎～イオンモール高崎線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R009".
+ column route_long_name
+Invalid value 高崎～沖白川橋～箕郷線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R014".
+ column route_long_name
+Invalid value 高崎～井出～榛東村役場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R011".
+ column route_long_name
+Invalid value 高崎～浜川～箕郷営業所線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R024"
+and "R023".
+ column route_long_name
+Invalid value 高崎～本郷～室田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R026"
+and "R025".
+ column route_long_name
+Invalid value 高崎～本郷～榛名湖線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R027"
+and "R028".
+ column route_long_name
+Invalid value 高崎駅東口～日赤病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R032"
+and "R031".
+ column route_long_name
+Invalid value 高崎～イオン～榛東村役場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R008".
+ERROR: 1 warning found

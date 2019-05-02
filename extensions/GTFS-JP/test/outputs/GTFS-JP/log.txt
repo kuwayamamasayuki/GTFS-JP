@@ -1,0 +1,27 @@
+validating inputs/GTFS-JP.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "国富" (ID 20_02) and "国富" (ID 20_01) are 1.75m apart and
+probably represent the same location.
+The stops "岡山駅前・中銀前" (ID 306_05) and
+"岡山駅前・中銀前" (ID 306_03) are 1.23m apart and probably represent
+the same location.
+The stops "柳川西（南側）" (ID 7_03) and "柳川西（南側）" (ID
+7_04) are 1.19m apart and probably represent the same location.
+The stops "柳川西（北側）東岡山" (ID 3_03) and
+"柳川西（北側）" (ID 5_01) are 1.92m apart and probably represent the
+same location.
+The stops "国富東" (ID 22_02) and "国富東" (ID 22_01) are 1.75m apart
+and probably represent the same location.
+The stops "県民局入口" (ID 310_04) and "県民局入口（東岡山）"
+(ID 9512_03) are 1.18m apart and probably represent the same location.
+The stops "長岡・駅前" (ID 196_05) and "長岡・駅前" (ID 196_09) are
+1.64m apart and probably represent the same location.
+The stops "四御神車庫" (ID 248_05) and "四御神車庫(東岡山)" (ID
+249_05) are 0.00m apart and probably represent the same location.
+The stops "四御神南" (ID 246_02) and "四御神南(東岡山)" (ID 664_03)
+are 0.14m apart and probably represent the same location.
+The stops "瀬戸駅" (ID 724_05) and "瀬戸駅" (ID 724_09) are 1.14m apart
+and probably represent the same location.
+The stops "新道高屋上" (ID 958_05) and "新道高屋" (ID 956_05) are
+0.90m apart and probably represent the same location.
+ERROR: 2 warnings found

@@ -1,0 +1,149 @@
+validating inputs/gtfs.1115.seibu_kanko.GMA.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 軽井沢万座草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R092"
+and "R093".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R036"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R035"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R034"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R033"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R032"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R031"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R030"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢万座草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R091"
+and "R093".
+ column route_long_name
+Invalid value 軽井沢万座ｂｔ線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R038"
+and "R040".
+ column route_long_name
+Invalid value 軽井沢仙之入草津線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R029"
+and "R037".
+ column route_long_name
+Invalid value 軽井沢万座ｂｔ線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R039"
+and "R040".
+ column route_long_name
+Invalid value 鬼押出し園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R011".
+High speed travel detected in trip T0424AGC3013301006265P000061:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000202:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000490:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000491:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000492:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000493:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000207:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000201:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000200:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000203:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000060:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000209:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000208:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000058:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000059:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000195:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000197:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000196:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000054:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000055:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000056:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000057:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000199:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000489:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000488:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000198:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+High speed travel detected in trip T0424AGC3013301006265P000487:
+鬼押出し園 to 浅間六里ヶ原休憩所. 2668 meters in 60 seconds.
+(160 km/h).
+ERROR: 5 warnings found

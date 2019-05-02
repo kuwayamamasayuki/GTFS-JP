@@ -1,0 +1,3 @@
+validating inputs/toyamacityfeedergtfs20190415.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 1 error found

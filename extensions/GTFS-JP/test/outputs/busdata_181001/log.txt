@@ -1,0 +1,484 @@
+validating inputs/busdata_181001.zip
+FeedValidator extension used: extensions.GTFS-JP
+分岐Ａ (ID 分岐Ａ) isn't used in any trips
+ column route_long_name
+Invalid value マイタウンバス豊岩線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"豊岩（湯）" and "豊岩（石）".
+ column route_long_name
+Invalid value マイタウンバス下浜線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"下浜（境）" and "下浜（浜）".
+Trip 下新城平日上り１ has 7 consecutive stop times all with the same
+arrival/departure time: 06:43:00.
+Trip 下新城平日上り１ has 18 consecutive stop times all with the same
+arrival/departure time: 06:53:00.
+Trip 下新城平日上り１ has 12 consecutive stop times all with the same
+arrival/departure time: 07:03:00.
+Trip 下新城平日上り２ has 7 consecutive stop times all with the same
+arrival/departure time: 08:15:00.
+Trip 下新城平日上り２ has 18 consecutive stop times all with the same
+arrival/departure time: 08:25:00.
+Trip 下新城平日上り２ has 12 consecutive stop times all with the same
+arrival/departure time: 08:35:00.
+Trip 下新城平日上り３ has 7 consecutive stop times all with the same
+arrival/departure time: 09:29:00.
+Trip 下新城平日上り３ has 18 consecutive stop times all with the same
+arrival/departure time: 09:39:00.
+Trip 下新城平日上り３ has 12 consecutive stop times all with the same
+arrival/departure time: 09:49:00.
+Trip 下新城平日上り４ has 7 consecutive stop times all with the same
+arrival/departure time: 09:31:00.
+Trip 下新城平日上り４ has 18 consecutive stop times all with the same
+arrival/departure time: 09:41:00.
+Trip 下新城平日上り４ has 12 consecutive stop times all with the same
+arrival/departure time: 09:51:00.
+Trip 下新城平日上り５ has 7 consecutive stop times all with the same
+arrival/departure time: 10:26:00.
+Trip 下新城平日上り５ has 18 consecutive stop times all with the same
+arrival/departure time: 10:36:00.
+Trip 下新城平日上り５ has 12 consecutive stop times all with the same
+arrival/departure time: 10:46:00.
+Trip 下新城平日上り６ has 7 consecutive stop times all with the same
+arrival/departure time: 11:13:00.
+Trip 下新城平日上り６ has 18 consecutive stop times all with the same
+arrival/departure time: 11:23:00.
+Trip 下新城平日上り６ has 12 consecutive stop times all with the same
+arrival/departure time: 11:33:00.
+Trip 下新城平日上り７ has 7 consecutive stop times all with the same
+arrival/departure time: 12:39:00.
+Trip 下新城平日上り７ has 18 consecutive stop times all with the same
+arrival/departure time: 12:49:00.
+Trip 下新城平日上り７ has 12 consecutive stop times all with the same
+arrival/departure time: 12:59:00.
+Trip 下新城平日上り８ has 7 consecutive stop times all with the same
+arrival/departure time: 13:50:00.
+Trip 下新城平日上り８ has 18 consecutive stop times all with the same
+arrival/departure time: 14:00:00.
+Trip 下新城平日上り８ has 12 consecutive stop times all with the same
+arrival/departure time: 14:10:00.
+Trip 下新城平日上り９ has 7 consecutive stop times all with the same
+arrival/departure time: 14:36:00.
+Trip 下新城平日上り９ has 18 consecutive stop times all with the same
+arrival/departure time: 14:46:00.
+Trip 下新城平日上り９ has 12 consecutive stop times all with the same
+arrival/departure time: 14:56:00.
+Trip 下新城平日上り１０ has 7 consecutive stop times all with the
+same arrival/departure time: 16:00:00.
+Trip 下新城平日上り１０ has 18 consecutive stop times all with the
+same arrival/departure time: 16:10:00.
+Trip 下新城平日上り１０ has 12 consecutive stop times all with the
+same arrival/departure time: 16:20:00.
+Trip 下新城平日上り１１ has 7 consecutive stop times all with the
+same arrival/departure time: 16:23:00.
+Trip 下新城平日上り１１ has 18 consecutive stop times all with the
+same arrival/departure time: 16:33:00.
+Trip 下新城平日上り１１ has 12 consecutive stop times all with the
+same arrival/departure time: 16:43:00.
+Trip 下新城平日上り１２ has 7 consecutive stop times all with the
+same arrival/departure time: 17:14:00.
+Trip 下新城平日上り１２ has 18 consecutive stop times all with the
+same arrival/departure time: 17:24:00.
+Trip 下新城平日上り１２ has 12 consecutive stop times all with the
+same arrival/departure time: 17:34:00.
+Trip 下新城平日下り１ has 12 consecutive stop times all with the same
+arrival/departure time: 09:14:00.
+Trip 下新城平日下り１ has 18 consecutive stop times all with the same
+arrival/departure time: 09:24:00.
+Trip 下新城平日下り１ has 7 consecutive stop times all with the same
+arrival/departure time: 09:29:00.
+Trip 下新城平日下り２ has 12 consecutive stop times all with the same
+arrival/departure time: 10:28:00.
+Trip 下新城平日下り２ has 18 consecutive stop times all with the same
+arrival/departure time: 10:38:00.
+Trip 下新城平日下り２ has 7 consecutive stop times all with the same
+arrival/departure time: 10:43:00.
+Trip 下新城平日下り３ has 12 consecutive stop times all with the same
+arrival/departure time: 12:14:00.
+Trip 下新城平日下り３ has 18 consecutive stop times all with the same
+arrival/departure time: 12:24:00.
+Trip 下新城平日下り３ has 7 consecutive stop times all with the same
+arrival/departure time: 12:29:00.
+Trip 下新城平日下り４ has 12 consecutive stop times all with the same
+arrival/departure time: 13:35:00.
+Trip 下新城平日下り４ has 18 consecutive stop times all with the same
+arrival/departure time: 13:45:00.
+Trip 下新城平日下り４ has 7 consecutive stop times all with the same
+arrival/departure time: 13:50:00.
+Trip 下新城平日下り５ has 12 consecutive stop times all with the same
+arrival/departure time: 14:21:00.
+Trip 下新城平日下り５ has 18 consecutive stop times all with the same
+arrival/departure time: 14:31:00.
+Trip 下新城平日下り５ has 7 consecutive stop times all with the same
+arrival/departure time: 14:36:00.
+Trip 下新城平日下り６ has 12 consecutive stop times all with the same
+arrival/departure time: 15:45:00.
+Trip 下新城平日下り６ has 18 consecutive stop times all with the same
+arrival/departure time: 15:55:00.
+Trip 下新城平日下り６ has 7 consecutive stop times all with the same
+arrival/departure time: 16:00:00.
+Trip 下新城平日下り７ has 12 consecutive stop times all with the same
+arrival/departure time: 16:08:00.
+Trip 下新城平日下り７ has 18 consecutive stop times all with the same
+arrival/departure time: 16:18:00.
+Trip 下新城平日下り７ has 7 consecutive stop times all with the same
+arrival/departure time: 16:23:00.
+Trip 下新城平日下り８ has 12 consecutive stop times all with the same
+arrival/departure time: 16:59:00.
+Trip 下新城平日下り８ has 18 consecutive stop times all with the same
+arrival/departure time: 17:09:00.
+Trip 下新城平日下り８ has 7 consecutive stop times all with the same
+arrival/departure time: 17:14:00.
+Trip 下新城平日下り９ has 12 consecutive stop times all with the same
+arrival/departure time: 18:13:00.
+Trip 下新城平日下り９ has 18 consecutive stop times all with the same
+arrival/departure time: 18:23:00.
+Trip 下新城平日下り９ has 7 consecutive stop times all with the same
+arrival/departure time: 18:28:00.
+Trip 下新城平日下り１０ has 12 consecutive stop times all with the
+same arrival/departure time: 19:05:00.
+Trip 下新城平日下り１０ has 18 consecutive stop times all with the
+same arrival/departure time: 19:15:00.
+Trip 下新城平日下り１０ has 7 consecutive stop times all with the
+same arrival/departure time: 19:20:00.
+Trip 下新城休日上り１ has 7 consecutive stop times all with the same
+arrival/departure time: 08:22:00.
+Trip 下新城休日上り１ has 18 consecutive stop times all with the same
+arrival/departure time: 08:32:00.
+Trip 下新城休日上り１ has 12 consecutive stop times all with the same
+arrival/departure time: 08:42:00.
+Trip 下新城休日上り２ has 7 consecutive stop times all with the same
+arrival/departure time: 13:20:00.
+Trip 下新城休日上り２ has 18 consecutive stop times all with the same
+arrival/departure time: 13:30:00.
+Trip 下新城休日上り２ has 12 consecutive stop times all with the same
+arrival/departure time: 13:40:00.
+Trip 下新城休日上り３ has 7 consecutive stop times all with the same
+arrival/departure time: 14:26:00.
+Trip 下新城休日上り３ has 18 consecutive stop times all with the same
+arrival/departure time: 14:36:00.
+Trip 下新城休日上り３ has 12 consecutive stop times all with the same
+arrival/departure time: 14:46:00.
+Trip 下新城休日下り１ has 12 consecutive stop times all with the same
+arrival/departure time: 13:05:00.
+Trip 下新城休日下り１ has 18 consecutive stop times all with the same
+arrival/departure time: 13:15:00.
+Trip 下新城休日下り１ has 7 consecutive stop times all with the same
+arrival/departure time: 13:20:00.
+Trip 下新城休日下り２ has 12 consecutive stop times all with the same
+arrival/departure time: 14:11:00.
+Trip 下新城休日下り２ has 18 consecutive stop times all with the same
+arrival/departure time: 14:21:00.
+Trip 下新城休日下り２ has 7 consecutive stop times all with the same
+arrival/departure time: 14:26:00.
+Trip 下新城休日下り３ has 12 consecutive stop times all with the same
+arrival/departure time: 18:20:00.
+Trip 下新城休日下り３ has 18 consecutive stop times all with the same
+arrival/departure time: 18:30:00.
+Trip 下新城休日下り３ has 7 consecutive stop times all with the same
+arrival/departure time: 18:35:00.
+Trip 上新城平日上り１ has 18 consecutive stop times all with the same
+arrival/departure time: 06:46:00.
+Trip 上新城平日上り１ has 16 consecutive stop times all with the same
+arrival/departure time: 07:03:00.
+Trip 上新城平日上り３ has 18 consecutive stop times all with the same
+arrival/departure time: 08:06:00.
+Trip 上新城平日上り３ has 16 consecutive stop times all with the same
+arrival/departure time: 08:23:00.
+Trip 上新城平日上り４ has 18 consecutive stop times all with the same
+arrival/departure time: 09:43:00.
+Trip 上新城平日上り４ has 16 consecutive stop times all with the same
+arrival/departure time: 10:00:00.
+Trip 上新城平日上り５ has 18 consecutive stop times all with the same
+arrival/departure time: 11:10:00.
+Trip 上新城平日上り５ has 16 consecutive stop times all with the same
+arrival/departure time: 11:27:00.
+Trip 上新城平日上り６ has 18 consecutive stop times all with the same
+arrival/departure time: 13:01:00.
+Trip 上新城平日上り６ has 16 consecutive stop times all with the same
+arrival/departure time: 13:18:00.
+Trip 上新城平日上り７ has 18 consecutive stop times all with the same
+arrival/departure time: 14:23:00.
+Trip 上新城平日上り７ has 16 consecutive stop times all with the same
+arrival/departure time: 14:40:00.
+Trip 上新城平日上り８ has 18 consecutive stop times all with the same
+arrival/departure time: 15:54:00.
+Trip 上新城平日上り８ has 16 consecutive stop times all with the same
+arrival/departure time: 16:11:00.
+Trip 上新城平日上り９ has 18 consecutive stop times all with the same
+arrival/departure time: 17:16:00.
+Trip 上新城平日上り９ has 16 consecutive stop times all with the same
+arrival/departure time: 17:33:00.
+Trip 上新城平日上り１０ has 18 consecutive stop times all with the
+same arrival/departure time: 18:01:00.
+Trip 上新城平日上り１０ has 16 consecutive stop times all with the
+same arrival/departure time: 18:18:00.
+Trip 上新城平日下り１ has 16 consecutive stop times all with the same
+arrival/departure time: 07:54:00.
+Trip 上新城平日下り１ has 18 consecutive stop times all with the same
+arrival/departure time: 08:06:00.
+Trip 上新城平日上り１１ has 18 consecutive stop times all with the
+same arrival/departure time: 18:17:00.
+Trip 上新城平日上り１１ has 16 consecutive stop times all with the
+same arrival/departure time: 18:34:00.
+Trip 上新城平日下り３ has 16 consecutive stop times all with the same
+arrival/departure time: 10:53:00.
+Trip 上新城平日下り３ has 18 consecutive stop times all with the same
+arrival/departure time: 11:05:00.
+Trip 上新城平日下り２ has 16 consecutive stop times all with the same
+arrival/departure time: 09:31:00.
+Trip 上新城平日下り２ has 18 consecutive stop times all with the same
+arrival/departure time: 09:43:00.
+Trip 上新城平日下り４ has 16 consecutive stop times all with the same
+arrival/departure time: 12:49:00.
+Trip 上新城平日下り４ has 18 consecutive stop times all with the same
+arrival/departure time: 13:01:00.
+Trip 上新城平日下り５ has 16 consecutive stop times all with the same
+arrival/departure time: 14:11:00.
+Trip 上新城平日下り５ has 18 consecutive stop times all with the same
+arrival/departure time: 14:23:00.
+Trip 上新城平日下り６ has 16 consecutive stop times all with the same
+arrival/departure time: 15:42:00.
+Trip 上新城平日下り６ has 18 consecutive stop times all with the same
+arrival/departure time: 15:54:00.
+Trip 上新城平日下り７ has 16 consecutive stop times all with the same
+arrival/departure time: 17:04:00.
+Trip 上新城平日下り７ has 18 consecutive stop times all with the same
+arrival/departure time: 17:16:00.
+Trip 上新城平日下り８ has 16 consecutive stop times all with the same
+arrival/departure time: 17:49:00.
+Trip 上新城平日下り８ has 18 consecutive stop times all with the same
+arrival/departure time: 18:01:00.
+Trip 上新城平日下り９ has 16 consecutive stop times all with the same
+arrival/departure time: 18:05:00.
+Trip 上新城平日下り９ has 18 consecutive stop times all with the same
+arrival/departure time: 18:17:00.
+Trip 上新城平日下り１０ has 16 consecutive stop times all with the
+same arrival/departure time: 19:06:00.
+Trip 上新城平日下り１０ has 18 consecutive stop times all with the
+same arrival/departure time: 19:18:00.
+Trip 上新城平日下り１１ has 16 consecutive stop times all with the
+same arrival/departure time: 19:34:00.
+Trip 上新城平日下り１１ has 18 consecutive stop times all with the
+same arrival/departure time: 19:46:00.
+Trip 上新城休日上り１ has 18 consecutive stop times all with the same
+arrival/departure time: 07:18:00.
+Trip 上新城休日上り１ has 16 consecutive stop times all with the same
+arrival/departure time: 07:35:00.
+Trip 上新城休日上り２ has 18 consecutive stop times all with the same
+arrival/departure time: 12:02:00.
+Trip 上新城休日上り２ has 16 consecutive stop times all with the same
+arrival/departure time: 12:19:00.
+Trip 上新城休日上り３ has 18 consecutive stop times all with the same
+arrival/departure time: 13:08:00.
+Trip 上新城休日上り３ has 16 consecutive stop times all with the same
+arrival/departure time: 13:25:00.
+Trip 上新城休日下り１ has 16 consecutive stop times all with the same
+arrival/departure time: 11:50:00.
+Trip 上新城休日下り１ has 18 consecutive stop times all with the same
+arrival/departure time: 12:02:00.
+Trip 上新城休日下り２ has 16 consecutive stop times all with the same
+arrival/departure time: 12:56:00.
+Trip 上新城休日下り２ has 18 consecutive stop times all with the same
+arrival/departure time: 13:08:00.
+Trip 上新城休日下り３ has 16 consecutive stop times all with the same
+arrival/departure time: 17:20:00.
+Trip 上新城休日下り３ has 18 consecutive stop times all with the same
+arrival/departure time: 17:32:00.
+High speed travel detected in trip 下新城平日上り５: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り４: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り１１: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り１１:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り１０: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り１０:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 河辺Ｂ６: 台入口 to 川原琴. 1826
+meters in 60 seconds. (110 km/h).
+High speed travel detected in trip 下新城平日下り１０: 岩城中央
+to 笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り１: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り１:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り２: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り１: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り２: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り２:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り５: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り５:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り４: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り４:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り７: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り７:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り６: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り６:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り９: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り９:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り８: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り８:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り９: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り８: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城休日上り１: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城休日上り３: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城休日上り２: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城休日下り１: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 種平右回り２: 畑沢中村 to
+金ケ崎. 31692 meters in 120 seconds. (951 km/h).
+High speed travel detected in trip 種平右回り２: 金ケ崎 to 太子前.
+30780 meters in 60 seconds. (1847 km/h).
+High speed travel detected in trip 種平右回り１: 畑沢中村 to
+金ケ崎. 31692 meters in 120 seconds. (951 km/h).
+High speed travel detected in trip 種平右回り１: 金ケ崎 to 太子前.
+30780 meters in 60 seconds. (1847 km/h).
+High speed travel detected in trip 下新城平日上り１２: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り１１: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り１０: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 河辺Ｂ５: 台入口 to 川原琴. 1826
+meters in 60 seconds. (110 km/h).
+High speed travel detected in trip 河辺Ｂ４: 台入口 to 川原琴. 1826
+meters in 60 seconds. (110 km/h).
+High speed travel detected in trip 河辺Ｂ１: 台入口 to 川原琴. 1826
+meters in 60 seconds. (110 km/h).
+High speed travel detected in trip 河辺Ｂ３: 台入口 to 川原琴. 1826
+meters in 60 seconds. (110 km/h).
+High speed travel detected in trip 河辺Ｂ２: 台入口 to 川原琴. 1826
+meters in 60 seconds. (110 km/h).
+High speed travel detected in trip 上新城休日上り３: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城休日上り３:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り８: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り８:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り９: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り９:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り４: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り４:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り５: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り５:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り６: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り６:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り７: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り７:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り１: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り１:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り３: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り３:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り１０: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り１０:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り１１: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城平日上り１１:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城休日下り３: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城休日下り３:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城休日下り２: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城休日下り２:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城休日下り１: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城休日下り１:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 種平左回り１: 太子前 to 金ケ崎.
+30780 meters in 60 seconds. (1847 km/h).
+High speed travel detected in trip 種平左回り１: 金ケ崎 to
+畑沢中村. 31692 meters in 120 seconds. (951 km/h).
+High speed travel detected in trip 種平左回り２: 太子前 to 金ケ崎.
+30780 meters in 60 seconds. (1847 km/h).
+High speed travel detected in trip 種平左回り２: 金ケ崎 to
+畑沢中村. 31692 meters in 120 seconds. (951 km/h).
+High speed travel detected in trip 上新城休日上り２: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城休日上り２:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城休日上り１: 保多野 to
+あいぜん苑前. 2434 meters in 0 seconds.
+High speed travel detected in trip 上新城休日上り１:
+槻ノ木集会所前 to 杉崎. 1736 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り６: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り７: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り４: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り５: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り２: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り３:
+秋田厚生医療センター to 飯島二区. 2680 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り３: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り１: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り８: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日下り９: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り３: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り３: 杉崎 to
+槻ノ木集会所前. 1736 meters in 0 seconds.
+High speed travel detected in trip 上新城平日下り３:
+あいぜん苑前 to 保多野. 2434 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り７: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城休日下り２: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城休日下り３: 岩城中央 to
+笹島西. 2627 meters in 0 seconds.
+High speed travel detected in trip 下新城平日上り６: 笹島西 to
+岩城中央. 2627 meters in 0 seconds.
+ERROR: 25 errors and 28 warnings found

@@ -1,0 +1,56 @@
+validating inputs/gtfs.2002.kusakaru.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 旧軽井沢銀座シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 旧軽井沢銀座シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value 旧軽井沢銀座シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 草津温泉～西吾妻病院～軽井沢 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R006".
+ column route_long_name
+Invalid value 旧軽井沢銀座シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ column route_long_name
+Invalid value 旧軽井沢銀座シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R002".
+ column route_long_name
+Invalid value 北軽井沢～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R015"
+and "R016".
+ column route_long_name
+Invalid value 草津温泉～西吾妻病院～軽井沢 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R008"
+and "R006".
+ column route_long_name
+Invalid value 草津温泉～西吾妻病院～軽井沢 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R006".
+ column route_long_name
+Invalid value 北軽井沢～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R014".
+ERROR: 1 warning found

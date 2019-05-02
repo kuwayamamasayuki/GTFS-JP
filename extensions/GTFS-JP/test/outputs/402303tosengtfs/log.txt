@@ -1,0 +1,3 @@
+validating inputs/402303tosengtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 4 errors found

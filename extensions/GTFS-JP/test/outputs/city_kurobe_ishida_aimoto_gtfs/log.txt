@@ -1,0 +1,7 @@
+validating inputs/city_kurobe_ishida_aimoto_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "大阪屋ショップ" (ID 26_1_01) and "大阪屋ショップ" (ID
+26_2_01) are 0.00m apart and probably represent the same location.
+The stops "イラッセ" (ID 25_1_01) and "イラッセ" (ID 25_2_01) are
+0.00m apart and probably represent the same location.
+feed validated successfully

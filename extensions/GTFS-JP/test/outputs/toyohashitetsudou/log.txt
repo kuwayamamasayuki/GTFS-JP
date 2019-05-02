@@ -1,0 +1,28 @@
+validating inputs/toyohashitetsudou.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 豊鉄市内線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "3" and
+"1".
+ column route_long_name
+Invalid value 豊鉄市内線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "2" and
+"1".
+ column route_long_name
+Invalid value 豊鉄市内線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5" and
+"1".
+ column route_long_name
+Invalid value 豊鉄市内線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "4" and
+"1".
+ column route_long_name
+Invalid value 豊鉄市内線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "6" and
+"1".
+ERROR: 6 errors found

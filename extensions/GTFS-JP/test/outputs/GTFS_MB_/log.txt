@@ -1,0 +1,13 @@
+validating inputs/GTFS(MB).zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "高崎バスセンター" (ID 236_02) and
+"高崎バスセンター" (ID H0006_01) are 0.00m apart and probably
+represent the same location.
+The stops "前橋バスセンター" (ID 366_01) and
+"前橋バスセンター" (ID H0001_01) are 0.00m apart and probably
+represent the same location.
+The stops "日本中央タクシー前" (ID 293_01) and
+"日本中央タクシー前" (ID H0043_01) are 0.72m apart and probably
+represent the same location.
+The shapes with the following shape_ids aren't used by any trips: 2412
+feed validated successfully

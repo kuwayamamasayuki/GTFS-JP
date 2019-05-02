@@ -1,0 +1,1962 @@
+validating inputs/okaden.zip
+FeedValidator extension used: extensions.GTFS-JP
+新開団地前 (ID 872_1) isn't used in any trips
+中井 (ID 327_1) isn't used in any trips
+祇園 (ID 332_1) isn't used in any trips
+三和紙工前 (ID 836_1) isn't used in any trips
+堀貫 (ID 683_1) isn't used in any trips
+北長尾 (ID 381_1) isn't used in any trips
+堀南 (ID 643_2) isn't used in any trips
+国府市場西 (ID 329_1) isn't used in any trips
+押上社宅 (ID 681_1) isn't used in any trips
+嶽 (ID 229_1) isn't used in any trips
+嶽 (ID 229_2) isn't used in any trips
+浜 (ID 838_1) isn't used in any trips
+東高崎 (ID 347_1) isn't used in any trips
+東高崎 (ID 347_2) isn't used in any trips
+奥玉 (ID 387_2) isn't used in any trips
+祇園入口 (ID 330_1) isn't used in any trips
+七区入口 (ID 345_2) isn't used in any trips
+辻 (ID 953_1) isn't used in any trips
+七区入口 (ID 345_1) isn't used in any trips
+八王寺口 (ID 568_1) isn't used in any trips
+奥浦 (ID 848_1) isn't used in any trips
+御幸町 (ID 248_1) isn't used in any trips
+西紅陽台 (ID 343_1) isn't used in any trips
+操南台団地西 (ID 286_1) isn't used in any trips
+和田一丁目 (ID 207_1) isn't used in any trips
+福谷西 (ID 890_1) isn't used in any trips
+和田一丁目 (ID 207_2) isn't used in any trips
+古水江 (ID 560_1) isn't used in any trips
+玉野レクレセンター (ID 747_1) isn't used in any trips
+明神前 (ID 535_2) isn't used in any trips
+倉商東 (ID 179_1) isn't used in any trips
+神崎 (ID 832_1) isn't used in any trips
+倉商東 (ID 179_2) isn't used in any trips
+下阿知西 (ID 815_2) isn't used in any trips
+坂田町交差点 (ID 689_2) isn't used in any trips
+宿毛 (ID 819_2) isn't used in any trips
+東紅陽台 (ID 349_1) isn't used in any trips
+八王寺 (ID 566_1) isn't used in any trips
+水門川東 (ID 914_1) isn't used in any trips
+阿津西 (ID 455_2) isn't used in any trips
+松崎 (ID 240_1) isn't used in any trips
+旭町北 (ID 537_2) isn't used in any trips
+四ツ谷 (ID 834_2) isn't used in any trips
+ＮＴＴ岡山前 (ID 22_5) isn't used in any trips
+和田三丁目 (ID 205_1) isn't used in any trips
+千手 (ID 807_1) isn't used in any trips
+ＮＴＴ岡山前 (ID 22_3) isn't used in any trips
+水門亀岩 (ID 917_1) isn't used in any trips
+堀貫北 (ID 682_1) isn't used in any trips
+阿津東 (ID 458_1) isn't used in any trips
+北畝中 (ID 531_2) isn't used in any trips
+虫明中 (ID 897_1) isn't used in any trips
+長留 (ID 383_2) isn't used in any trips
+上寺入口 (ID 870_1) isn't used in any trips
+東高地南 (ID 685_1) isn't used in any trips
+牛窓中学校前 (ID 801_1) isn't used in any trips
+西高崎 (ID 341_2) isn't used in any trips
+水江 (ID 562_1) isn't used in any trips
+藤田団地北 (ID 76_2) isn't used in any trips
+藤田団地北 (ID 76_1) isn't used in any trips
+小津 (ID 850_1) isn't used in any trips
+入船町入口 (ID 539_2) isn't used in any trips
+青江西 (ID 70_4) isn't used in any trips
+下阿知中 (ID 813_1) isn't used in any trips
+クラレ入口 (ID 688_1) isn't used in any trips
+青江西 (ID 70_3) isn't used in any trips
+丘 (ID 937_1) isn't used in any trips
+藤崎町 (ID 388_2) isn't used in any trips
+日比 (ID 203_1) isn't used in any trips
+西高崎 (ID 341_1) isn't used in any trips
+郡 (ID 407_2) isn't used in any trips
+上阿知西 (ID 811_1) isn't used in any trips
+知尾入口 (ID 889_1) isn't used in any trips
+浜・中区役所前 (ID 155_2) isn't used in any trips
+平井 (ID 253_1) isn't used in any trips
+日比製煉所前 (ID 201_2) isn't used in any trips
+日比製煉所前 (ID 201_1) isn't used in any trips
+大王寺東 (ID 927_1) isn't used in any trips
+千町 (ID 856_2) isn't used in any trips
+元町 (ID 176_2) isn't used in any trips
+元町 (ID 176_1) isn't used in any trips
+川崎医大前 (ID 132_4) isn't used in any trips
+川崎医大前 (ID 132_3) isn't used in any trips
+三井E&Sホールディングス前 (ID 209_1) isn't used in any trips
+尾坂前 (ID 363_2) isn't used in any trips
+栄駅北 (ID 533_2) isn't used in any trips
+玉島下水処理場前 (ID 962_1) isn't used in any trips
+国富東 (ID 153_1) isn't used in any trips
+佐井田 (ID 852_1) isn't used in any trips
+マスカット球場入口 (ID 519_1) isn't used in any trips
+四井手 (ID 752_1) isn't used in any trips
+大東 (ID 74_2) isn't used in any trips
+江長十字路 (ID 582_1) isn't used in any trips
+レイク玉原団地いこい荘前 (ID 384_2) isn't used in any trips
+中島口 (ID 576_1) isn't used in any trips
+爪崎西 (ID 669_1) isn't used in any trips
+原尾島住宅 (ID 159_4) isn't used in any trips
+原尾島住宅 (ID 159_3) isn't used in any trips
+錦六区入口 (ID 79_1) isn't used in any trips
+錦六区入口 (ID 79_2) isn't used in any trips
+南栄町 (ID 403_2) isn't used in any trips
+永井中 (ID 90_2) isn't used in any trips
+八浜住宅前 (ID 781_1) isn't used in any trips
+江長沖 (ID 609_2) isn't used in any trips
+愛生園口 (ID 910_1) isn't used in any trips
+栄橋 (ID 429_1) isn't used in any trips
+東宝伝 (ID 931_1) isn't used in any trips
+北緑町 (ID 614_1) isn't used in any trips
+沖新町 (ID 651_2) isn't used in any trips
+倉敷駅 (ID 174_1) isn't used in any trips
+田井四丁目 (ID 361_1) isn't used in any trips
+清心学園口 (ID 130_3) isn't used in any trips
+二塚 (ID 933_1) isn't used in any trips
+清輝寮前 (ID 753_2) isn't used in any trips
+川口 (ID 873_1) isn't used in any trips
+邑久長島大橋 (ID 906_2) isn't used in any trips
+桜橋 (ID 139_1) isn't used in any trips
+桜橋 (ID 139_2) isn't used in any trips
+水江口 (ID 564_1) isn't used in any trips
+倉敷芸科大学 (ID 602_1) isn't used in any trips
+東高地 (ID 684_1) isn't used in any trips
+久々井 (ID 922_1) isn't used in any trips
+鳥羽南 (ID 490_1) isn't used in any trips
+上山田 (ID 952_1) isn't used in any trips
+長尾馬継 (ID 380_2) isn't used in any trips
+長尾馬継 (ID 380_1) isn't used in any trips
+爪崎南 (ID 667_2) isn't used in any trips
+水島郵便局前 (ID 624_2) isn't used in any trips
+倉敷市役所 (ID 180_1) isn't used in any trips
+倉敷市役所 (ID 180_2) isn't used in any trips
+玉原 (ID 386_2) isn't used in any trips
+企業団地南 (ID 773_1) isn't used in any trips
+後呂 (ID 919_1) isn't used in any trips
+夢二生家記念館前 (ID 854_1) isn't used in any trips
+西原 (ID 453_1) isn't used in any trips
+ＮＴＴ水島・水島第一病院前 (ID 628_2) isn't used in any trips
+ゆめタウン倉敷 (ID 182_1) isn't used in any trips
+出崎口 (ID 423_1) isn't used in any trips
+梅木橋 (ID 199_1) isn't used in any trips
+宿毛東 (ID 817_1) isn't used in any trips
+旭川荘吉井川キャンパス前 (ID 837_1) isn't used in any trips
+葦高小学校東 (ID 184_1) isn't used in any trips
+葦高小学校東 (ID 184_2) isn't used in any trips
+渋川 (ID 197_1) isn't used in any trips
+白石入口 (ID 421_1) isn't used in any trips
+天満屋 (ID 27_1) isn't used in any trips
+鉾島口 (ID 658_2) isn't used in any trips
+桜ヶ丘 (ID 276_1) isn't used in any trips
+尾張 (ID 859_1) isn't used in any trips
+中央二丁目 (ID 178_1) isn't used in any trips
+中央二丁目 (ID 178_2) isn't used in any trips
+病院前 (ID 656_2) isn't used in any trips
+瑞穂町 (ID 620_1) isn't used in any trips
+長尾 (ID 382_1) isn't used in any trips
+開進橋 (ID 635_1) isn't used in any trips
+宝光寺下 (ID 806_1) isn't used in any trips
+小串西 (ID 459_1) isn't used in any trips
+阿津 (ID 457_1) isn't used in any trips
+玉島支所入口 (ID 674_2) isn't used in any trips
+原尾島一丁目 (ID 156_1) isn't used in any trips
+原尾島一丁目 (ID 156_2) isn't used in any trips
+田ノ上 (ID 653_2) isn't used in any trips
+大土井西 (ID 880_1) isn't used in any trips
+吉岡 (ID 186_1) isn't used in any trips
+倉敷駅北口 (ID 193_1) isn't used in any trips
+横田口 (ID 353_1) isn't used in any trips
+倉敷成人病センター前 (ID 191_2) isn't used in any trips
+二福小古城池高前 (ID 188_1) isn't used in any trips
+奥の谷中 (ID 923_1) isn't used in any trips
+郡団地口 (ID 406_1) isn't used in any trips
+都紀郷 (ID 272_1) isn't used in any trips
+光明園 (ID 907_1) isn't used in any trips
+原尾島 (ID 158_2) isn't used in any trips
+大池 (ID 771_1) isn't used in any trips
+大供新屋敷 (ID 111_3) isn't used in any trips
+ＮＴＴ倉敷前 (ID 571_2) isn't used in any trips
+大供新屋敷 (ID 111_4) isn't used in any trips
+大雲寺前 (ID 61_5) isn't used in any trips
+昭和町 (ID 175_1) isn't used in any trips
+昭和町 (ID 175_2) isn't used in any trips
+嘉永橋 (ID 596_1) isn't used in any trips
+千手弘法寺前 (ID 808_2) isn't used in any trips
+大原美術館前 (ID 177_1) isn't used in any trips
+住友重機械西門 (ID 693_1) isn't used in any trips
+玉原ニュータウン (ID 385_2) isn't used in any trips
+東部クリーンセンター前 (ID 876_2) isn't used in any trips
+大高小学校前 (ID 649_2) isn't used in any trips
+国富 (ID 152_1) isn't used in any trips
+国富 (ID 152_2) isn't used in any trips
+作陽学園北 (ID 695_1) isn't used in any trips
+下山田 (ID 951_1) isn't used in any trips
+岡山空港 (ID 173_2) isn't used in any trips
+岡山空港 (ID 173_1) isn't used in any trips
+幸島小学校入口 (ID 915_1) isn't used in any trips
+和田三丁目 (ID 205_2) isn't used in any trips
+東山 (ID 150_2) isn't used in any trips
+東山 (ID 150_1) isn't used in any trips
+尻海入口 (ID 883_1) isn't used in any trips
+奥浦下 (ID 847_1) isn't used in any trips
+永井上 (ID 91_1) isn't used in any trips
+第一病院前 (ID 573_2) isn't used in any trips
+邑久郷東 (ID 821_2) isn't used in any trips
+おもちゃ王国 (ID 473_1) isn't used in any trips
+四十瀬球場前 (ID 575_2) isn't used in any trips
+善福寺前 (ID 892_1) isn't used in any trips
+倉敷自動車教習所前 (ID 577_2) isn't used in any trips
+貝殻山登山口 (ID 451_2) isn't used in any trips
+西大寺農協前 (ID 275_1) isn't used in any trips
+金田 (ID 270_1) isn't used in any trips
+沖浜入口 (ID 932_1) isn't used in any trips
+玉野光南高校 (ID 783_1) isn't used in any trips
+藤崎 (ID 258_1) isn't used in any trips
+東郡 (ID 408_2) isn't used in any trips
+霞橋 (ID 544_2) isn't used in any trips
+渋川三丁目 (ID 196_1) isn't used in any trips
+葦高小学校正門 (ID 639_1) isn't used in any trips
+渋川三丁目 (ID 196_2) isn't used in any trips
+虫明診療所前 (ID 898_1) isn't used in any trips
+竜の口 (ID 581_1) isn't used in any trips
+瀬戸内警察署前 (ID 800_1) isn't used in any trips
+宮道 (ID 255_1) isn't used in any trips
+論田 (ID 778_1) isn't used in any trips
+暮石 (ID 86_1) isn't used in any trips
+江長 (ID 583_2) isn't used in any trips
+紺浦 (ID 802_1) isn't used in any trips
+荘内南 (ID 378_1) isn't used in any trips
+十日市南 (ID 93_3) isn't used in any trips
+十日市南 (ID 93_4) isn't used in any trips
+虫明港口 (ID 901_1) isn't used in any trips
+江崎 (ID 257_1) isn't used in any trips
+紺浦口 (ID 845_1) isn't used in any trips
+子父雁入口 (ID 938_1) isn't used in any trips
+虫明 (ID 902_1) isn't used in any trips
+玉四丁目 (ID 210_1) isn't used in any trips
+長田町 (ID 660_2) isn't used in any trips
+玉四丁目 (ID 210_2) isn't used in any trips
+護国神社前 (ID 221_1) isn't used in any trips
+プール前 (ID 960_1) isn't used in any trips
+渋川一丁目 (ID 198_2) isn't used in any trips
+山田南 (ID 422_1) isn't used in any trips
+渋川一丁目 (ID 198_1) isn't used in any trips
+東富井 (ID 647_2) isn't used in any trips
+護国神社前 (ID 221_2) isn't used in any trips
+昭和被服総業前 (ID 841_1) isn't used in any trips
+山田 (ID 420_1) isn't used in any trips
+大内 (ID 548_1) isn't used in any trips
+重岩 (ID 445_1) isn't used in any trips
+玉六丁目 (ID 212_1) isn't used in any trips
+六枚橋 (ID 157_2) isn't used in any trips
+笹沖 (ID 183_2) isn't used in any trips
+笹沖 (ID 183_1) isn't used in any trips
+オリーブ園入口 (ID 798_1) isn't used in any trips
+木材市場前 (ID 251_1) isn't used in any trips
+瀬溝 (ID 904_1) isn't used in any trips
+平田東 (ID 522_1) isn't used in any trips
+王子ヶ岳登山口 (ID 194_1) isn't used in any trips
+野関 (ID 769_1) isn't used in any trips
+倉敷南高校入口 (ID 185_1) isn't used in any trips
+倉敷南高校入口 (ID 185_2) isn't used in any trips
+ほんぶしん南 (ID 912_1) isn't used in any trips
+オージー技研 (ID 235_1) isn't used in any trips
+邑久郷中 (ID 823_1) isn't used in any trips
+福原 (ID 368_2) isn't used in any trips
+間口入口 (ID 894_1) isn't used in any trips
+金岡 (ID 271_1) isn't used in any trips
+ハローワーク北 (ID 372_2) isn't used in any trips
+曹源寺 (ID 233_1) isn't used in any trips
+水門入口 (ID 916_1) isn't used in any trips
+福谷東 (ID 893_1) isn't used in any trips
+豊安 (ID 863_2) isn't used in any trips
+岡山国際ホテル (ID 277_1) isn't used in any trips
+射越 (ID 871_1) isn't used in any trips
+天馬町 (ID 214_1) isn't used in any trips
+甲浦郵便局前 (ID 405_1) isn't used in any trips
+天馬町 (ID 214_2) isn't used in any trips
+吉野町 (ID 370_2) isn't used in any trips
+ヘラ取神社前 (ID 592_1) isn't used in any trips
+愛生園 (ID 911_1) isn't used in any trips
+玉野市役所入口 (ID 216_2) isn't used in any trips
+玉野市役所入口 (ID 216_1) isn't used in any trips
+クラレ正門前 (ID 687_1) isn't used in any trips
+自動車学校入口 (ID 231_1) isn't used in any trips
+浦田 (ID 187_2) isn't used in any trips
+浦田 (ID 187_1) isn't used in any trips
+虫明西 (ID 895_1) isn't used in any trips
+商工会館前 (ID 192_2) isn't used in any trips
+流通センター早島地区イトーピア団地入口 (ID 485_1) isn't
+used in any trips
+上山田東 (ID 954_1) isn't used in any trips
+観音堂 (ID 189_1) isn't used in any trips
+観音堂 (ID 189_2) isn't used in any trips
+福山橋 (ID 869_2) isn't used in any trips
+西宝伝 (ID 930_1) isn't used in any trips
+三田口 (ID 520_1) isn't used in any trips
+宇野駅 (ID 218_1) isn't used in any trips
+長尾農協前 (ID 87_2) isn't used in any trips
+益野 (ID 239_1) isn't used in any trips
+倉商前 (ID 190_2) isn't used in any trips
+倉商前 (ID 190_1) isn't used in any trips
+流通センター卸売団地 (ID 481_3) isn't used in any trips
+益野西 (ID 237_1) isn't used in any trips
+老松町 (ID 572_1) isn't used in any trips
+金岡中 (ID 273_1) isn't used in any trips
+虫明東 (ID 899_1) isn't used in any trips
+坂田町 (ID 690_2) isn't used in any trips
+大窪 (ID 864_2) isn't used in any trips
+岡山南支援学校 (ID 60_1) isn't used in any trips
+上阿知東 (ID 809_1) isn't used in any trips
+日比 (ID 203_2) isn't used in any trips
+戸島公園 (ID 692_2) isn't used in any trips
+東山カントリー (ID 278_1) isn't used in any trips
+深山公園入口 (ID 357_2) isn't used in any trips
+穴場神社前 (ID 578_2) isn't used in any trips
+小溝 (ID 579_2) isn't used in any trips
+宇藤木橋 (ID 351_1) isn't used in any trips
+水島協同病院前 (ID 622_1) isn't used in any trips
+水門掛座 (ID 918_1) isn't used in any trips
+庄田西 (ID 887_1) isn't used in any trips
+沖 (ID 574_2) isn't used in any trips
+百舌鳥ヶ鼻 (ID 521_1) isn't used in any trips
+ドンドン (ID 594_1) isn't used in any trips
+鹿忍中 (ID 805_1) isn't used in any trips
+岡南病院前 (ID 359_2) isn't used in any trips
+西福井 (ID 580_2) isn't used in any trips
+イオン西入口 (ID 558_1) isn't used in any trips
+石井町 (ID 765_1) isn't used in any trips
+玉小学校前 (ID 389_2) isn't used in any trips
+連島中学校前 (ID 541_2) isn't used in any trips
+古新田 (ID 525_1) isn't used in any trips
+西酒津 (ID 556_1) isn't used in any trips
+沖田 (ID 866_1) isn't used in any trips
+南山寮 (ID 279_1) isn't used in any trips
+吉塔 (ID 829_1) isn't used in any trips
+神崎口 (ID 833_2) isn't used in any trips
+永井 (ID 89_2) isn't used in any trips
+西大寺上 (ID 842_1) isn't used in any trips
+クラレ前 (ID 554_1) isn't used in any trips
+操南中学校前 (ID 259_1) isn't used in any trips
+金岡上 (ID 274_1) isn't used in any trips
+企業団地北 (ID 775_2) isn't used in any trips
+都六区入口 (ID 82_2) isn't used in any trips
+都六区入口 (ID 82_1) isn't used in any trips
+平井元町 (ID 250_1) isn't used in any trips
+ＪＦＥ正門前 (ID 637_2) isn't used in any trips
+秀天橋 (ID 84_4) isn't used in any trips
+鉾立 (ID 468_1) isn't used in any trips
+秀天橋 (ID 84_1) isn't used in any trips
+ホールサムインせとうち (ID 195_1) isn't used in any trips
+秀天橋 (ID 84_3) isn't used in any trips
+秀天橋 (ID 84_2) isn't used in any trips
+青江北 (ID 69_4) isn't used in any trips
+青江北 (ID 69_3) isn't used in any trips
+上平井 (ID 252_1) isn't used in any trips
+暮石北 (ID 379_2) isn't used in any trips
+暮石北 (ID 379_1) isn't used in any trips
+邑久郷西 (ID 825_1) isn't used in any trips
+平井下町 (ID 254_1) isn't used in any trips
+横尾入口 (ID 851_1) isn't used in any trips
+宮道東 (ID 256_1) isn't used in any trips
+高助 (ID 886_1) isn't used in any trips
+米崎 (ID 464_1) isn't used in any trips
+岩花 (ID 885_1) isn't used in any trips
+イオンモール倉敷 (ID 552_1) isn't used in any trips
+西大寺ふれあいセンター (ID 844_2) isn't used in any trips
+用吉口 (ID 377_1) isn't used in any trips
+市民会館前 (ID 211_1) isn't used in any trips
+北浦 (ID 409_2) isn't used in any trips
+用吉口 (ID 377_2) isn't used in any trips
+築港銀座 (ID 375_2) isn't used in any trips
+商工高校前 (ID 213_1) isn't used in any trips
+清心学園前 (ID 489_2) isn't used in any trips
+古新田北 (ID 527_1) isn't used in any trips
+向小串東 (ID 462_1) isn't used in any trips
+あけぼの橋 (ID 550_2) isn't used in any trips
+亀島橋 (ID 633_2) isn't used in any trips
+ダイキ岡山前 (ID 80_1) isn't used in any trips
+ダイキ岡山前 (ID 80_2) isn't used in any trips
+西大寺中三丁目 (ID 840_1) isn't used in any trips
+高砂町 (ID 631_2) isn't used in any trips
+トンボ前 (ID 780_1) isn't used in any trips
+幸町 (ID 523_2) isn't used in any trips
+加茂宗津 (ID 376_1) isn't used in any trips
+邑久駅入口 (ID 862_2) isn't used in any trips
+加茂宗津 (ID 376_2) isn't used in any trips
+庄田東 (ID 888_1) isn't used in any trips
+海吉 (ID 236_1) isn't used in any trips
+三井E&Sホールディングス前 (ID 209_2) isn't used in any trips
+岡山駅前 (ID 19_1) isn't used in any trips
+瀬戸内市役所前 (ID 860_1) isn't used in any trips
+光明園木尾 (ID 908_1) isn't used in any trips
+梶岡 (ID 417_2) isn't used in any trips
+岡山駅前 (ID 19_9) isn't used in any trips
+岡山駅前 (ID 19_8) isn't used in any trips
+大土井 (ID 881_1) isn't used in any trips
+東川町 (ID 611_1) isn't used in any trips
+吉塔東 (ID 827_1) isn't used in any trips
+ＮＴＴ玉野前 (ID 215_1) isn't used in any trips
+玉野営業所前 (ID 373_2) isn't used in any trips
+操南台団地中 (ID 285_1) isn't used in any trips
+霞丘小学校入口 (ID 600_2) isn't used in any trips
+中浜 (ID 590_1) isn't used in any trips
+旭橋通り (ID 217_2) isn't used in any trips
+広潟 (ID 371_2) isn't used in any trips
+飽浦上 (ID 413_2) isn't used in any trips
+旭橋通り (ID 217_1) isn't used in any trips
+浜中 (ID 900_1) isn't used in any trips
+山陽新聞社前 (ID 38_3) isn't used in any trips
+山陽新聞社前 (ID 38_4) isn't used in any trips
+師楽入口 (ID 846_1) isn't used in any trips
+健幸プラザ前 (ID 875_2) isn't used in any trips
+西田井地 (ID 419_2) isn't used in any trips
+北畝公民館前 (ID 529_1) isn't used in any trips
+操南台団地入口 (ID 283_1) isn't used in any trips
+東島田町 (ID 145_1) isn't used in any trips
+津島東三丁目 (ID 761_2) isn't used in any trips
+第二野関 (ID 770_1) isn't used in any trips
+藤原 (ID 160_2) isn't used in any trips
+藤原 (ID 160_1) isn't used in any trips
+福泊 (ID 234_1) isn't used in any trips
+作陽学園正門 (ID 696_2) isn't used in any trips
+益野中 (ID 238_1) isn't used in any trips
+牛窓 (ID 796_1) isn't used in any trips
+津行 (ID 849_1) isn't used in any trips
+六区 (ID 281_1) isn't used in any trips
+門田屋敷 (ID 147_1) isn't used in any trips
+西飽浦 (ID 411_2) isn't used in any trips
+大窪西 (ID 865_1) isn't used in any trips
+東山電停前 (ID 149_1) isn't used in any trips
+連島 (ID 589_1) isn't used in any trips
+八浜駅前 (ID 779_1) isn't used in any trips
+旭川荘 (ID 337_1) isn't used in any trips
+ケアハウスあいの泉前 (ID 677_1) isn't used in any trips
+太田 (ID 921_1) isn't used in any trips
+コンベックス岡山西 (ID 484_1) isn't used in any trips
+玉島中央町 (ID 675_1) isn't used in any trips
+綾浦 (ID 799_1) isn't used in any trips
+十禅寺登山口 (ID 439_2) isn't used in any trips
+備中庄 (ID 129_4) isn't used in any trips
+小串 (ID 460_1) isn't used in any trips
+金甲山登山口 (ID 415_2) isn't used in any trips
+玉野浄化センター前 (ID 749_1) isn't used in any trips
+沖元西 (ID 262_1) isn't used in any trips
+ハーバーアイランド（ナカシマプロペラ前） (ID 964_1) isn't
+used in any trips
+虫明新町 (ID 896_1) isn't used in any trips
+慈照院前 (ID 433_1) isn't used in any trips
+清内橋 (ID 264_1) isn't used in any trips
+宮浦東 (ID 449_2) isn't used in any trips
+岡山駅西口 (ID 224_1) isn't used in any trips
+岡山駅 (ID 18_7) isn't used in any trips
+邑久駅 (ID 861_1) isn't used in any trips
+玉野市役所前 (ID 390_1) isn't used in any trips
+滝 (ID 88_2) isn't used in any trips
+大富東 (ID 867_1) isn't used in any trips
+養父 (ID 691_2) isn't used in any trips
+文化センター入口 (ID 673_2) isn't used in any trips
+ジャパンパイル前 (ID 636_2) isn't used in any trips
+興陽高校前 (ID 81_1) isn't used in any trips
+興陽高校前 (ID 81_2) isn't used in any trips
+川西町西口 (ID 570_2) isn't used in any trips
+飽浦 (ID 443_1) isn't used in any trips
+三軒屋 (ID 435_2) isn't used in any trips
+八浜市民センター (ID 470_2) isn't used in any trips
+渡内 (ID 884_1) isn't used in any trips
+ＪＦＥ南門前 (ID 638_1) isn't used in any trips
+理大付属中学 (ID 10006_1) isn't used in any trips
+都六区下 (ID 83_2) isn't used in any trips
+都六区下 (ID 83_1) isn't used in any trips
+宮浦 (ID 447_1) isn't used in any trips
+見能 (ID 437_2) isn't used in any trips
+横田 (ID 777_2) isn't used in any trips
+渋川・マリンホテル (ID 472_1) isn't used in any trips
+八島 (ID 671_2) isn't used in any trips
+南亀島 (ID 634_2) isn't used in any trips
+見石 (ID 469_1) isn't used in any trips
+荘内支所前 (ID 85_1) isn't used in any trips
+荘内支所前 (ID 85_2) isn't used in any trips
+企業団地中 (ID 774_2) isn't used in any trips
+大藪 (ID 431_2) isn't used in any trips
+倉敷消防署 (ID 474_2) isn't used in any trips
+番田 (ID 467_1) isn't used in any trips
+桑野 (ID 260_1) isn't used in any trips
+本蓮寺下 (ID 797_2) isn't used in any trips
+西脇海水浴場 (ID 935_1) isn't used in any trips
+上南中学校前 (ID 269_1) isn't used in any trips
+番田住宅前 (ID 466_1) isn't used in any trips
+警察署前 (ID 244_1) isn't used in any trips
+築港新町 (ID 105_1) isn't used in any trips
+築港新町 (ID 105_2) isn't used in any trips
+川井 (ID 242_1) isn't used in any trips
+東山一丁目 (ID 219_1) isn't used in any trips
+三菱正門西 (ID 632_2) isn't used in any trips
+コンベックス岡山前 (ID 483_2) isn't used in any trips
+片崎 (ID 339_1) isn't used in any trips
+大原美術館前 (ID 177_2) isn't used in any trips
+藤原西町 (ID 324_1) isn't used in any trips
+明神町 (ID 630_2) isn't used in any trips
+宇野港（直島） (ID 374_1) isn't used in any trips
+大学病院筋 (ID 107_3) isn't used in any trips
+新田 (ID 587_2) isn't used in any trips
+県庁前 (ID 31_1) isn't used in any trips
+光明園宮の段 (ID 909_1) isn't used in any trips
+県庁前 (ID 31_2) isn't used in any trips
+相引 (ID 465_1) isn't used in any trips
+上山坂 (ID 416_2) isn't used in any trips
+千日前 (ID 33_2) isn't used in any trips
+千日前 (ID 33_1) isn't used in any trips
+操南台団地東 (ID 284_1) isn't used in any trips
+向小串西 (ID 463_1) isn't used in any trips
+小串東 (ID 461_1) isn't used in any trips
+一本松 (ID 414_2) isn't used in any trips
+峠 (ID 928_1) isn't used in any trips
+平田口 (ID 515_2) isn't used in any trips
+甲浦学校前 (ID 412_2) isn't used in any trips
+江長中 (ID 606_2) isn't used in any trips
+尻海 (ID 882_1) isn't used in any trips
+観音院入口 (ID 839_1) isn't used in any trips
+大王寺西 (ID 926_1) isn't used in any trips
+中の原南 (ID 335_1) isn't used in any trips
+一区 (ID 282_1) isn't used in any trips
+奥の谷 (ID 924_1) isn't used in any trips
+紺浦西 (ID 803_2) isn't used in any trips
+中学校前 (ID 755_1) isn't used in any trips
+新屋敷団地高島駅前 (ID 326_1) isn't used in any trips
+下の原南 (ID 333_1) isn't used in any trips
+脇田入口 (ID 331_1) isn't used in any trips
+旭川荘吉井川キャンパス正門前 (ID 874_2) isn't used in any trips
+操陽団地 (ID 280_1) isn't used in any trips
+中井北 (ID 328_1) isn't used in any trips
+瀬溝東 (ID 905_1) isn't used in any trips
+ほんぶしん前 (ID 830_2) isn't used in any trips
+大井手 (ID 249_1) isn't used in any trips
+新倉敷駅北口 (ID 697_1) isn't used in any trips
+古京 (ID 146_2) isn't used in any trips
+古京 (ID 146_1) isn't used in any trips
+清水 (ID 161_2) isn't used in any trips
+清水 (ID 161_3) isn't used in any trips
+清水 (ID 161_1) isn't used in any trips
+淡水湖北口 (ID 404_2) isn't used in any trips
+西中学校前 (ID 569_1) isn't used in any trips
+池の内東 (ID 227_1) isn't used in any trips
+和田社宅前 (ID 206_1) isn't used in any trips
+和田社宅前 (ID 206_2) isn't used in any trips
+玉橋 (ID 471_2) isn't used in any trips
+羽根崎町 (ID 204_2) isn't used in any trips
+東小高地 (ID 686_1) isn't used in any trips
+羽根崎町 (ID 204_1) isn't used in any trips
+中筋 (ID 925_1) isn't used in any trips
+甲浦支所前 (ID 410_2) isn't used in any trips
+山陽女子中学・高校前 (ID 148_1) isn't used in any trips
+政津 (ID 267_1) isn't used in any trips
+山陽女子中学・高校前 (ID 148_2) isn't used in any trips
+南緑町 (ID 616_1) isn't used in any trips
+日之出町 (ID 680_1) isn't used in any trips
+リハビリテーション病院 (ID 641_2) isn't used in any trips
+玉島ショッピングセンターＴＯＰＳ前 (ID 678_1) isn't used in
+any trips
+四ツ谷北 (ID 835_2) isn't used in any trips
+槌ヶ原 (ID 355_2) isn't used in any trips
+新倉敷駅 (ID 654_1) isn't used in any trips
+大富 (ID 868_2) isn't used in any trips
+日ノ田門前 (ID 208_1) isn't used in any trips
+倉敷西年金事務所前 (ID 676_1) isn't used in any trips
+西大寺中央病院前 (ID 241_1) isn't used in any trips
+霞橋車庫 (ID 604_1) isn't used in any trips
+大西 (ID 920_1) isn't used in any trips
+宇野三丁目 (ID 767_1) isn't used in any trips
+沖元 (ID 263_1) isn't used in any trips
+青葉町 (ID 629_1) isn't used in any trips
+池の内 (ID 225_1) isn't used in any trips
+総合市場前 (ID 181_1) isn't used in any trips
+藤田第二小学校沖 (ID 77_1) isn't used in any trips
+光津 (ID 265_1) isn't used in any trips
+中山トンネル (ID 751_1) isn't used in any trips
+ヤットコ (ID 585_2) isn't used in any trips
+下阿知東 (ID 812_1) isn't used in any trips
+日比市民センター前 (ID 202_1) isn't used in any trips
+天王谷川公園 (ID 776_2) isn't used in any trips
+市役所入口 (ID 32_2) isn't used in any trips
+ハーバーブリッジ北 (ID 963_1) isn't used in any trips
+市役所入口 (ID 32_1) isn't used in any trips
+東山峠 (ID 223_1) isn't used in any trips
+住友重機械正門前 (ID 961_1) isn't used in any trips
+神崎東 (ID 831_2) isn't used in any trips
+日比製煉西門前 (ID 200_2) isn't used in any trips
+上阿知中 (ID 810_1) isn't used in any trips
+日比製煉西門前 (ID 200_1) isn't used in any trips
+給食センター (ID 772_1) isn't used in any trips
+松島西ノ口 (ID 133_2) isn't used in any trips
+松島西ノ口 (ID 133_1) isn't used in any trips
+千町西 (ID 857_1) isn't used in any trips
+西之浦浄水場前 (ID 598_1) isn't used in any trips
+中国能開大 (ID 694_1) isn't used in any trips
+倉敷南小学校前 (ID 645_1) isn't used in any trips
+七島 (ID 672_1) isn't used in any trips
+千町橋 (ID 855_1) isn't used in any trips
+上成 (ID 665_2) isn't used in any trips
+瀬溝西 (ID 903_1) isn't used in any trips
+西脇東 (ID 934_1) isn't used in any trips
+中西 (ID 929_1) isn't used in any trips
+東田井地 (ID 418_2) isn't used in any trips
+本庄南 (ID 853_2) isn't used in any trips
+桑野東 (ID 261_1) isn't used in any trips
+西小学校前 (ID 538_2) isn't used in any trips
+錦貯水 (ID 75_1) isn't used in any trips
+福谷中 (ID 891_1) isn't used in any trips
+瀬戸内市民病院 (ID 858_1) isn't used in any trips
+西大寺 (ID 245_1) isn't used in any trips
+西大寺駅 (ID 843_1) isn't used in any trips
+石仏 (ID 879_1) isn't used in any trips
+旭川荘北 (ID 338_1) isn't used in any trips
+新橋 (ID 243_1) isn't used in any trips
+西大寺新地 (ID 877_1) isn't used in any trips
+田井東 (ID 441_2) isn't used in any trips
+中の原 (ID 336_1) isn't used in any trips
+大江 (ID 584_2) isn't used in any trips
+藤田団地南 (ID 78_1) isn't used in any trips
+藤田団地南 (ID 78_2) isn't used in any trips
+山陽学園大学 (ID 323_1) isn't used in any trips
+松島北ノ口 (ID 131_4) isn't used in any trips
+宝島寺 (ID 586_1) isn't used in any trips
+下の原 (ID 334_1) isn't used in any trips
+赤田 (ID 325_1) isn't used in any trips
+清水橋 (ID 366_1) isn't used in any trips
+水島学校前 (ID 618_1) isn't used in any trips
+西脇 (ID 936_1) isn't used in any trips
+堤下 (ID 663_2) isn't used in any trips
+山南中学校前 (ID 913_1) isn't used in any trips
+倉敷高校前 (ID 491_2) isn't used in any trips
+後閑小学校前 (ID 427_2) isn't used in any trips
+光政 (ID 266_1) isn't used in any trips
+奥の森 (ID 782_2) isn't used in any trips
+後閑 (ID 425_1) isn't used in any trips
+小橋 (ID 247_1) isn't used in any trips
+津田 (ID 268_1) isn't used in any trips
+玉島警察署前 (ID 679_1) isn't used in any trips
+The stops "青江西" (ID 70_1) and "青江西" (ID 70_4) are 0.00m apart and
+probably represent the same location.
+The stops "青江西" (ID 70_2) and "青江西" (ID 70_3) are 0.00m apart and
+probably represent the same location.
+The stops "川崎医大前" (ID 132_1) and "川崎医大前" (ID 132_3) are
+0.00m apart and probably represent the same location.
+The stops "川崎医大前" (ID 132_2) and "川崎医大前" (ID 132_4) are
+0.00m apart and probably represent the same location.
+The stops "青江北" (ID 69_2) and "青江北" (ID 69_3) are 0.00m apart and
+probably represent the same location.
+The stops "松島北ノ口" (ID 131_1) and "松島北ノ口" (ID 131_3) are
+0.00m apart and probably represent the same location.
+The stops "青江北" (ID 69_1) and "青江北" (ID 69_4) are 0.00m apart and
+probably represent the same location.
+The stops "松島北ノ口" (ID 131_2) and "松島北ノ口" (ID 131_4) are
+0.00m apart and probably represent the same location.
+The stops "十日市南" (ID 93_2) and "十日市南" (ID 93_3) are 0.00m
+apart and probably represent the same location.
+The stops "十日市南" (ID 93_1) and "十日市南" (ID 93_4) are 0.00m
+apart and probably represent the same location.
+The stops "清心学園口" (ID 130_1) and "清心学園口" (ID 130_3) are
+0.00m apart and probably represent the same location.
+The stops "備中庄" (ID 129_1) and "備中庄" (ID 129_3) are 0.00m apart
+and probably represent the same location.
+The stops "備中庄" (ID 129_2) and "備中庄" (ID 129_4) are 0.00m apart
+and probably represent the same location.
+The stops "大供新屋敷" (ID 111_2) and "大供新屋敷" (ID 111_3) are
+0.00m apart and probably represent the same location.
+The stops "大供新屋敷" (ID 111_1) and "大供新屋敷" (ID 111_4) are
+0.00m apart and probably represent the same location.
+The stops "大学病院筋" (ID 107_1) and "大学病院筋" (ID 107_3) are
+0.00m apart and probably represent the same location.
+The stops "山陽新聞社前" (ID 38_2) and "山陽新聞社前" (ID 38_3)
+are 0.00m apart and probably represent the same location.
+The stops "山陽新聞社前" (ID 38_1) and "山陽新聞社前" (ID 38_4)
+are 0.00m apart and probably represent the same location.
+The stops "県庁前" (ID 31_2) and "県庁前" (ID 31_4) are 0.00m apart and
+probably represent the same location.
+The stops "県庁前" (ID 31_1) and "県庁前" (ID 31_3) are 0.00m apart and
+probably represent the same location.
+The stops "ＮＴＴ岡山前" (ID 22_2) and "ＮＴＴ岡山前" (ID 22_5)
+are 0.00m apart and probably represent the same location.
+The stops "原尾島住宅" (ID 159_1) and "原尾島住宅" (ID 159_4) are
+0.00m apart and probably represent the same location.
+The stops "原尾島住宅" (ID 159_2) and "原尾島住宅" (ID 159_3) are
+0.00m apart and probably represent the same location.
+The stops "清水" (ID 161_3) and "清水(岡電)" (ID 1010_1) are 0.33m apart
+and probably represent the same location.
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1085_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2145_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2535_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 国立病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330500_3098_1" and "330500_3096_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2135_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2037_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2045_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4522_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 後楽園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"21100_2111_1" and "21100_2113_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1552_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2133_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_2025_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2042_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 免許センター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30600_3060_1" and "30600_3059_1".
+ column route_long_name
+Invalid value 築港元町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10100_1012_1" and "10100_1014_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2059_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1541_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1121_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3192_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2513_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 築港元町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10100_1011_1" and "10100_1014_1".
+ column route_long_name
+Invalid value 中央市場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10150_1015_1" and "10150_1016_1".
+ column route_long_name
+Invalid value 藤原団地・京山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20100_2012_1" and "20100_2013_1".
+ column route_long_name
+Invalid value 大学病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110001_2005_1" and "110001_1010_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1088_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 免許センター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30600_3064_1" and "30600_3059_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3523_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3524_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 妙善寺線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330300_3039_1" and "330300_3035_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3190_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2511_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_1005_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4127_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4568_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_4044_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4411_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3521_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3034_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 妙善寺線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330300_3040_1" and "330300_3035_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_1008_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2534_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_1007_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4125_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 後楽園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"21100_2114_1" and "21100_2113_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3032_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 岡電高屋線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110006_2002_1" and "110006_2004_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2141_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3194_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 中央病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30100_3016_1" and "30100_3012_1".
+ column route_long_name
+Invalid value 理大線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30700_3072_1" and "30700_3070_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1086_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_4042_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4524_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_2028_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2046_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 後楽園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"21100_2112_1" and "21100_2113_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4566_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 日赤病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10600_1069_1" and "10600_1066_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1084_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_2026_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3522_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 藤原団地・京山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20100_2014_1" and "20100_2013_1".
+ column route_long_name
+Invalid value 津高臨時線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"39000_3122_1" and "39000_3132_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3558_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1512_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2031_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2044_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 築港元町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10100_1013_1" and "10100_1014_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2039_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2508_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1561_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 三蟠南線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43900_4392_1" and "43900_4391_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3553_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_4041_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3234_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 岡電高屋線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110006_2052_1" and "110006_2004_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1089_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2060_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 理大東門線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30400_3042_1" and "30400_3243_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2122_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_1106_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4382_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4386_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 中央病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30100_3013_1" and "30100_3012_1".
+ column route_long_name
+Invalid value 新岡山港線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"443800_4383_1" and "443800_4385_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1025_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2055_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 岡山ふれあいセンター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43700_4372_1" and "43700_4388_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2142_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3541_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4128_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 岡電高屋線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110006_2051_1" and "110006_2004_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3554_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1123_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 半田山津高台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30000_3002_1" and "30000_3053_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1532_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 中央病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30100_3011_1" and "30100_3012_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1034_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 重井病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"42400_4241_1" and "42400_4242_1".
+ column route_long_name
+Invalid value 半田山津高台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30000_3051_1" and "30000_3053_1".
+ column route_long_name
+Invalid value 藤原団地・京山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20100_2011_1" and "20100_2013_1".
+ column route_long_name
+Invalid value 岡電高屋線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110006_2003_1" and "110006_2004_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2514_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 三野線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330200_3222_1" and "330200_3025_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3008_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 免許センター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30600_3130_1" and "30600_3059_1".
+ column route_long_name
+Invalid value 日赤病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10600_1065_1" and "10600_1066_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2146_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2126_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 花尻入口・神道山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30800_3085_1" and "30800_3082_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3038_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3004_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3010_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 花尻入口・神道山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30800_3083_1" and "30800_3082_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3533_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 藤原団地・京山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20100_2016_1" and "20100_2013_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2542_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2155_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 国立病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30500_3055_1" and "30500_3056_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_4043_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 岡電高屋線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110006_2001_1" and "110006_2004_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1023_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 山陽学園大学直行線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"44000_4422_1" and "44000_4421_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1513_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 花尻入口・神道山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30800_3081_1" and "30800_3082_1".
+ column route_long_name
+Invalid value 火の見線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"441200_4121_1" and "441200_4122_1".
+ column route_long_name
+Invalid value 大東線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10500_1054_1" and "10500_1055_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1534_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1021_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1028_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3037_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1511_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 岡南飛行場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10400_1043_1" and "10400_1042_1".
+ column route_long_name
+Invalid value 大東線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10500_1052_1" and "10500_1055_1".
+ column route_long_name
+Invalid value コンベックス岡山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"42600_4262_1" and "42600_4261_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2512_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 三野線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30200_3221_1" and "30200_3024_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3543_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1027_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 三野線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30200_3223_1" and "30200_3024_1".
+ column route_long_name
+Invalid value 理大東門線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30400_3043_1" and "30400_3243_1".
+ column route_long_name
+Invalid value 大東線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10500_1051_1" and "10500_1055_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3542_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3571_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1542_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 築港元町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10100_1017_1" and "10100_1014_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2033_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4525_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 理大東門線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30400_3041_1" and "30400_3243_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2036_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 新保・万倍線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10700_1073_1" and "10700_1076_1".
+ column route_long_name
+Invalid value 藤原団地・京山線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"220100_2019_1" and "220100_2017_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4381_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1024_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 津高臨時線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"39000_3113_1" and "39000_3132_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4512_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3566_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 岡山ふれあいセンター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43700_4371_1" and "43700_4388_1".
+ column route_long_name
+Invalid value 大学病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10001_1006_1" and "10001_2027_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2121_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3570_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1032_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 三野線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330200_3026_1" and "330200_3025_1".
+ column route_long_name
+Invalid value 免許センター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30600_3131_1" and "30600_3059_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4564_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2127_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 桑野営業所線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43600_4362_1" and "43600_4361_1".
+ column route_long_name
+Invalid value 日赤病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110600_1068_1" and "110600_1067_1".
+ column route_long_name
+Invalid value 中央病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330100_3015_1" and "330100_3014_1".
+ column route_long_name
+Invalid value 半田山津高台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30000_3052_1" and "30000_3053_1".
+ column route_long_name
+Invalid value 国立病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30500_3057_1" and "30500_3056_1".
+ column route_long_name
+Invalid value 三野線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30200_3022_1" and "30200_3024_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1521_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2136_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 半田山津高台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30000_3054_1" and "30000_3053_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3031_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3195_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1090_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_2543_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4023_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3231_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3544_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 岡南飛行場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10400_1041_1" and "10400_1042_1".
+ column route_long_name
+Invalid value 花尻入口・神道山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30800_3084_1" and "30800_3082_1".
+ column route_long_name
+Invalid value 国立病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330500_3097_1" and "330500_3096_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4014_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 火の見線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"41200_4201_1" and "41200_4202_1".
+ column route_long_name
+Invalid value 南ふれあいセンター線(臨時運行) in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"111200_1127_1" and "111200_1126_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3565_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2134_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 岡南飛行場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10400_1046_1" and "10400_1042_1".
+ column route_long_name
+Invalid value 新岡山港線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"443800_4384_1" and "443800_4385_1".
+ column route_long_name
+Invalid value 三野線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30200_3224_1" and "30200_3024_1".
+ column route_long_name
+Invalid value 理大東門線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30400_3044_1" and "30400_3243_1".
+ column route_long_name
+Invalid value 大学病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110001_2006_1" and "110001_1010_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4523_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 理大東門線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30400_3244_1" and "30400_3243_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3233_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1026_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 岡山ろうさい病院・松浜町線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10200_1022_1" and "10200_1029_1".
+ column route_long_name
+Invalid value 理大線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30700_3071_1" and "30700_3070_1".
+ column route_long_name
+Invalid value 岡電高屋線［附属校］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10010_2022_1" and "10010_2023_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2132_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2035_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3532_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 南ふれあいセンター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"11200_1061_1" and "11200_1062_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1122_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 大東線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10500_1053_1" and "10500_1055_1".
+ column route_long_name
+Invalid value 新岡山港線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"43800_4024_1" and "43800_4412_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3091_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3009_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4521_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3534_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3572_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 新保・万倍線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10700_1077_1" and "10700_1076_1".
+ column route_long_name
+Invalid value 岡電高屋線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10006_2008_1" and "10006_2007_1".
+ column route_long_name
+Invalid value 三野線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30200_3021_1" and "30200_3024_1".
+ column route_long_name
+Invalid value 平田・北長瀬線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20400_2041_1" and "20400_2147_1".
+ column route_long_name
+Invalid value 藤原団地・京山線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"220100_2015_1" and "220100_2017_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2131_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 岡電高屋線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10006_2009_1" and "10006_2007_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3557_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3193_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2139_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3007_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2034_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 免許センター線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330600_3180_1" and "330600_3181_1".
+ column route_long_name
+Invalid value 岡電高屋線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10006_2010_1" and "10006_2007_1".
+ column route_long_name
+Invalid value 免許センター線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30600_3063_1" and "30600_3059_1".
+ column route_long_name
+Invalid value 大学病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"110001_1009_1" and "110001_1010_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_4030_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3094_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 岡南飛行場線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10400_1044_1" and "10400_1042_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2032_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3191_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3093_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 妙善寺線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330300_3232_1" and "330300_3035_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4126_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 替道（津高） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"82000_3559_1" and "82000_3531_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3001_1" and "330000_3092_1".
+ column route_long_name
+Invalid value 岡電高屋線［附属校］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10010_2024_1" and "10010_2023_1".
+ column route_long_name
+Invalid value 国立病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330500_3058_1" and "330500_3096_1".
+ column route_long_name
+Invalid value 藤原団地・京山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20100_2018_1" and "20100_2013_1".
+ column route_long_name
+Invalid value 妙善寺線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30300_3033_1" and "30300_3030_1".
+ column route_long_name
+Invalid value 理大東門線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330400_3241_1" and "330400_3242_1".
+ column route_long_name
+Invalid value 旧2号線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10800_1083_1" and "10800_1087_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4532_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 替道（岡南） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"81000_1583_1" and "81000_1590_1".
+ column route_long_name
+Invalid value 三野線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30200_3023_1" and "30200_3024_1".
+ column route_long_name
+Invalid value 花尻入口・神道山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"30800_3086_1" and "30800_3082_1".
+ column route_long_name
+Invalid value 国立病院線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330500_3095_1" and "330500_3096_1".
+ column route_long_name
+Invalid value 替道（桑野） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"83000_4552_1" and "83000_4526_1".
+ column route_long_name
+Invalid value 健康づくり財団線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"20300_2038_1" and "20300_2137_1".
+ column route_long_name
+Invalid value 半田山津高台線(臨時運行) in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"330000_3003_1" and "330000_3092_1".
+Trip 220_1102312_20190401 has 6 consecutive stop times all with the same
+arrival/departure time: 06:15:00.
+The shapes with the following shape_ids aren't used by any trips: 2_4044_1,
+2_2059_1, 2_2146_1, 2_3113_1, 2_2111_1, 2_2112_1
+ERROR: 1 error and 7 warnings found

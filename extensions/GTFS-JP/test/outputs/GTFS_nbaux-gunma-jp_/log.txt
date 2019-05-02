@@ -1,0 +1,143 @@
+validating inputs/GTFS(nbaux-gunma-jp).zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 南52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "155"
+and "153".
+ column route_long_name
+Invalid value 南52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "154"
+and "153".
+ column route_long_name
+Invalid value 南52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "117"
+and "153".
+ column route_long_name
+Invalid value 南52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "116"
+and "153".
+ column route_long_name
+Invalid value 北50 嶺公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "110"
+and "210".
+ column route_long_name
+Invalid value 北54 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "113"
+and "115".
+ column route_long_name
+Invalid value 北54 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "112"
+and "115".
+ column route_long_name
+Invalid value 北51 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "139"
+and "137".
+ column route_long_name
+Invalid value 北51 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "138"
+and "137".
+ column route_long_name
+Invalid value 庁52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "119"
+and "156".
+ column route_long_name
+Invalid value 南52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "118"
+and "153".
+ column route_long_name
+Invalid value 北51 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "237"
+and "137".
+ column route_long_name
+Invalid value 北50 嶺公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211"
+and "210".
+ column route_long_name
+Invalid value 南56 下川団地線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "128"
+and "130".
+ column route_long_name
+Invalid value 北53 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "144"
+and "146".
+ column route_long_name
+Invalid value 北53 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "145"
+and "146".
+ column route_long_name
+Invalid value 庁52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "141"
+and "156".
+ column route_long_name
+Invalid value 北52 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "148"
+and "158".
+ column route_long_name
+Invalid value 南52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121"
+and "153".
+ column route_long_name
+Invalid value 庁52 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "122"
+and "156".
+ column route_long_name
+Invalid value 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "123"
+and "142".
+ column route_long_name
+Invalid value 新町玉村線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "124"
+and "142".
+ column route_long_name
+Invalid value 庁53 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "247"
+and "147".
+ column route_long_name
+Invalid value 東57 東大室線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "108"
+and "104".
+ column route_long_name
+Invalid value 南56 下川団地線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "131"
+and "130".
+ column route_long_name
+Invalid value 東57 東大室線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "109"
+and "104".
+ column route_long_name
+Invalid value 北50 嶺公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "111"
+and "210".
+ column route_long_name
+Invalid value 北51 荻窪公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "239"
+and "137".
+feed validated successfully

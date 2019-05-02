@@ -1,0 +1,3 @@
+validating inputs/gtfs_owariasahi.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 2 errors found

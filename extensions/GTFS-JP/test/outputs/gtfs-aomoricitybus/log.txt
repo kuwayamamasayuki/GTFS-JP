@@ -1,0 +1,7 @@
+validating inputs/gtfs-aomoricitybus.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "月見野霊園" (ID 172_02) and "月見野霊園" (ID 172_01) are
+1.34m apart and probably represent the same location.
+The stops "新青森駅東口" (ID 831_01) and "新青森駅東口" (ID
+831_02) are 1.35m apart and probably represent the same location.
+ERROR: 53 warnings found

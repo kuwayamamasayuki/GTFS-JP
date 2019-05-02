@@ -1,0 +1,19 @@
+validating inputs/city_uozu_omotenashi_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+There are 69 consecutive days, from 2019-05-07 to 2019-07-14, without any
+scheduled service. Please ensure this is intentional.
+There are 26 consecutive days, from 2019-07-16 to 2019-08-10, without any
+scheduled service. Please ensure this is intentional.
+There are 34 consecutive days, from 2019-08-13 to 2019-09-15, without any
+scheduled service. Please ensure this is intentional.
+There are 20 consecutive days, from 2019-09-24 to 2019-10-13, without any
+scheduled service. Please ensure this is intentional.
+There are 18 consecutive days, from 2019-11-05 to 2019-11-22, without any
+scheduled service. Please ensure this is intentional.
+There are 37 consecutive days, from 2019-11-24 to 2019-12-30, without any
+scheduled service. Please ensure this is intentional.
+There are 28 consecutive days, from 2020-01-14 to 2020-02-10, without any
+scheduled service. Please ensure this is intentional.
+There are 37 consecutive days, from 2020-02-12 to 2020-03-19, without any
+scheduled service. Please ensure this is intentional.
+feed validated successfully

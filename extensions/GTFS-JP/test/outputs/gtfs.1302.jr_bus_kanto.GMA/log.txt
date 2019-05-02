@@ -1,0 +1,33 @@
+validating inputs/gtfs.1302.jr_bus_kanto.GMA.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 草津温泉～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R120"
+and "R121".
+ column route_long_name
+Invalid value 草津温泉～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R118"
+and "R121".
+ column route_long_name
+Invalid value 草津温泉～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R119"
+and "R121".
+ column route_long_name
+Invalid value 草津温泉～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R115"
+and "R121".
+ column route_long_name
+Invalid value 草津温泉～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R116"
+and "R121".
+ column route_long_name
+Invalid value 草津温泉～長野原草津口 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R117"
+and "R121".
+ERROR: 1 warning found

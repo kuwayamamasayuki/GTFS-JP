@@ -1,0 +1,543 @@
+validating inputs/wakayama.zip
+FeedValidator extension used: extensions.GTFS-JP
+布引南 (ID 26_3) isn't used in any trips
+布引南 (ID 26_4) isn't used in any trips
+長路 (ID 94_3) isn't used in any trips
+南海和歌山市駅 (ID 1_10) isn't used in any trips
+南海和歌山市駅 (ID 1_7) isn't used in any trips
+南海和歌山市駅 (ID 1_6) isn't used in any trips
+南海和歌山市駅 (ID 1_9) isn't used in any trips
+南海和歌山市駅 (ID 1_8) isn't used in any trips
+貴志 (ID 156_6) isn't used in any trips
+坂田 (ID 228_1) isn't used in any trips
+坂田 (ID 228_3) isn't used in any trips
+マリーナシティ (ID 57_3) isn't used in any trips
+The stops "公園前" (ID 7_0) and "公園前" (ID 7_1) are 0.00m apart and
+probably represent the same location.
+The stops "市役所前" (ID 8_0) and "市役所前" (ID 8_1) are 0.00m apart
+and probably represent the same location.
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1122_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_862_1" and "10000_271_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1221_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1192_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_171_1" and "2000_621_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_572_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1141_1" and "2000_621_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_761_1" and "8000_771_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_122_1" and "2000_621_1".
+ column route_long_name
+Invalid value 岡崎線【91,92,96】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"19000_261_1" and "19000_452_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_151_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_861_1" and "10000_271_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_571_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_632_1" and "2000_621_1".
+ column route_long_name
+Invalid value 楠見線【86,87,88】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"16000_232_1" and "16000_401_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1191_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1261_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_162_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_141_1" and "2000_621_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_1251_1" and "8000_771_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_622_1" and "2000_621_1".
+ column route_long_name
+Invalid value 岡崎線【91,92,96】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"19000_451_1" and "19000_452_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_172_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_712_1" and "10000_271_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1142_1" and "2000_621_1".
+ column route_long_name
+Invalid value 琴の浦線【47】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"6000_541_1" and "6000_542_1".
+ column route_long_name
+Invalid value 岡崎線【91,92,96】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"19000_481_1" and "19000_452_1".
+ column route_long_name
+Invalid value 楠見線【86,87,88】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"16000_242_1" and "16000_401_1".
+ column route_long_name
+Invalid value 楠見線【86,87,88】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"16000_231_1" and "16000_401_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1262_1" and "2000_621_1".
+ column route_long_name
+Invalid value 六十谷線【83,84】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"15000_651_1" and "15000_652_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_1152_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 坂田線【75,175】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"13000_282_1" and "13000_1101_1".
+ column route_long_name
+Invalid value 鳴神線【90,94】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"18000_251_1" and "18000_462_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_781_1" and "8000_771_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_1162_1" and "7000_1291_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_1172_1" and "10000_271_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_132_1" and "2000_621_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_131_1" and "2000_621_1".
+ column route_long_name
+Invalid value 六十谷線【83,84】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"15000_391_1" and "15000_652_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_581_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_182_1" and "2000_621_1".
+ column route_long_name
+Invalid value 鳴神線【90,94】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"18000_252_1" and "18000_462_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_1182_1" and "10000_271_1".
+ column route_long_name
+Invalid value 紀和線【65】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"9000_1241_1" and "9000_1242_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_662_1" and "7000_1291_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_971_1" and "8000_771_1".
+ column route_long_name
+Invalid value 和歌山大学連絡線【78,79】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"11000_1271_1" and "11000_981_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_711_1" and "10000_271_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1211_1" and "2000_621_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_582_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_1252_1" and "8000_771_1".
+ column route_long_name
+Invalid value 鳴神線【90,94】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"18000_461_1" and "18000_462_1".
+ column route_long_name
+Invalid value 和歌山大学連絡線【78,79】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"11000_982_1" and "11000_981_1".
+ column route_long_name
+Invalid value 岡崎線【91,92,96】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"19000_482_1" and "19000_452_1".
+ column route_long_name
+Invalid value 岡崎線【91,92,96】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"19000_262_1" and "19000_452_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_121_1" and "2000_621_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_762_1" and "8000_771_1".
+ column route_long_name
+Invalid value 和歌山大学連絡線【78,79】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"11000_1272_1" and "11000_981_1".
+ column route_long_name
+Invalid value 藤戸線【370,372】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"12000_821_1" and "12000_802_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_51_1" and "2000_621_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_1202_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_152_1" and "2000_621_1".
+ column route_long_name
+Invalid value 紀三井寺線【40,42,43,44】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"5000_1151_1" and "5000_1201_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1281_1" and "2000_621_1".
+ column route_long_name
+Invalid value 楠見線【86,87,88】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"16000_402_1" and "16000_401_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_52_1" and "2000_621_1".
+ column route_long_name
+Invalid value 坂田線【75,175】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"13000_281_1" and "13000_1101_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_601_1" and "7000_1291_1".
+ column route_long_name
+Invalid value 六十谷線【83,84】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"15000_392_1" and "15000_652_1".
+ column route_long_name
+Invalid value 市内雑賀崎循環線【30,33】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"3000_362_1" and "3000_361_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_272_1" and "10000_271_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1222_1" and "2000_621_1".
+ column route_long_name
+Invalid value 西浜新和歌浦線【35】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"4000_221_1" and "4000_222_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1121_1" and "2000_621_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_661_1" and "7000_1291_1".
+ column route_long_name
+Invalid value 藤戸線【370,372】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"12000_801_1" and "12000_802_1".
+ column route_long_name
+Invalid value 市内雑賀崎循環線【30,33】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"3000_331_1" and "3000_361_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_1212_1" and "2000_621_1".
+ column route_long_name
+Invalid value 湊線【60,61,62,160,161】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"8000_972_1" and "8000_771_1".
+ column route_long_name
+Invalid value 楠見線【86,87,88】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"16000_241_1" and "16000_401_1".
+ column route_long_name
+Invalid value 本町線【0】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"1000_61_1" and "1000_62_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_1171_1" and "10000_271_1".
+ column route_long_name
+Invalid value 坂田線【75,175】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"13000_1102_1" and "13000_1101_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_631_1" and "2000_621_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_1292_1" and "7000_1291_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_602_1" and "7000_1291_1".
+ column route_long_name
+Invalid value 本町線【0】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"1000_101_1" and "1000_62_1".
+ column route_long_name
+Invalid value 木の本線【76】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"14000_692_1" and "14000_691_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_161_1" and "2000_621_1".
+ column route_long_name
+Invalid value 藤戸線【370,372】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"12000_822_1" and "12000_802_1".
+ column route_long_name
+Invalid value 和歌山市内線【4-6,11-17,20-27,117,121,122】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"2000_142_1" and "2000_621_1".
+ column route_long_name
+Invalid value 市内雑賀崎循環線【30,33】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"3000_321_1" and "3000_361_1".
+ column route_long_name
+Invalid value 和歌山大学線【72,73,172,272,273】 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"10000_1181_1" and "10000_271_1".
+ column route_long_name
+Invalid value 栄谷線【89】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"17000_1052_1" and "17000_1051_1".
+ column route_long_name
+Invalid value 塩屋線【52,53,55,56】 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"7000_1161_1" and "7000_1291_1".
+The shapes with the following shape_ids aren't used by any trips: 1_371_1,
+1_271_1, 1_982_1, 1_1091_1, 1_782_1, 1_482_1, 1_181_1, 1_341_1, 1_52_1,
+1_1092_1, 1_592_1, 1_581_1, 1_302_1, 1_591_1, 1_582_1, 1_301_1, 1_1212_1,
+1_101_1, 1_711_1, 1_291_1, 1_372_1, 1_772_1, 1_292_1, 1_802_1, 1_242_1
+ERROR: 1 error found

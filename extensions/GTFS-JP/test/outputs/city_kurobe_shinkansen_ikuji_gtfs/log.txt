@@ -1,0 +1,3 @@
+validating inputs/city_kurobe_shinkansen_ikuji_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 1 error found

@@ -1,0 +1,13 @@
+validating inputs/GTFS(tamarin-gunma-jp).zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "五料(南)" (ID 07062_01) and "五料(南)" (ID 07062_02) are
+1.00m apart and probably represent the same location.
+The stops "五料公民館前" (ID 07061_02) and "五料公民館前" (ID
+07061_01) are 1.97m apart and probably represent the same location.
+The stops "角渕八幡宮東" (ID 07026_01) and "角渕八幡宮東" (ID
+07026_02) are 1.63m apart and probably represent the same location.
+The stops "角渕下之手" (ID 07025_02) and "角渕下之手" (ID 07025_01)
+are 1.97m apart and probably represent the same location.
+The stops "板井公民館" (ID 07040_01) and "板井公民館" (ID 07040_02)
+are 1.45m apart and probably represent the same location.
+feed validated successfully

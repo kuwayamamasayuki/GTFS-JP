@@ -1,0 +1,83 @@
+validating inputs/toyohashi_community_bus.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "ひがし循環器クリニック" (ID 114_01) and
+"ひがし循環器クリニック" (ID 114_02) are 0.37m apart and probably
+represent the same location.
+ column route_long_name
+Invalid value 「しおかぜバス」梅薮前芝線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "131001"
+and "132001".
+ column route_long_name
+Invalid value
+「柿の里バス」石巻西川・賀茂線、下条・森岡線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121002"
+and "121001".
+ column route_long_name
+Invalid value
+「柿の里バス」石巻西川・賀茂線、下条・森岡線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121003"
+and "121001".
+ column route_long_name
+Invalid value
+「柿の里バス」石巻西川・賀茂線、下条・森岡線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121004"
+and "121001".
+ column route_long_name
+Invalid value
+「柿の里バス」石巻西川・賀茂線、下条・森岡線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121005"
+and "121001".
+ column route_long_name
+Invalid value 「かわきたバス」 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "142002"
+and "142001".
+ column route_long_name
+Invalid value 「かわきたバス」 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "141002"
+and "142001".
+ column route_long_name
+Invalid value 「かわきたバス」 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "141003"
+and "142001".
+ column route_long_name
+Invalid value 「やまびこ号」東部東山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "111001"
+and "112001".
+ column route_long_name
+Invalid value 「かわきたバス」 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "141001"
+and "142001".
+ column route_long_name
+Invalid value
+「柿の里バス」石巻西川・賀茂線、下条・森岡線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "122001"
+and "121001".
+ column route_long_name
+Invalid value 「かわきたバス」 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "141004"
+and "142001".
+ column route_long_name
+Invalid value
+「柿の里バス」石巻西川・賀茂線、下条・森岡線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "122002"
+and "121001".
+ERROR: 1 error found

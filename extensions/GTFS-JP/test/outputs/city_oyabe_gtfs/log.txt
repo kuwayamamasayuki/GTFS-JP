@@ -1,0 +1,3 @@
+validating inputs/city_oyabe_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+feed validated successfully

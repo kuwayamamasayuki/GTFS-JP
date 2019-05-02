@@ -1,0 +1,151 @@
+validating inputs/gtfs.1026.isesakishi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 赤堀シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R023"
+and "R022".
+ column route_long_name
+Invalid value あずま・境連絡バス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value あずま・境連絡バス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 赤堀シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R021"
+and "R022".
+ column route_long_name
+Invalid value あずまシャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R003".
+ column route_long_name
+Invalid value あずまシャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R003".
+ column route_long_name
+Invalid value 南部シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R029"
+and "R028".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R033"
+and "R040".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R039"
+and "R040".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R038"
+and "R040".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R037"
+and "R040".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R036"
+and "R040".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R035"
+and "R040".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R034"
+and "R040".
+ column route_long_name
+Invalid value 境シャトル：公園行１便・４便 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R019"
+and "R020".
+ column route_long_name
+Invalid value 境シャトル：公園行１便・４便 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R018"
+and "R020".
+ column route_long_name
+Invalid value 南部シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R031"
+and "R028".
+ column route_long_name
+Invalid value 南部シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R030"
+and "R028".
+ column route_long_name
+Invalid value 境シャトル：ふるさと公園行２便 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R015".
+ column route_long_name
+Invalid value 境シャトル：ふるさと公園行３便 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R016"
+and "R017".
+ column route_long_name
+Invalid value 宮郷・名和連絡バス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R011".
+ column route_long_name
+Invalid value 境シャトル：ふるさと公園～病院 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R013".
+ column route_long_name
+Invalid value 東西シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R025"
+and "R024".
+ column route_long_name
+Invalid value 東西シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R026"
+and "R024".
+ column route_long_name
+Invalid value 東西シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R027"
+and "R024".
+ column route_long_name
+Invalid value 波志江・赤堀・あずま連絡バス in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R032"
+and "R040".
+ column route_long_name
+Invalid value あずまシャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R006"
+and "R003".
+ERROR: 1 warning found

@@ -1,0 +1,7 @@
+validating inputs/133.zip
+FeedValidator extension used: extensions.GTFS-JP
+田沼下町 (ID 24_2) is too far from its parent station 田沼下町 (ID 24)
+: 107.26 meters.
+田沼下町 (ID 24_1) is too far from its parent station 田沼下町 (ID 24)
+: 107.26 meters.
+feed validated successfully

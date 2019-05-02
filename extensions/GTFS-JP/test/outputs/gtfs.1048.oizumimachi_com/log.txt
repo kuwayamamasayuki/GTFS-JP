@@ -1,0 +1,18 @@
+validating inputs/gtfs.1048.oizumimachi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value ２／４大泉・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value １／３大泉・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R000".
+ column route_long_name
+Invalid value ２／４大泉・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ERROR: 1 warning found

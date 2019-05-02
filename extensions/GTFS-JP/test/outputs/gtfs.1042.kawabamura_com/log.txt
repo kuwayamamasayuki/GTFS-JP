@@ -1,0 +1,92 @@
+validating inputs/gtfs.1042.kawabamura_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "テラスぬまた・市役所前" (ID S00003AGC8000020104442H002)
+and "下之町" (ID S00004AGC8000020104442H002) are 0.00m apart and probably
+represent the same location.
+The stations "テラスぬまた・市役所前" (ID
+S00003AGC8000020104442T000) and "下之町" (ID S00004AGC8000020104442T000)
+are 0.00m apart and probably represent the same location.
+The stops "テラスぬまた・市役所前" (ID S00003AGC8000020104442H001)
+and "下之町" (ID S00004AGC8000020104442H001) are 0.00m apart and probably
+represent the same location.
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R016".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R006"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R015"
+and "R016".
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R016".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R008"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：生品先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R002".
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R011"
+and "R016".
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R016".
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R016".
+ column route_long_name
+Invalid value 川場循環線：立岩先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R016".
+ERROR: 1 warning found

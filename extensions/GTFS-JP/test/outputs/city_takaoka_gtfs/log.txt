@@ -1,0 +1,133 @@
+validating inputs/city_takaoka_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 06福祉バス線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"06_12_01" and "06_12_02".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_01_02" and "01_01_01".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_11_02" and "05_09_04".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_02_01" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_02_03" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_02_02" and "01_01_01".
+ column route_long_name
+Invalid value 04東廻循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"04_07_02" and "04_07_03".
+ column route_long_name
+Invalid value 04東廻循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"04_07_01" and "04_07_03".
+ column route_long_name
+Invalid value 04東廻循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"04_07_04" and "04_07_03".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_02_04" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_02_06" and "01_01_01".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_11_01" and "05_09_04".
+ column route_long_name
+Invalid value 02向野循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"02_04_02" and "02_04_01".
+ column route_long_name
+Invalid value 02向野循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"02_04_03" and "02_04_01".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_09_01" and "05_09_04".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_09_02" and "05_09_04".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_09_03" and "05_09_04".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_08_02" and "05_09_04".
+ column route_long_name
+Invalid value 05五位山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"05_08_01" and "05_09_04".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_13_01" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_03_04" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_03_02" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_03_03" and "01_01_01".
+ column route_long_name
+Invalid value 01花尾線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"01_03_01" and "01_01_01".
+ column route_long_name
+Invalid value 03南廻循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"03_06_03" and "03_05_01".
+ column route_long_name
+Invalid value 03南廻循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"03_06_01" and "03_05_01".
+ERROR: 1 error found

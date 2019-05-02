@@ -1,0 +1,15 @@
+validating inputs/gtfs.1017.yajima_taxi.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 太田駅南口～イオンモール太田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value ｏｔａ－ｃｉｔｙシャトル５００ in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R000".
+ERROR: 1 warning found

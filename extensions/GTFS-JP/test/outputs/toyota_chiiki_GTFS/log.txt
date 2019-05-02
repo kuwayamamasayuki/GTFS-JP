@@ -1,0 +1,339 @@
+validating inputs/toyota_chiiki_GTFS.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 藤岡地域ふじバス川口・飯野線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "622003"
+and "622001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス川口・飯野線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "622002"
+and "622001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "611002"
+and "611004".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "611003"
+and "611004".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "611001"
+and "611004".
+ column route_long_name
+Invalid value 旭コッキーバス生駒線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "751002"
+and "751001".
+ column route_long_name
+Invalid value 足助地域あいま～るgコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "852001"
+and "851001".
+ column route_long_name
+Invalid value 上郷地域にこにこバス末野原線左回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "712002"
+and "712001".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "451003"
+and "451002".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "451004"
+and "451002".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "451005"
+and "451002".
+ column route_long_name
+Invalid value 石野地域バス石野交流館コース左回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "562002"
+and "562001".
+ column route_long_name
+Invalid value 稲武地域どんぐりバス根羽線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "651001"
+and "651002".
+ column route_long_name
+Invalid value 足助地域あいま～るlコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "901001"
+and "902001".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線２ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "462001"
+and "461001".
+ column route_long_name
+Invalid value 稲武地域どんぐりバス根羽線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "652002"
+and "651002".
+ column route_long_name
+Invalid value 稲武地域どんぐりバス根羽線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "652001"
+and "651002".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "601002"
+and "601003".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "601001"
+and "601003".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "601004"
+and "601003".
+ column route_long_name
+Invalid value 足助地域あいま～るdコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "821001"
+and "822001".
+ column route_long_name
+Invalid value 石野地域バスつくばねコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "571001"
+and "572001".
+ column route_long_name
+Invalid value 足助地域あいま～るbコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "811001"
+and "812001".
+ column route_long_name
+Invalid value 松平ともえ号日明ジュリンナ線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "402001"
+and "401001".
+ column route_long_name
+Invalid value 稲武地域どんぐりバス押山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "661002"
+and "661001".
+ column route_long_name
+Invalid value 保見地域バス広幡・八草コース in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "502001"
+and "501001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "602002"
+and "601003".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "602003"
+and "601003".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "602001"
+and "601003".
+ column route_long_name
+Invalid value 藤岡地域ふじバス三箇線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "602004"
+and "601003".
+ column route_long_name
+Invalid value 石野地域バス石野交流館コース右回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "561002"
+and "561001".
+ column route_long_name
+Invalid value 松平ともえ号滝脇ｊａ松平線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "422001"
+and "421001".
+ column route_long_name
+Invalid value 上郷地域にこにこバス上郷線右回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "721003"
+and "721002".
+ column route_long_name
+Invalid value 上郷地域にこにこバス上郷線右回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "721001"
+and "721002".
+ column route_long_name
+Invalid value 足助地域あいま～るjコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "882001"
+and "881001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス川口・飯野線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "621004"
+and "622001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス川口・飯野線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "621001"
+and "622001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス川口・飯野線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "621003"
+and "622001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス川口・飯野線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "621002"
+and "622001".
+ column route_long_name
+Invalid value 足助地域あいま～るａコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "801001"
+and "802001".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "451001"
+and "451002".
+ column route_long_name
+Invalid value 上郷地域にこにこバス上郷線左回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "722001"
+and "722002".
+ column route_long_name
+Invalid value 水源東バス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "491001"
+and "492001".
+ column route_long_name
+Invalid value 水源東バス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "491002"
+and "492001".
+ column route_long_name
+Invalid value 旭コッキーバス築羽線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "771001"
+and "771002".
+ column route_long_name
+Invalid value 保見地域バス田籾コース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "511001"
+and "512001".
+ column route_long_name
+Invalid value 足助地域あいま～るfコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "841001"
+and "842001".
+ column route_long_name
+Invalid value 足助地域あいま～るmコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "911001"
+and "912001".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "612004"
+and "611004".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "612003"
+and "611004".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "612002"
+and "611004".
+ column route_long_name
+Invalid value 藤岡地域ふじバス西市野々線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "612001"
+and "611004".
+ column route_long_name
+Invalid value 足助地域あいま～るkコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "892001"
+and "891001".
+ column route_long_name
+Invalid value 稲武地域どんぐりバス押山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "662001"
+and "661001".
+ column route_long_name
+Invalid value 稲武地域どんぐりバス押山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "662002"
+and "661001".
+ column route_long_name
+Invalid value 足助地域あいま～るhコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "862001"
+and "861001".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "452004"
+and "451002".
+ column route_long_name
+Invalid value 足助地域あいま～るiコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "872001"
+and "871001".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "452001"
+and "451002".
+ column route_long_name
+Invalid value 松平ともえ号松平東照宮そだめ線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "411001"
+and "412001".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "452003"
+and "451002".
+ column route_long_name
+Invalid value 高岡ふれあいバス路線１ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "452002"
+and "451002".
+ column route_long_name
+Invalid value 上郷地域にこにこバス末野原線右回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "711002"
+and "711001".
+ column route_long_name
+Invalid value 足助地域あいま～るeコース in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "831001"
+and "832001".
+feed validated successfully

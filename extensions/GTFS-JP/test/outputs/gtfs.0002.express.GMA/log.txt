@@ -1,0 +1,515 @@
+validating inputs/gtfs.0002.express.GMA.zip
+FeedValidator extension used: extensions.GTFS-JP
+There are 24 consecutive days, from 2020-03-31 to 2020-04-23, without any
+scheduled service. Please ensure this is intentional.
+中之条駅入口（関越交通おりば） (ID S01724AGCH004) is too far
+from its parent station 中之条駅入口 (ID S01724AGCT000) : 252.48 meters.
+中之条駅入口（関越交通のりば） (ID S01724AGCH003) is too far
+from its parent station 中之条駅入口 (ID S01724AGCT000) : 263.87 meters.
+中之条駅入口（おりば） (ID S01724AGCH002) is too far from its
+parent station 中之条駅入口 (ID S01724AGCT000) : 266.26 meters.
+中之条駅入口（のりば） (ID S01724AGCH001) is too far from its
+parent station 中之条駅入口 (ID S01724AGCT000) : 258.33 meters.
+東部湯の丸（のりば） (ID S01910AGCH001) is too far from its parent
+station 東部湯の丸 (ID S01910AGCT000) : 100.22 meters.
+軽井沢駅（使わない） (ID S00593AGCH001) is too far from its parent
+station 軽井沢駅 (ID S00593AGCT000) : 111.07 meters.
+東京駅（６番のりば） (ID S04466AGCH001) is too far from its parent
+station 東京駅 (ID S04466AGCT000) : 184.48 meters.
+東京駅（関越交通共通） (ID S04466AGCH003) is too far from its
+parent station 東京駅 (ID S04466AGCT000) : 202.02 meters.
+東京駅（ＪＲバス関東おりば） (ID S04466AGCH002) is too far from
+its parent station 東京駅 (ID S04466AGCT000) : 289.34 meters.
+伊勢崎まちかどステーション広瀬（のりば） (ID
+S02636AGCH001) is too far from its parent station
+伊勢崎まちかどステーション広瀬 (ID S02636AGCT000) : 124.31
+meters.
+伊勢崎まちかどステーション広瀬（おりば） (ID
+S02636AGCH002) is too far from its parent station
+伊勢崎まちかどステーション広瀬 (ID S02636AGCT000) : 124.31
+meters.
+The stops "バスタ新宿（４Ｆのりば）" (ID S03879AGCH001) and
+"バスタ新宿（３Ｆおりば）" (ID S03879AGCH002) are 0.00m apart and
+probably represent the same location.
+The stops "練馬駅（のりば）" (ID S02537AGCH001) and
+"練馬区役所前（のりば）" (ID S02610AGCH001) are 0.00m apart and
+probably represent the same location.
+The stations "練馬駅" (ID S02537AGCT000) and "練馬区役所前" (ID
+S02610AGCT000) are 0.00m apart and probably represent the same location.
+The stops "練馬駅（おりば）" (ID S02537AGCH002) and
+"練馬区役所前（おりば）" (ID S02610AGCH002) are 0.00m apart and
+probably represent the same location.
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3001"
+and "R3000".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5131"
+and "R5130".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5258"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5253"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5252"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5255"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5254"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5257"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5256"
+and "R5259".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3029"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3021"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3022"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3023"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3024"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3025"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3026"
+and "R3028".
+ column route_long_name
+Invalid value 池袋～上田 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3027"
+and "R3028".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1022"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1023"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1020"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1021"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1026"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1027"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1024"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1025"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1028"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1029"
+and "R1030".
+ column route_long_name
+Invalid value 東京～四万温泉 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3426"
+and "R3425".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2997"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2996"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2995"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2994"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2993"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2992"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2991"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2990"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2999"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2998"
+and "R3000".
+ column route_long_name
+Invalid value 横川～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R112"
+and "R111".
+ column route_long_name
+Invalid value 新宿・川越～上毛・水上 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5275"
+and "R5276".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1019"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1018"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1017"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1016"
+and "R1030".
+ column route_long_name
+Invalid value 渋谷～軽井沢・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1015"
+and "R1030".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2982"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2983"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2984"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2985"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2986"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2987"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2988"
+and "R3000".
+ column route_long_name
+Invalid value 池袋～軽井沢 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R2989"
+and "R3000".
+ column route_long_name
+Invalid value 渋川・前橋・高崎～河口湖 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5188"
+and "R5189".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5260"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5261"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5262"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5263"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5264"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5265"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～尾瀬 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5266"
+and "R5259".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1163"
+and "R1168".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1162"
+and "R1168".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1161"
+and "R1168".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1167"
+and "R1168".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1166"
+and "R1168".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1165"
+and "R1168".
+ column route_long_name
+Invalid value 新宿～伊香保・草津 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1164"
+and "R1168".
+ column route_long_name
+Invalid value 渋川・前橋・高崎～河口湖 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5190"
+and "R5189".
+ column route_long_name
+Invalid value 渋川・前橋・高崎～河口湖 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5191"
+and "R5189".
+ column route_long_name
+Invalid value 越谷・川越～伊香保・四万温泉 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5215"
+and "R5214".
+ column route_long_name
+Invalid value 越谷・川越～伊香保・四万温泉 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5217"
+and "R5214".
+ column route_long_name
+Invalid value 越谷・川越～伊香保・四万温泉 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5216"
+and "R5214".
+ column route_long_name
+Invalid value 東京～草津温泉：ｍｅ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R6428"
+and "R6429".
+ column route_long_name
+Invalid value 新宿～本庄・伊勢崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1660"
+and "R1659".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5118"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5119"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5116"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5117"
+and "R5130".
+ column route_long_name
+Invalid value 池袋～佐久 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3012"
+and "R3013".
+ column route_long_name
+Invalid value 池袋～佐久 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3015"
+and "R3013".
+ column route_long_name
+Invalid value 池袋～佐久 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3014"
+and "R3013".
+ column route_long_name
+Invalid value 池袋～小諸 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3019"
+and "R3020".
+ column route_long_name
+Invalid value 池袋～小諸 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R3018"
+and "R3020".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5129"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5128"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5123"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5122"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5121"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5120"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5127"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5126"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5125"
+and "R5130".
+ column route_long_name
+Invalid value 軽井沢～横川：熊ノ平 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R5124"
+and "R5130".
+ERROR: 110 errors and 19 warnings found

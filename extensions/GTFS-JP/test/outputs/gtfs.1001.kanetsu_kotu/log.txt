@@ -1,0 +1,1005 @@
+validating inputs/gtfs.1001.kanetsu_kotu.zip
+FeedValidator extension used: extensions.GTFS-JP
+国領町一丁目 (ID S00446AGC9070001018357H001) is too far from its parent
+station 国領町一丁目 (ID S00446AGC9070001018357T000) : 100.92 meters.
+長塚町 (ID S00188AGC9070001018357H002) is too far from its parent station
+長塚町 (ID S00188AGC9070001018357T000) : 111.00 meters.
+長塚町 (ID S00188AGC9070001018357H001) is too far from its parent station
+長塚町 (ID S00188AGC9070001018357T000) : 111.00 meters.
+渋川四ツ角 (ID S00028AGC9070001018357H001) is too far from its parent
+station 渋川四ツ角 (ID S00028AGC9070001018357T000) : 137.58 meters.
+住吉町交番前 (ID S00284AGC9070001018357H001) is too far from its parent
+station 住吉町交番前 (ID S00284AGC9070001018357T000) : 108.01 meters.
+見晴下 (ID S00009AGC9070001018357H003) is too far from its parent station
+見晴下 (ID S00009AGC9070001018357T000) : 103.32 meters.
+国領町一丁目 (ID S00446AGC9070001018357H002) is too far from its parent
+station 国領町一丁目 (ID S00446AGC9070001018357T000) : 100.92 meters.
+The stops "グリーンドーム前橋" (ID S00280AGC9070001018357H001) and
+"前橋公園" (ID S00444AGC9070001018357H001) are 0.00m apart and probably
+represent the same location.
+The parent_station of stop "前橋公園" (ID S00444AGC9070001018357H001) is
+not station "グリーンドーム前橋" (ID S00280AGC9070001018357T000) but
+they are only 0.00m apart.
+The stops "テラスぬまた・市役所前［沼田］" (ID
+S00186AGC9070001018357H002) and "下之町［沼田市］" (ID
+S00187AGC9070001018357H002) are 0.00m apart and probably represent the same
+location.
+The stations "テラスぬまた・市役所前［沼田］" (ID
+S00186AGC9070001018357T000) and "下之町［沼田市］" (ID
+S00187AGC9070001018357T000) are 0.00m apart and probably represent the same
+location.
+The stops "テラスぬまた・市役所前［沼田］" (ID
+S00186AGC9070001018357H001) and "下之町［沼田市］" (ID
+S00187AGC9070001018357H001) are 0.00m apart and probably represent the same
+location.
+The stops "沼田市中央公民館前" (ID S00095AGC9070001018357H002) and
+"市役所前［沼田市］" (ID S00096AGC9070001018357H002) are 0.00m apart
+and probably represent the same location.
+The stations "沼田市中央公民館前" (ID S00095AGC9070001018357T000) and
+"市役所前［沼田市］" (ID S00096AGC9070001018357T000) are 0.00m apart
+and probably represent the same location.
+The stops "沼田市中央公民館前" (ID S00095AGC9070001018357H001) and
+"市役所前［沼田市］" (ID S00096AGC9070001018357H001) are 0.00m apart
+and probably represent the same location.
+The stops "十王公園入口" (ID S00101AGC9070001018357H001) and
+"国立病院入口" (ID S00102AGC9070001018357H001) are 0.00m apart and
+probably represent the same location.
+The stations "十王公園入口" (ID S00101AGC9070001018357T000) and
+"国立病院入口" (ID S00102AGC9070001018357T000) are 0.00m apart and
+probably represent the same location.
+The stops "十王公園入口" (ID S00101AGC9070001018357H002) and
+"国立病院入口" (ID S00102AGC9070001018357H002) are 0.00m apart and
+probably represent the same location.
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R069"
+and "R068".
+ column route_long_name
+Invalid value 赤城山線：前橋～富士見～赤城山 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R144"
+and "R145".
+ column route_long_name
+Invalid value 赤城山線：前橋～富士見～赤城山 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R143"
+and "R145".
+ column route_long_name
+Invalid value 赤城山線：前橋～富士見～赤城山 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R142"
+and "R145".
+ column route_long_name
+Invalid value 赤城山線：前橋～富士見～赤城山 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R141"
+and "R145".
+ column route_long_name
+Invalid value 赤城山線：前橋～富士見～赤城山 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R140"
+and "R145".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R060"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R061"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R062"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R063"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R064"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R065"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R066"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R067"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R095"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R094"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R097"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R096"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R091"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R090"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R093"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R092"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R099"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R098"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R079"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R078"
+and "R068".
+ column route_long_name
+Invalid value 前橋線：前橋駅～医療センター in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R176"
+and "R173".
+ column route_long_name
+Invalid value 前橋線：前橋駅～渋川駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R177"
+and "R179".
+ column route_long_name
+Invalid value 前橋線：前橋駅～医療センター in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R174"
+and "R173".
+ column route_long_name
+Invalid value 前橋線：前橋駅～医療センター in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R175"
+and "R173".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R073"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R072"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R071"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R070"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R077"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R076"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R075"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R074"
+and "R068".
+ column route_long_name
+Invalid value 赤城山線：富士見温泉～前橋 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R146"
+and "R147".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R108"
+and "R109".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R046"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R047"
+and "R068".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R045"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R042"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R043"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R040"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R041"
+and "R044".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R048"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R049"
+and "R068".
+ column route_long_name
+Invalid value 日光・かたしなエクスプレス号 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R203"
+and "R205".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R168"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R165"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R164"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R167"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R166"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R161"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R160"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R163"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R162"
+and "R169".
+ column route_long_name
+Invalid value 日光・かたしなエクスプレス号 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R206"
+and "R205".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R107"
+and "R109".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R106"
+and "R109".
+ column route_long_name
+Invalid value 鳩待峠行バス連絡所～湯元温泉線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R208"
+and "R207".
+ column route_long_name
+Invalid value 赤城山線：富士見温泉～前橋 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R149"
+and "R147".
+ column route_long_name
+Invalid value 鳩待峠行バス連絡所～湯元温泉線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R209"
+and "R207".
+ column route_long_name
+Invalid value 赤城山線：富士見温泉～前橋 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R148"
+and "R147".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R051"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R050"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R053"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R052"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R055"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R054"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R057"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R056"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R059"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R058"
+and "R068".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R119"
+and "R118".
+ column route_long_name
+Invalid value 前橋線：前橋駅～渋川駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R178"
+and "R179".
+ column route_long_name
+Invalid value 四万温泉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R111"
+and "R110".
+ column route_long_name
+Invalid value 四万温泉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R112"
+and "R110".
+ column route_long_name
+Invalid value 四万温泉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R113"
+and "R110".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R114"
+and "R118".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R115"
+and "R118".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R116"
+and "R118".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R117"
+and "R118".
+ column route_long_name
+Invalid value 日光・かたしなエクスプレス号 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R204"
+and "R205".
+ column route_long_name
+Invalid value 赤城自然園シャトルバス in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R151"
+and "R150".
+ column route_long_name
+Invalid value 鳩待峠行バス連絡所～湯元温泉線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R212"
+and "R207".
+ column route_long_name
+Invalid value 鳩待峠行バス連絡所～湯元温泉線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R211"
+and "R207".
+ column route_long_name
+Invalid value 鳩待峠行バス連絡所～湯元温泉線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R210"
+and "R207".
+ column route_long_name
+Invalid value 緑が丘線：前橋駅～総合ｓｃ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R216"
+and "R217".
+ column route_long_name
+Invalid value 緑が丘線：前橋駅～総合ｓｃ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R215"
+and "R217".
+ column route_long_name
+Invalid value 鳩待峠線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R214"
+and "R213".
+ column route_long_name
+Invalid value 緑が丘線：前橋駅～総合ｓｃ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R219"
+and "R217".
+ column route_long_name
+Invalid value 緑が丘線：前橋駅～総合ｓｃ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R218"
+and "R217".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R025"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R026"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R027"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R020"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R021"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R022"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R023"
+and "R024".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R103"
+and "R109".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R102"
+and "R109".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R101"
+and "R109".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R100"
+and "R109".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R028"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R029"
+and "R024".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R105"
+and "R109".
+ column route_long_name
+Invalid value 高崎線：渋川駅～高崎 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R104"
+and "R109".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R191"
+and "R200".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R158"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R159"
+and "R169".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R190"
+and "R200".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R192"
+and "R200".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R193"
+and "R200".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R194"
+and "R200".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R195"
+and "R200".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R196"
+and "R200".
+ column route_long_name
+Invalid value 水上線：谷川岳ｒｗ～上毛駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R128"
+and "R129".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R198"
+and "R200".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R199"
+and "R200".
+ column route_long_name
+Invalid value 赤城山線：前橋～赤城山 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R137"
+and "R136".
+ column route_long_name
+Invalid value 水上線：湯の小屋～水上駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R132"
+and "R134".
+ column route_long_name
+Invalid value 水上線：湯の小屋～水上駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R133"
+and "R134".
+ column route_long_name
+Invalid value 水上線：谷川岳ｒｗ～上毛駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R130"
+and "R129".
+ column route_long_name
+Invalid value 水上線：湯の小屋～水上駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R131"
+and "R134".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R197"
+and "R200".
+ column route_long_name
+Invalid value 赤城山線：前橋～赤城山 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R138"
+and "R136".
+ column route_long_name
+Invalid value 赤城山線：前橋～赤城山 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R139"
+and "R136".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R037"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R036"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R035"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R034"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：蟹枠団地経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R032"
+and "R033".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R031"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R030"
+and "R024".
+ column route_long_name
+Invalid value 南橘団地線：前橋駅～群馬大学 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R201"
+and "R200".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R039"
+and "R044".
+ column route_long_name
+Invalid value 猿ヶ京線：矢瀬遺跡経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R038"
+and "R044".
+ column route_long_name
+Invalid value 前橋線：前橋駅～前橋営業所 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R181"
+and "R182".
+ column route_long_name
+Invalid value 前橋線：前橋駅～渋川駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R180"
+and "R179".
+ column route_long_name
+Invalid value 沢渡線：山田経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R186"
+and "R187".
+ column route_long_name
+Invalid value 前橋線：前橋行循環 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R185"
+and "R183".
+ column route_long_name
+Invalid value 前橋線：前橋行循環 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R184"
+and "R183".
+ column route_long_name
+Invalid value 沢渡線：上之町経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R188"
+and "R189".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R121"
+and "R118".
+ column route_long_name
+Invalid value 沼田駅～関越道～群大病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R120"
+and "R118".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R088"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R089"
+and "R068".
+ column route_long_name
+Invalid value 水上線：谷川岳ｒｗ～上毛駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R125"
+and "R129".
+ column route_long_name
+Invalid value 水上線：谷川岳ｒｗ～上毛駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R127"
+and "R129".
+ column route_long_name
+Invalid value 水上線：谷川岳ｒｗ～上毛駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R126"
+and "R129".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R082"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R083"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R080"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R081"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R086"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R087"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R084"
+and "R068".
+ column route_long_name
+Invalid value 鎌田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R085"
+and "R068".
+ column route_long_name
+Invalid value たんばらラベンダーパーク線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value たんばらラベンダーパーク線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value たんばらラベンダーパーク線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 伊香保線：ｓｌｐ経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R006".
+ column route_long_name
+Invalid value たんばらラベンダーパーク線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ column route_long_name
+Invalid value たんばらラベンダーパーク線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R002".
+ column route_long_name
+Invalid value 伊香保線：高校～渋川駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R008".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R154"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R155"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R156"
+and "R169".
+ column route_long_name
+Invalid value 前橋公園線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R157"
+and "R169".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R019"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R018"
+and "R024".
+ column route_long_name
+Invalid value 赤城青年の家循環線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R153"
+and "R152".
+ column route_long_name
+Invalid value 伊香保線：女子高経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R015".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：佛光山法水寺経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R016"
+and "R024".
+ column route_long_name
+Invalid value 伊香保線：女子高経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R011"
+and "R015".
+ column route_long_name
+Invalid value 伊香保線：女子高経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R015".
+ column route_long_name
+Invalid value 伊香保線：女子高経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R015".
+ column route_long_name
+Invalid value 伊香保線：女子高経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R015".
+ column route_long_name
+Invalid value 前橋線：渋川行循環 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R170"
+and "R172".
+ column route_long_name
+Invalid value 前橋線：渋川行循環 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R171"
+and "R172".
+ column route_long_name
+Invalid value 新前橋線：群大附属小経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R122"
+and "R123".
+ERROR: 16 warnings found

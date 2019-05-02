@@ -1,0 +1,553 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FeedValidator: gtfs.0002.express.GMA.zip</title>
+<style>
+body {font-family: Georgia, serif; background-color: white}
+.path {color: gray}
+div.problem {max-width: 500px}
+table.dump td,th {background-color: khaki; padding: 2px; font-family:monospace}
+table.dump td.problem,th.problem {background-color: dc143c; color: white; padding: 2px; font-family:monospace}
+table.count_outside td {vertical-align: top}
+table.count_outside {border-spacing: 0px; }
+table {border-spacing: 5px 0px; margin-top: 3px}
+h3.issueHeader {padding-left: 0.5em}
+h4.issueHeader {padding-left: 1em}
+.pass {background-color: lightgreen}
+.fail {background-color: yellow}
+.notice {background-color: yellow}
+.pass, .fail {font-size: 16pt}
+.header {background-color: white; font-family: Georgia, serif; padding: 0px}
+th.header {text-align: right; font-weight: normal; color: gray}
+.footer {font-size: 10pt}
+</style>
+</head>
+<body>
+GTFS validation results for feed:<br>
+<code><span class="path">inputs/</span><b>gtfs.0002.express.GMA.zip</b></code><br>
+FeedValidator extension used: extensions.GTFS-JP
+<br><br>
+<table>
+<tr><th class="header">Agencies:</th><td class="header"><a href="https://gma.jcld.jp/GMA_OPENDATA/">高速バス【群馬】</a></td></tr>
+<tr><th class="header">Routes:</th><td class="header">109</td></tr>
+<tr><th class="header">Stops:</th><td class="header">234</td></tr>
+<tr><th class="header">Trips:</th><td class="header">220</td></tr>
+<tr><th class="header">Shapes:</th><td class="header">0</td></tr>
+<tr><th class="header">Effective:</th><td class="header">April 24, 2019 to April 24, 2020</td></tr>
+</table>
+<br>
+During the upcoming service dates Thu May 02 to Sun Jun 30:
+<table>
+<tr><th class="header">Average trips per date:</th><td class="header">108</td></tr>
+<tr><th class="header">Most trips on a date:</th><td class="header">112, on 19 service dates (Thu May 02, Fri May 03, Sat May 04, ...)</td></tr>
+<tr><th class="header">Least trips on a date:</th><td class="header">102, on 8 service dates (Tue May 07, Wed May 08, Thu May 09, ...)</td></tr>
+</table>
+<br>
+<span class="fail">Found these problems:</span>
+<table class="count_outside">
+<tr><td><span class="fail">110 errors</span></td><td><span class="fail">19 warnings</span></td></tr>
+<tr><td>
+<table><tr><td>110</td><td><a href="#ErrorMissingValue">Missing Values</a></td></tr>
+</table>
+</td>
+<td>
+<table><tr><td>18</td><td><a href="#WarningOtherProblem">Other Problems</a></td></tr>
+<tr><td>1</td><td><a href="#WarningUnrecognizedColumn">Unrecognized Column</a></td></tr>
+</table>
+</td>
+</table>
+<br><br>
+<h3 class="issueHeader">Errors:</h3><h4 class="issueHeader"><a name="ErrorMissingValue">Missing Value</a></h4><ul>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 2 of <code>agency.txt</code><br>
+<table class="dump"><tr><th class="problem">agency_id</th><th>agency_name</th><th>agency_url</th><th>agency_timezone</th><th>agency_lang</th><th>agency_phone</th><th>agency_fare_url</th><th>agency_email</th></tr>
+<tr><td class="problem"></td><td>高速バス【群馬】</td><td>https://gma.jcld.jp/GMA_OPENDATA/</td><td>Asia/Tokyo</td><td>ja</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 2 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R111</td><td class="problem"></td><td></td><td>横川～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>横川～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 3 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R112</td><td class="problem"></td><td></td><td>横川～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>横川～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 4 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1015</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 5 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1016</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 6 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1017</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 7 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1018</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 8 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1019</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 9 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1020</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 10 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1021</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 11 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1022</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 12 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1023</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 13 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1024</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 14 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1025</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 15 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1026</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 16 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1027</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 17 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1028</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 18 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1029</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 19 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1030</td><td class="problem"></td><td></td><td>渋谷～軽井沢・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>渋谷～軽井沢・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 20 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1161</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 21 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1162</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 22 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1163</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 23 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1164</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 24 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1165</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 25 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1166</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 26 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1167</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 27 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1168</td><td class="problem"></td><td></td><td>新宿～伊香保・草津</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～伊香保・草津</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 28 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1659</td><td class="problem"></td><td></td><td>新宿～本庄・伊勢崎</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～本庄・伊勢崎</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 29 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R1660</td><td class="problem"></td><td></td><td>新宿～本庄・伊勢崎</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～本庄・伊勢崎</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 30 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2982</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 31 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2983</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 32 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2984</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 33 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2985</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 34 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2986</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 35 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2987</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 36 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2988</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 37 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2989</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 38 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2990</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 39 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2991</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 40 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2992</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 41 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2993</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 42 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2994</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 43 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2995</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 44 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2996</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 45 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2997</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 46 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2998</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 47 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R2999</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 48 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3000</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 49 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3001</td><td class="problem"></td><td></td><td>池袋～軽井沢</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～軽井沢</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 50 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3012</td><td class="problem"></td><td></td><td>池袋～佐久</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～佐久</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 51 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3013</td><td class="problem"></td><td></td><td>池袋～佐久</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～佐久</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 52 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3014</td><td class="problem"></td><td></td><td>池袋～佐久</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～佐久</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 53 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3015</td><td class="problem"></td><td></td><td>池袋～佐久</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～佐久</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 54 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3018</td><td class="problem"></td><td></td><td>池袋～小諸</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～小諸</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 55 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3019</td><td class="problem"></td><td></td><td>池袋～小諸</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～小諸</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 56 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3020</td><td class="problem"></td><td></td><td>池袋～小諸</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～小諸</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 57 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3021</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 58 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3022</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 59 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3023</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 60 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3024</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 61 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3025</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 62 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3026</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 63 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3027</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 64 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3028</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 65 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3029</td><td class="problem"></td><td></td><td>池袋～上田</td><td></td><td>3</td><td></td><td></td><td></td><td>池袋～上田</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 66 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3425</td><td class="problem"></td><td></td><td>東京～四万温泉</td><td></td><td>3</td><td></td><td></td><td></td><td>東京～四万温泉</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 67 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R3426</td><td class="problem"></td><td></td><td>東京～四万温泉</td><td></td><td>3</td><td></td><td></td><td></td><td>東京～四万温泉</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 68 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5116</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 69 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5117</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 70 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5118</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 71 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5119</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 72 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5120</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 73 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5121</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 74 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5122</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 75 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5123</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 76 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5124</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 77 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5125</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 78 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5126</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 79 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5127</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 80 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5128</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 81 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5129</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 82 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5130</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 83 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5131</td><td class="problem"></td><td></td><td>軽井沢～横川：熊ノ平</td><td></td><td>3</td><td></td><td></td><td></td><td>軽井沢～横川：熊ノ平</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 84 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5188</td><td class="problem"></td><td></td><td>渋川・前橋・高崎～河口湖</td><td></td><td>3</td><td></td><td></td><td></td><td>渋川・前橋・高崎～河口湖</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 85 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5189</td><td class="problem"></td><td></td><td>渋川・前橋・高崎～河口湖</td><td></td><td>3</td><td></td><td></td><td></td><td>渋川・前橋・高崎～河口湖</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 86 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5190</td><td class="problem"></td><td></td><td>渋川・前橋・高崎～河口湖</td><td></td><td>3</td><td></td><td></td><td></td><td>渋川・前橋・高崎～河口湖</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 87 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5191</td><td class="problem"></td><td></td><td>渋川・前橋・高崎～河口湖</td><td></td><td>3</td><td></td><td></td><td></td><td>渋川・前橋・高崎～河口湖</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 88 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5214</td><td class="problem"></td><td></td><td>越谷・川越～伊香保・四万温泉</td><td></td><td>3</td><td></td><td></td><td></td><td>越谷・川越～伊香保・四万温泉</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 89 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5215</td><td class="problem"></td><td></td><td>越谷・川越～伊香保・四万温泉</td><td></td><td>3</td><td></td><td></td><td></td><td>越谷・川越～伊香保・四万温泉</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 90 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5216</td><td class="problem"></td><td></td><td>越谷・川越～伊香保・四万温泉</td><td></td><td>3</td><td></td><td></td><td></td><td>越谷・川越～伊香保・四万温泉</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 91 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5217</td><td class="problem"></td><td></td><td>越谷・川越～伊香保・四万温泉</td><td></td><td>3</td><td></td><td></td><td></td><td>越谷・川越～伊香保・四万温泉</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 92 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5252</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 93 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5253</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 94 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5254</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 95 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5255</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 96 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5256</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 97 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5257</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 98 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5258</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 99 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5259</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 100 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5260</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 101 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5261</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 102 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5262</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 103 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5263</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 104 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5264</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 105 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5265</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 106 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5266</td><td class="problem"></td><td></td><td>新宿～尾瀬</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿～尾瀬</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 107 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5275</td><td class="problem"></td><td></td><td>新宿・川越～上毛・水上</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿・川越～上毛・水上</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 108 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R5276</td><td class="problem"></td><td></td><td>新宿・川越～上毛・水上</td><td></td><td>3</td><td></td><td></td><td></td><td>新宿・川越～上毛・水上</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 109 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R6428</td><td class="problem"></td><td></td><td>東京～草津温泉：ＭＥ</td><td></td><td>3</td><td></td><td></td><td></td><td>東京～草津温泉：ＭＥ</td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>agency_id</code></div>in line 110 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th class="problem">agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>R6429</td><td class="problem"></td><td></td><td>東京～草津温泉：ＭＥ</td><td></td><td>3</td><td></td><td></td><td></td><td>東京～草津温泉：ＭＥ</td></tr></table>
+<br></li>
+</ul>
+<h3 class="issueHeader">Warnings:</h3><h4 class="issueHeader"><a name="WarningOtherProblem">Other Problem</a></h4><ul>
+<li><div class="problem">Service period with service_id "1325" doesn't have service on any days of the week.</div>in line 25 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2432" doesn't have service on any days of the week.</div>in line 50 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2408" doesn't have service on any days of the week.</div>in line 49 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2406" doesn't have service on any days of the week.</div>in line 47 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2320" doesn't have service on any days of the week.</div>in line 35 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2403" doesn't have service on any days of the week.</div>in line 45 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2404" doesn't have service on any days of the week.</div>in line 46 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2400" doesn't have service on any days of the week.</div>in line 42 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "1294" doesn't have service on any days of the week.</div>in line 18 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "1295" doesn't have service on any days of the week.</div>in line 19 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2244" doesn't have service on any days of the week.</div>in line 28 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2396" doesn't have service on any days of the week.</div>in line 39 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2394" doesn't have service on any days of the week.</div>in line 37 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2395" doesn't have service on any days of the week.</div>in line 38 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2242" doesn't have service on any days of the week.</div>in line 26 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2246" doesn't have service on any days of the week.</div>in line 30 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2398" doesn't have service on any days of the week.</div>in line 40 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "2248" doesn't have service on any days of the week.</div>in line 32 of <code>calendar.txt</code><br>
+<br></li>
+</ul>
+<h4 class="issueHeader"><a name="WarningUnrecognizedColumn">Unrecognized Column</a></h4><ul>
+<li><div class="problem">Unrecognized column <code>agency_offilcal_name</code> in file <code>agency_jp.txt</code>. This might be a misspelled column name (capitalization matters!). Or it could be extra information (such as a proposed feed extension) that the validator doesn't know about yet. Extra information is fine; this warning is here to catch misspelled optional column names.</div>in line 1 of <code>agency_jp.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th class="problem">agency_offilcal_name</th><th>agency_zip_number</th><th>agency_address</th><th>agency_president_pos</th><th>agency_president_name</th></tr>
+<tr><td></td><td class="problem"></td><td></td><td></td><td></td><td></td></tr></table>
+<br></li>
+</ul>
+
+<div class="footer">
+Generated by <a href="https://github.com/google/transitfeed/wiki/FeedValidator">
+FeedValidator</a> version 1.2.16 on May 02, 2019 at 12:11 AM UTC.
+</div>
+</body>
+</html>

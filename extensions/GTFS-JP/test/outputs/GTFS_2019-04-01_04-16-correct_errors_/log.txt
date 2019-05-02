@@ -1,0 +1,68 @@
+validating inputs/GTFS(2019-04-01_04-16-correct errors).zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "元興寺・ならまち" (ID i-11_01) and
+"元興寺・ならまち" (ID i-11_02) are 0.11m apart and probably represent
+the same location.
+The stops "高畑駐車場・浮見堂" (ID i-10_01) and
+"高畑駐車場・浮見堂" (ID i-10_02) are 0.11m apart and probably
+represent the same location.
+The stops "ＪＲ奈良駅西口" (ID i-12_01) and "ＪＲ奈良駅西口" (ID
+i-12_02) are 0.11m apart and probably represent the same location.
+The stops "春日大社本殿" (ID i-7_03) and "春日大社本殿" (ID
+i-7_01) are 0.11m apart and probably represent the same location.
+The stops "春日大社本殿" (ID i-7_03) and "春日大社本殿" (ID
+i-7_02) are 0.22m apart and probably represent the same location.
+The stops "春日大社本殿" (ID i-7_01) and "春日大社本殿" (ID
+i-7_02) are 0.11m apart and probably represent the same location.
+The stops "東大寺大仏殿・春日大社前" (ID i-9_01) and
+"東大寺大仏殿・春日大社前" (ID i-9_02) are 0.11m apart and
+probably represent the same location.
+The stops "奈良春日野国際フォーラム甍前" (ID i-4_06) and
+"奈良春日野国際フォーラム甍前" (ID i-4_02) are 0.11m apart and
+probably represent the same location.
+The stops "奈良春日野国際フォーラム甍前" (ID i-4_06) and
+"奈良春日野国際フォーラム甍前" (ID i-4_04) are 0.22m apart and
+probably represent the same location.
+The stops "奈良春日野国際フォーラム甍前" (ID i-4_02) and
+"奈良春日野国際フォーラム甍前" (ID i-4_04) are 0.11m apart and
+probably represent the same location.
+The stops "奈良春日野国際フォーラム甍前" (ID i-4_03) and
+"奈良春日野国際フォーラム甍前" (ID i-4_01) are 0.11m apart and
+probably represent the same location.
+The stops "奈良春日野国際フォーラム甍前" (ID i-4_03) and
+"奈良春日野国際フォーラム甍前" (ID i-4_05) are 0.22m apart and
+probably represent the same location.
+The stops "奈良春日野国際フォーラム甍前" (ID i-4_01) and
+"奈良春日野国際フォーラム甍前" (ID i-4_05) are 0.11m apart and
+probably represent the same location.
+The stops "氷室神社・国立博物館" (ID i-2_02) and
+"氷室神社・国立博物館" (ID i-2_01) are 0.11m apart and probably
+represent the same location.
+The stops "氷室神社・国立博物館" (ID i-2_02) and
+"氷室神社・国立博物館" (ID i-2_03) are 0.22m apart and probably
+represent the same location.
+The stops "氷室神社・国立博物館" (ID i-2_01) and
+"氷室神社・国立博物館" (ID i-2_03) are 0.11m apart and probably
+represent the same location.
+The stops "若草山麓" (ID i-6_01) and "若草山麓" (ID i-6_02) are 0.11m
+apart and probably represent the same location.
+The stops "油阪船橋商店街" (ID i-14_04) and "油阪船橋商店街" (ID
+i-14_01) are 1.11m apart and probably represent the same location.
+The stops "油阪船橋商店街" (ID i-14_01) and "油阪船橋商店街" (ID
+i-14_03) are 1.11m apart and probably represent the same location.
+The stops "近鉄奈良駅" (ID i-13_04) and "近鉄奈良駅" (ID i-13_01)
+are 0.11m apart and probably represent the same location.
+The stops "近鉄奈良駅" (ID i-13_04) and "近鉄奈良駅" (ID i-13_03)
+are 0.22m apart and probably represent the same location.
+The stops "近鉄奈良駅" (ID i-13_01) and "近鉄奈良駅" (ID i-13_03)
+are 0.11m apart and probably represent the same location.
+The stops "県庁前" (ID i-1_01) and "県庁前" (ID i-1_03) are 0.11m apart
+and probably represent the same location.
+The stops "県庁前" (ID i-1_06) and "県庁前" (ID i-1_04) are 0.11m apart
+and probably represent the same location.
+The stops "大仏殿前駐車場" (ID i-3_01) and "大仏殿前駐車場" (ID
+i-3_05) are 0.11m apart and probably represent the same location.
+The stops "手向山八幡宮・二月堂前" (ID i-5_01) and
+"手向山八幡宮・二月堂前" (ID i-5_02) are 0.11m apart and probably
+represent the same location.
+feed validated successfully

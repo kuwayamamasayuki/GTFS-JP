@@ -1,0 +1,85 @@
+validating inputs/gtfs.1030.annakashi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 秋間線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R023"
+and "R022".
+ column route_long_name
+Invalid value 安中榛名駅～安中市役所線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 安中市役所～嶺～松井田支所線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R000".
+ column route_long_name
+Invalid value 秋間線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R021"
+and "R022".
+ column route_long_name
+Invalid value 磯部・中野谷線：磯部先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R004".
+ column route_long_name
+Invalid value 磯部線：磯部温泉経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R008".
+ column route_long_name
+Invalid value 岩野谷・間仁田線：野殿先回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R019"
+and "R020".
+ column route_long_name
+Invalid value 岩野谷・間仁田線：野殿先回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R018"
+and "R020".
+ column route_long_name
+Invalid value 岩野谷・間仁田線：間仁田先回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R015".
+ column route_long_name
+Invalid value 岩野谷・間仁田線：間仁田先回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R015".
+ column route_long_name
+Invalid value 岩野谷・間仁田線：間仁田先回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R016"
+and "R015".
+ column route_long_name
+Invalid value 磯部線：恵みの湯前経由 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R011".
+ column route_long_name
+Invalid value 柿平線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R013".
+ column route_long_name
+Invalid value 秋間線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R024"
+and "R022".
+ column route_long_name
+Invalid value 磯部・中野谷線：東横野先回り in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R006".
+ERROR: 1 warning found

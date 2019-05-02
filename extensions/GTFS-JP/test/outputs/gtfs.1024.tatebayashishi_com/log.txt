@@ -1,0 +1,374 @@
+validating inputs/gtfs.1024.tatebayashishi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+館林インター前 (ID S00036AGC7000020102075H001) is too far from its
+parent station 館林インター前 (ID S00036AGC7000020102075T000) : 112.48
+meters.
+館林インター前 (ID S00036AGC7000020102075H002) is too far from its
+parent station 館林インター前 (ID S00036AGC7000020102075T000) : 112.48
+meters.
+The stops "旧役場入口" (ID S00151AGC7000020102075H002) and
+"役場入口［板倉町］" (ID S00152AGC7000020102075H002) are 0.00m apart
+and probably represent the same location.
+The stations "旧役場入口" (ID S00151AGC7000020102075T000) and
+"役場入口［板倉町］" (ID S00152AGC7000020102075T000) are 0.00m apart
+and probably represent the same location.
+The stops "旧役場入口" (ID S00151AGC7000020102075H001) and
+"役場入口［板倉町］" (ID S00152AGC7000020102075H001) are 0.00m apart
+and probably represent the same location.
+The stops "旧板倉町役場前" (ID S00164AGC7000020102075H001) and
+"板倉町役場前" (ID S00165AGC7000020102075H001) are 0.00m apart and
+probably represent the same location.
+The stations "旧板倉町役場前" (ID S00164AGC7000020102075T000) and
+"板倉町役場前" (ID S00165AGC7000020102075T000) are 0.00m apart and
+probably represent the same location.
+The stops "旧板倉町役場前" (ID S00164AGC7000020102075H002) and
+"板倉町役場前" (ID S00165AGC7000020102075H002) are 0.00m apart and
+probably represent the same location.
+The stops "花山町東" (ID S00009AGC7000020102075H002) and
+"パークイン入口" (ID S00010AGC7000020102075H002) are 0.00m apart and
+probably represent the same location.
+The stations "花山町東" (ID S00009AGC7000020102075T000) and
+"パークイン入口" (ID S00010AGC7000020102075T000) are 0.00m apart and
+probably represent the same location.
+The stops "花山町東" (ID S00009AGC7000020102075H001) and
+"パークイン入口" (ID S00010AGC7000020102075H001) are 0.00m apart and
+probably represent the same location.
+The stops "花山町西" (ID S00011AGC7000020102075H001) and
+"つつじが岡公園入口" (ID S00012AGC7000020102075H001) are 0.00m apart
+and probably represent the same location.
+The stations "花山町西" (ID S00011AGC7000020102075T000) and
+"つつじが岡公園入口" (ID S00012AGC7000020102075T000) are 0.00m apart
+and probably represent the same location.
+The stops "花山町西" (ID S00011AGC7000020102075H002) and
+"つつじが岡公園入口" (ID S00012AGC7000020102075H002) are 0.00m apart
+and probably represent the same location.
+The stops "花山町" (ID S00174AGC7000020102075H001) and "花山町南" (ID
+S00175AGC7000020102075H001) are 0.00m apart and probably represent the same
+location.
+The stations "花山町" (ID S00174AGC7000020102075T000) and "花山町南"
+(ID S00175AGC7000020102075T000) are 0.00m apart and probably represent the
+same location.
+The stops "花山町" (ID S00174AGC7000020102075H002) and "花山町南" (ID
+S00175AGC7000020102075H002) are 0.00m apart and probably represent the same
+location.
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R047"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R045"
+and "R046".
+ column route_long_name
+Invalid value 館林・邑楽・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R042"
+and "R044".
+ column route_long_name
+Invalid value 館林・邑楽・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R040"
+and "R044".
+ column route_long_name
+Invalid value 館林・邑楽・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R041"
+and "R044".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R023"
+and "R022".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R048"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R049"
+and "R046".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R020"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R021"
+and "R022".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R002".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R060"
+and "R046".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R008"
+and "R002".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R002".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R028"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R029"
+and "R022".
+ column route_long_name
+Invalid value 館林・邑楽・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R043"
+and "R044".
+ column route_long_name
+Invalid value 渡瀬巡回線：西巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R062"
+and "R061".
+ column route_long_name
+Invalid value 館林・明和・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R065"
+and "R066".
+ column route_long_name
+Invalid value 館林・明和・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R069"
+and "R066".
+ column route_long_name
+Invalid value 館林・邑楽・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R039"
+and "R044".
+ column route_long_name
+Invalid value 館林・明和・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R072"
+and "R071".
+ column route_long_name
+Invalid value 館林・明和・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R073"
+and "R071".
+ column route_long_name
+Invalid value 館林・邑楽・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R038"
+and "R044".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R051"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R050"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R053"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R052"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R055"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R054"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R057"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R056"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R059"
+and "R046".
+ column route_long_name
+Invalid value 多々良巡回線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R058"
+and "R046".
+ column route_long_name
+Invalid value 館林・明和・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R067"
+and "R066".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R037"
+and "R033".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R036"
+and "R033".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R035"
+and "R033".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R034"
+and "R033".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R019"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R018"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R031"
+and "R033".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R030"
+and "R033".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R015"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R016"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R011"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R024"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R025"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R026"
+and "R022".
+ column route_long_name
+Invalid value 館林・明和・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R070"
+and "R066".
+ column route_long_name
+Invalid value 館林・板倉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R027"
+and "R022".
+ column route_long_name
+Invalid value 館林・板倉北線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R032"
+and "R033".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R006"
+and "R002".
+ column route_long_name
+Invalid value 館林・明和・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R068"
+and "R066".
+ column route_long_name
+Invalid value 館林・千代田線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R002".
+ERROR: 1 warning found

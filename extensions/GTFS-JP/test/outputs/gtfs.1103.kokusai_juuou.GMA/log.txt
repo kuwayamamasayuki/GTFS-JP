@@ -1,0 +1,48 @@
+validating inputs/gtfs.1103.kokusai_juuou.GMA.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R047"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R044"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R045"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R042"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R043"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R040"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R041"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R048"
+and "R046".
+ column route_long_name
+Invalid value 伊勢崎駅～本庄早稲田駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R039"
+and "R046".
+ERROR: 1 warning found

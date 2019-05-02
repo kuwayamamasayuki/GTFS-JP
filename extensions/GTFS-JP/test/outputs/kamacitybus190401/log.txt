@@ -1,0 +1,3 @@
+validating inputs/kamacitybus190401.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 3 warnings found

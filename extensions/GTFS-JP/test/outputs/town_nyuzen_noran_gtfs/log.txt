@@ -1,0 +1,3 @@
+validating inputs/town_nyuzen_noran_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 1 error found

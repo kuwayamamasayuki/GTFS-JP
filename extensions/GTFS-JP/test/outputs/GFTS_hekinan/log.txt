@@ -1,0 +1,27 @@
+validating inputs/GFTS_hekinan.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "川口結いの家" (ID 3016) and "川口結いの家" (ID 4082)
+are 0.55m apart and probably represent the same location.
+The stops "川口町" (ID 3015) and "川口町" (ID 4083) are 1.42m apart and
+probably represent the same location.
+The stops "岬町" (ID 4077) and "岬町" (ID 3021) are 1.95m apart and
+probably represent the same location.
+The stops "下山" (ID 3022) and "下山" (ID 4076) are 1.93m apart and
+probably represent the same location.
+The stops "貞照院" (ID 4060) and "貞照院" (ID 4095) are 0.91m apart and
+probably represent the same location.
+The stops "貞照院" (ID 3003) and "貞照院" (ID 3038) are 0.89m apart and
+probably represent the same location.
+The stops "文化会館" (ID 3037) and "文化会館" (ID 3002) are 0.71m
+apart and probably represent the same location.
+The stops "鷲塚住宅" (ID 3046) and "鷲塚住宅" (ID 4052) are 0.71m
+apart and probably represent the same location.
+The stops "新川町駅" (ID 4007) and "新川町駅" (ID 3091) are 1.34m
+apart and probably represent the same location.
+The stops "明石公園" (ID 4014) and "明石公園" (ID 3084) are 0.72m
+apart and probably represent the same location.
+The stops "油ヶ渕遊園地" (ID 3058) and "油ヶ渕遊園地" (ID 4040)
+are 1.53m apart and probably represent the same location.
+The stops "沢渡橋" (ID 3063) and "沢渡橋" (ID 4035) are 1.95m apart and
+probably represent the same location.
+ERROR: 1 error found

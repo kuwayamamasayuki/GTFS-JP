@@ -1,0 +1,215 @@
+validating inputs/GTFS_regular_line.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "鹿追高校前" (ID 3540_02) and "鹿追高校前" (ID 3540_01)
+are 1.50m apart and probably represent the same location.
+ column route_long_name
+Invalid value 鹿追・然別湖線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5012"
+and "5011".
+ column route_long_name
+Invalid value 鹿追・然別湖線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5014"
+and "5011".
+ column route_long_name
+Invalid value ［要予約］トムラウシ温泉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "9033"
+and "9032".
+ column route_long_name
+Invalid value ［要予約］トムラウシ温泉線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "9031"
+and "9032".
+ column route_long_name
+Invalid value 音更高校線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "3042"
+and "3041".
+ column route_long_name
+Invalid value 一中線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "1054"
+and "1052".
+ column route_long_name
+Invalid value 雄飛が丘・音更高校線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "3021"
+and "3022".
+ column route_long_name
+Invalid value 南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "2031"
+and "2032".
+ column route_long_name
+Invalid value 音更高校・上士幌線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "6022"
+and "6021".
+ column route_long_name
+Invalid value 南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "2011"
+and "2032".
+ column route_long_name
+Invalid value 一中・療養所線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "1043"
+and "1012".
+ column route_long_name
+Invalid value 屈足線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5062"
+and "5061".
+ column route_long_name
+Invalid value 鹿追線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5022"
+and "5021".
+ column route_long_name
+Invalid value 鹿追・新得線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5047"
+and "5048".
+ column route_long_name
+Invalid value 鹿追・新得線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5044"
+and "5045".
+ column route_long_name
+Invalid value 鹿追・新得線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5043"
+and "5045".
+ column route_long_name
+Invalid value 鹿追・新得線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5042"
+and "5045".
+ column route_long_name
+Invalid value 鹿追・新得線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "5041"
+and "5045".
+ column route_long_name
+Invalid value 上士幌線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "6012"
+and "6011".
+ column route_long_name
+Invalid value 中鈴蘭・南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "4052"
+and "4053".
+ column route_long_name
+Invalid value 中鈴蘭・南商線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "4051"
+and "4053".
+ column route_long_name
+Invalid value 中鈴蘭線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "4012"
+and "4032".
+ column route_long_name
+Invalid value 中鈴蘭線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "4011"
+and "4031".
+ column route_long_name
+Invalid value 雄飛が丘団地線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "3011"
+and "3012".
+ column route_long_name
+Invalid value 療養所線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "1034"
+and "1032".
+ column route_long_name
+Invalid value 帯広の森線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "2062"
+and "2061".
+High speed travel detected in trip 特別ダイヤ１_16時50分_系統5012:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 日祝_06時35分_系統5022: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip B_15時15分_系統5044: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 日祝_13時20分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_08時50分_系統5042:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 土曜_06時35分_系統5022: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 年末・年始_16時50分_系統5012:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_14時30分_系統5022:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_18時25分_系統5014:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_08時50分_系統5042: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_06時35分_系統5022:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 年末・年始_10時00分_系統5012:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_11時20分_系統5042: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_16時50分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 日祝_16時50分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_18時25分_系統5014: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 土曜_13時20分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_15時20分_系統5022: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 土曜_07時30分_系統5042: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip A_06時35分_系統5022: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 年末・年始_13時20分_系統5012:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 日祝_15時15分_系統5044: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_10時00分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_11時20分_系統5042:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_15時15分_系統5044:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 日祝_10時00分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 土曜_15時15分_系統5044: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_13時20分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 土曜_10時00分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 土曜_16時50分_系統5012: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_14時30分_系統5022: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 日祝_07時30分_系統5042: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip B_07時30分_系統5042: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_06時35分_系統5022: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_10時00分_系統5012:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_07時30分_系統5042: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 平日_15時15分_系統5044: 町界 to
+上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_13時20分_系統5012:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_15時20分_系統5022:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+High speed travel detected in trip 特別ダイヤ１_07時30分_系統5042:
+町界 to 上然別6線. 1798 meters in 60 seconds. (108 km/h).
+feed validated successfully

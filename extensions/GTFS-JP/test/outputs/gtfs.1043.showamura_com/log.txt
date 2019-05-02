@@ -1,0 +1,38 @@
+validating inputs/gtfs.1043.showamura_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 昭和村循環線：生越先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 永井線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R000".
+ column route_long_name
+Invalid value 昭和村循環線：追分先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R006".
+ column route_long_name
+Invalid value 昭和村循環線：生越先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ column route_long_name
+Invalid value 昭和村循環線：生越先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R002".
+ column route_long_name
+Invalid value 赤谷・桜循環線：糸井先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R008".
+ column route_long_name
+Invalid value 赤谷・桜循環線：森下先回り in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R011".
+ERROR: 1 warning found

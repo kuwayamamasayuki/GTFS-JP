@@ -1,0 +1,48 @@
+validating inputs/gtfs.1013.joshin_bus.zip
+FeedValidator extension used: extensions.GTFS-JP
+ column route_long_name
+Invalid value 高崎駅～前橋駅・中央前橋駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 高崎駅～前橋駅・中央前橋駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value 高崎駅～前橋駅・中央前橋駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 高崎問屋町駅～鶴辺団地 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R006".
+ column route_long_name
+Invalid value 高崎問屋町駅～鶴辺団地 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R006".
+ column route_long_name
+Invalid value 高崎問屋町駅～鶴辺団地 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R006".
+ column route_long_name
+Invalid value 高崎問屋町駅～鶴辺団地 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R008"
+and "R006".
+ column route_long_name
+Invalid value 高崎問屋町駅～鶴辺団地 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R009"
+and "R006".
+ column route_long_name
+Invalid value 高崎問屋町駅～鶴辺団地 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R006".
+ERROR: 1 warning found

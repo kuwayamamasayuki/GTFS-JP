@@ -1,0 +1,19 @@
+validating inputs/GTFS(nagaibus-gunma-jp).zip
+FeedValidator extension used: extensions.GTFS-JP
+There are 30 consecutive days, from 2019-07-27 to 2019-08-25, without any
+scheduled service. Please ensure this is intentional.
+There are 16 consecutive days, from 2019-12-21 to 2020-01-05, without any
+scheduled service. Please ensure this is intentional.
+There are 24 consecutive days, from 2020-03-07 to 2020-03-30, without any
+scheduled service. Please ensure this is intentional.
+ column route_long_name
+Invalid value 前橋大島駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "250"
+and "150".
+ column route_long_name
+Invalid value 前橋大島駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "350"
+and "150".
+feed validated successfully

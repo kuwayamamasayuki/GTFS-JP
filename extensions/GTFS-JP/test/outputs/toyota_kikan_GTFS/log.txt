@@ -1,0 +1,371 @@
+validating inputs/toyota_kikan_GTFS.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "豊田市" (ID 6001_05) and "豊田市駅西口" (ID 6242_05) are
+0.00m apart and probably represent the same location.
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211003"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス2小原・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "112001"
+and "112002".
+ column route_long_name
+Invalid value とよたおいでんバス1藤岡・豊田線（加納経由）
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "102002"
+and "102003".
+ column route_long_name
+Invalid value とよたおいでんバス1藤岡・豊田線（加納経由）
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "102001"
+and "102003".
+ column route_long_name
+Invalid value
+とよたおいでんバス2藤岡・豊田線（西中山経由） in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121002"
+and "121001".
+ column route_long_name
+Invalid value
+とよたおいでんバス2藤岡・豊田線（西中山経由） in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121003"
+and "121001".
+ column route_long_name
+Invalid value
+とよたおいでんバス2藤岡・豊田線（西中山経由） in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "121004"
+and "121001".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "212004"
+and "211007".
+ column route_long_name
+Invalid value
+とよたおいでんバス2藤岡・豊田線（西中山経由） in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "122001"
+and "121001".
+ column route_long_name
+Invalid value とよたおいでんバス10下山・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "172001"
+and "171002".
+ column route_long_name
+Invalid value
+とよたおいでんバス2藤岡・豊田線（西中山経由） in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "122003"
+and "121001".
+ column route_long_name
+Invalid value
+とよたおいでんバス2藤岡・豊田線（西中山経由） in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "122002"
+and "121001".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211101"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス7稲武・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "151001"
+and "151002".
+ column route_long_name
+Invalid value とよたおいでんバス10下山・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "172002"
+and "171002".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "162001"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス2小原・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "111002"
+and "112002".
+ column route_long_name
+Invalid value とよたおいでんバス2小原・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "111001"
+and "112002".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "161003"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "162005"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "162004"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211004"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "162006"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス21保見・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "181004"
+and "181001".
+ column route_long_name
+Invalid value とよたおいでんバス21保見・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "181002"
+and "181001".
+ column route_long_name
+Invalid value とよたおいでんバス21保見・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "181003"
+and "181001".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "162003"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211005"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス5旭・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "132002"
+and "132001".
+ column route_long_name
+Invalid value とよたおいでんバス7稲武・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "152002"
+and "151002".
+ column route_long_name
+Invalid value とよたおいでんバス快速いなぶ in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "152003"
+and "151003".
+ column route_long_name
+Invalid value とよたおいでんバス7稲武・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "152001"
+and "151002".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "161005"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "161006"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス5旭・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "131001"
+and "132001".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "161001"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "161002"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス5旭・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "131002"
+and "132001".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201007"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201006"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201005"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "162002"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201003"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201002"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201001"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "212003"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211006"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "211002"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "212007"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "212006"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "212005"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス25豊田・渋谷線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "201008"
+and "201004".
+ column route_long_name
+Invalid value とよたおいでんバス中心市街地玄関口バス in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "192001"
+and "191001".
+ column route_long_name
+Invalid value とよたおいでんバス26土橋・豊田東環状線 in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "212002"
+and "211007".
+ column route_long_name
+Invalid value とよたおいでんバス10下山・豊田線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "171001"
+and "171002".
+ column route_long_name
+Invalid value とよたおいでんバス8さなげ・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "161008"
+and "162008".
+ column route_long_name
+Invalid value とよたおいでんバス6旭・足助線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "141001"
+and "142001".
+ column route_long_name
+Invalid value とよたおいでんバス1藤岡・豊田線（加納経由）
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "101002"
+and "102003".
+ column route_long_name
+Invalid value とよたおいでんバス1藤岡・豊田線（加納経由）
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "101003"
+and "102003".
+ column route_long_name
+Invalid value とよたおいでんバス1藤岡・豊田線（加納経由）
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "101001"
+and "102003".
+feed validated successfully

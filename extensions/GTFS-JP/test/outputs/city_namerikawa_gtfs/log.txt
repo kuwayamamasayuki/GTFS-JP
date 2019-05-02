@@ -1,0 +1,4 @@
+validating inputs/city_namerikawa_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+This feed will soon expire, on May 31, 2019 (feed_end_date in feed_info.txt)
+feed validated successfully

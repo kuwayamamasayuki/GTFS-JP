@@ -1,0 +1,3 @@
+validating inputs/GTFS.zip
+FeedValidator extension used: extensions.GTFS-JP
+feed validated successfully

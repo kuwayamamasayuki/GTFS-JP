@@ -1,0 +1,66 @@
+validating inputs/gtfs.1019.maebashishi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+南町二丁目（南循環） (ID S00065AGC9000020102016H003) is too far from
+its parent station 南町二丁目 (ID S00065AGC9000020102016T000) : 152.93
+meters.
+ column route_long_name
+Invalid value 金古王塚台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 金古王塚台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R000"
+and "R002".
+ column route_long_name
+Invalid value 金古王塚台線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 新前橋西口線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R007"
+and "R006".
+ column route_long_name
+Invalid value 新前橋西口線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R006".
+ column route_long_name
+Invalid value 新前橋西口線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R006".
+ column route_long_name
+Invalid value 土屋文明文学館線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R015".
+ column route_long_name
+Invalid value 土屋文明文学館線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R015".
+ column route_long_name
+Invalid value 土屋文明文学館線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R016"
+and "R015".
+ column route_long_name
+Invalid value 赤城山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R011".
+ column route_long_name
+Invalid value 赤城山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R011".
+ column route_long_name
+Invalid value 赤城山線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R011".
+ERROR: 3 warnings found

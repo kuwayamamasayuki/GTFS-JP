@@ -1,0 +1,44 @@
+validating inputs/gtfs.1106.asahi_bus.GMA.zip
+FeedValidator extension used: extensions.GTFS-JP
+古戸川岸 (ID S00818AGC6010601008303H001) is too far from its parent
+station 古戸川岸 (ID S00818AGC6010601008303T000) : 104.67 meters.
+古戸川岸 (ID S00818AGC6010601008303H004) is too far from its parent
+station 古戸川岸 (ID S00818AGC6010601008303T000) : 100.04 meters.
+円光 (ID S00092AGC6010601008303H002) is too far from its parent station
+円光 (ID S00092AGC6010601008303T000) : 115.46 meters.
+円光 (ID S00092AGC6010601008303H001) is too far from its parent station
+円光 (ID S00092AGC6010601008303T000) : 115.46 meters.
+ column route_long_name
+Invalid value 太田駅～妻沼仲町～熊谷駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R224"
+and "R225".
+ column route_long_name
+Invalid value 西小泉駅～妻沼仲町～熊谷駅 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R218"
+and "R217".
+ column route_long_name
+Invalid value 本庄駅南～沖電気前～神泉支所 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R266"
+and "R263".
+ column route_long_name
+Invalid value 本庄駅南～小島南～神泉支所 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R267"
+and "R268".
+ column route_long_name
+Invalid value 本庄駅南～沖電気前～神泉支所 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R264"
+and "R263".
+ column route_long_name
+Invalid value 本庄駅南～沖電気前～神泉支所 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R265"
+and "R263".
+ERROR: 1 warning found

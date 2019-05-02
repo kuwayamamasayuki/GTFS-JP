@@ -1,0 +1,41 @@
+validating inputs/saga-2019-03-31.zip
+FeedValidator extension used: extensions.GTFS-JP
+佐賀大学前(2) (ID 1003018-02) is too far from its parent station
+佐賀大学前 (ID 1003018) : 101.00 meters.
+光法(2) (ID 1020102-20) is too far from its parent station 光法 (ID
+1020102) : 147.64 meters.
+光法(1) (ID 1020102-10) is too far from its parent station 光法 (ID
+1020102) : 147.63 meters.
+堀江通(3) (ID 1030219-03) is too far from its parent station 堀江通 (ID
+1030219) : 112.87 meters.
+堀江通(4) (ID 1030219-04) is too far from its parent station 堀江通 (ID
+1030219) : 107.98 meters.
+嘉瀬元町(3) (ID 1018080-03) is too far from its parent station
+嘉瀬元町 (ID 1018080) : 102.74 meters.
+尼寺東(3) (ID 1030234-03) is too far from its parent station 尼寺東 (ID
+1030234) : 108.26 meters.
+杵島商校前(2) (ID 4013135-02) is too far from its parent station
+杵島商校前 (ID 4013135) : 129.07 meters.
+大崎(4) (ID 1020096-04) is too far from its parent station 大崎 (ID
+1020096) : 110.27 meters.
+駅南本町(1) (ID 1002004-10) is too far from its parent station
+駅南本町 (ID 1002004) : 103.00 meters.
+成章中学校西(1) (ID 1024167-10) is too far from its parent station
+成章中学校西 (ID 1024167) : 129.28 meters.
+修理田(2) (ID 1060347-02) is too far from its parent station 修理田 (ID
+1060347) : 112.93 meters.
+成章中学校西(2) (ID 1024167-20) is too far from its parent station
+成章中学校西 (ID 1024167) : 129.28 meters.
+嬉野市役所塩田庁舎前(2) (ID 4009091-02) is too far from its parent
+station 嬉野市役所塩田庁舎前 (ID 4009091) : 106.15 meters.
+道崎(1) (ID 1028200-10) is too far from its parent station 道崎 (ID
+1028200) : 103.80 meters.
+佐賀大学南(2) (ID 1024161-20) is too far from its parent station
+佐賀大学南 (ID 1024161) : 138.26 meters.
+自動車学校前(1) (ID 1020097-10) is too far from its parent station
+自動車学校前 (ID 1020097) : 105.08 meters.
+自動車学校前(2) (ID 1020097-20) is too far from its parent station
+自動車学校前 (ID 1020097) : 105.08 meters.
+佐賀大学南(1) (ID 1024161-10) is too far from its parent station
+佐賀大学南 (ID 1024161) : 138.26 meters.
+ERROR: 1 warning found

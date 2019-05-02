@@ -1,0 +1,71 @@
+validating inputs/yamanashi.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "大野" (ID P2339) and "大野（身延町）" (ID P5031) are 1.55m
+apart and probably represent the same location.
+The stops "鰍沢口駅（身延町）" (ID P5022) and
+"鰍沢口駅（富士川町）" (ID P4516) are 1.58m apart and probably
+represent the same location.
+The stops "富士川病院" (ID P5021) and "鰍沢病院（富士川町）"
+(ID P4511) are 0.52m apart and probably represent the same location.
+The stops "営業所前" (ID P2865) and "営業所前" (ID P2888) are 1.73m
+apart and probably represent the same location.
+The stops "戸田町（南アルプス市）" (ID P4873) and "戸田町" (ID
+P624) are 1.86m apart and probably represent the same location.
+The stops "下今諏訪" (ID P584) and "下今諏訪（南アルプス市）"
+(ID P5063) are 1.84m apart and probably represent the same location.
+The stops "今諏訪（南アルプス市）" (ID P4881) and "今諏訪" (ID
+P583) are 1.38m apart and probably represent the same location.
+The stops "今諏訪（南アルプス市）" (ID P4880) and "今諏訪" (ID
+P582) are 1.64m apart and probably represent the same location.
+The stops "中央自動車教習所" (ID P865) and "中央自動車教習所"
+(ID P1165) are 1.02m apart and probably represent the same location.
+The stops "源（南アルプス市）" (ID P5057) and "源" (ID P520) are
+1.23m apart and probably represent the same location.
+The stops "甲府市障害者センター入口" (ID P851) and
+"甲府市障害者センター入口" (ID P1164) are 1.06m apart and probably
+represent the same location.
+The stops "城東三丁目" (ID P1162) and "城東三丁目" (ID P852) are
+0.76m apart and probably represent the same location.
+The stops "韮崎小学校(韮崎市民バス)" (ID P4252) and
+"韮崎小学校" (ID P201) are 1.47m apart and probably represent the same
+location.
+The stops "山梨中央銀行前(市立病院／竜岡方面)" (ID P4254) and
+"中銀韮崎支店" (ID P202) are 1.31m apart and probably represent the same
+location.
+ column route_long_name
+Invalid value 富士川町コミュ二ティバス「市川大門駅
+行」(富士川コミュ二ティ:富士川町コミュ二ティバス) in
+field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"585_1077" and "585_1074".
+ column route_long_name
+Invalid value 石割の湯発 
+河口湖駅方面行き(【ふじっ湖号】山中湖畔右まわり：河口湖駅・市立病院・忍野八海・平野)
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"286_877" and "284_451".
+ column route_long_name
+Invalid value 河口湖自然生活館発
+河口湖駅方面行き(【富士五湖】河口湖周遊レトロバス（ハーブ館・自然生活館）)
+in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs
+"412_865" and "268_421".
+Trip 6751 has 6 consecutive stop times all with the same arrival/departure
+time: 20:23:00.
+High speed travel detected in trip 5440: 御坂ゴルフ場入口 to 横川.
+3524 meters in 60 seconds. (211 km/h).
+High speed travel detected in trip 5440: 河口湖美術館前 to 大木. 2083
+meters in 60 seconds. (125 km/h).
+High speed travel detected in trip 5825: 山伏峠 to
+道志ます釣り場前. 3189 meters in 0 seconds.
+High speed travel detected in trip 5439: 御坂ゴルフ場入口 to 横川.
+3524 meters in 60 seconds. (211 km/h).
+High speed travel detected in trip 5439: 河口湖美術館前 to 大木. 2083
+meters in 60 seconds. (125 km/h).
+The shapes with the following shape_ids aren't used by any trips: 508_962,
+433_747, 433_746, 345_603, 502_956, 286_455, 424_724, 500_954, 286_877,
+284_451, 511_965, 424_723, 348_609, 284_874
+ERROR: 3 errors and 603 warnings found

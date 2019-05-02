@@ -1,0 +1,286 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FeedValidator: busdata_181001.zip</title>
+<style>
+body {font-family: Georgia, serif; background-color: white}
+.path {color: gray}
+div.problem {max-width: 500px}
+table.dump td,th {background-color: khaki; padding: 2px; font-family:monospace}
+table.dump td.problem,th.problem {background-color: dc143c; color: white; padding: 2px; font-family:monospace}
+table.count_outside td {vertical-align: top}
+table.count_outside {border-spacing: 0px; }
+table {border-spacing: 5px 0px; margin-top: 3px}
+h3.issueHeader {padding-left: 0.5em}
+h4.issueHeader {padding-left: 1em}
+.pass {background-color: lightgreen}
+.fail {background-color: yellow}
+.notice {background-color: yellow}
+.pass, .fail {font-size: 16pt}
+.header {background-color: white; font-family: Georgia, serif; padding: 0px}
+th.header {text-align: right; font-weight: normal; color: gray}
+.footer {font-size: 10pt}
+</style>
+</head>
+<body>
+GTFS validation results for feed:<br>
+<code><span class="path">inputs/</span><b>busdata_181001.zip</b></code><br>
+FeedValidator extension used: extensions.GTFS-JP
+<br><br>
+<table>
+<tr><th class="header">Agencies:</th><td class="header"><a href="https://www.city.akita.lg.jp/kurashi/kotsu/1012207/1007474/1007533.html">高尾ハイヤー（午前7時～午後6時、起点出発１時間前まで予約可）</a>, <a href="https://www.city.akita.lg.jp/kurashi/kotsu/1012207/1007651.html">秋田市都市整備部交通政策課</a>, <a href="https://www.city.akita.lg.jp/kurashi/kotsu/1012207/1007474/1007534.html">キングタクシー（午前6時～午後5時、出発１時間前まで予約可）</a>, <a href="https://www.bus-taxi.jp/my-town-bus">秋田中央トランスポート</a></td></tr>
+<tr><th class="header">Routes:</th><td class="header">20</td></tr>
+<tr><th class="header">Stops:</th><td class="header">448</td></tr>
+<tr><th class="header">Trips:</th><td class="header">275</td></tr>
+<tr><th class="header">Shapes:</th><td class="header">0</td></tr>
+<tr><th class="header">Effective:</th><td class="header">April 01, 2018 to March 31, 2020</td></tr>
+</table>
+<br>
+During the upcoming service dates Thu May 02 to Sun Jun 30:
+<table>
+<tr><th class="header">Average trips per date:</th><td class="header">192</td></tr>
+<tr><th class="header">Most trips on a date:</th><td class="header">224, on 40 service dates (Thu May 02, Tue May 07, Wed May 08, ...)</td></tr>
+<tr><th class="header">Least trips on a date:</th><td class="header">130, on 20 service dates (Fri May 03, Sat May 04, Sun May 05, ...)</td></tr>
+</table>
+<br>
+<span class="fail">Found these problems:</span>
+<table class="count_outside">
+<tr><td><span class="fail">25 errors</span></td><td><span class="fail">28 warnings</span></td></tr>
+<tr><td>
+<table><tr><td>24</td><td><a href="#ErrorInvalidValue">Invalid Values</a></td></tr>
+<tr><td>1</td><td><a href="#ErrorMissingFile">Missing File</a></td></tr>
+</table>
+</td>
+<td>
+<table><tr><td>27</td><td><a href="#WarningInvalidValue">Invalid Values</a></td></tr>
+<tr><td>1</td><td><a href="#WarningUnrecognizedColumn">Unrecognized Column</a></td></tr>
+</table>
+</td>
+</table>
+<br><br>
+<h3 class="issueHeader">Errors:</h3><h4 class="issueHeader"><a name="ErrorInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value JA in field <code>agency_lang</code><br>langは，日本の場合「ja」である必要があります。（GTFS-JP仕様書(第２版) 2-1.等参照）</div>in line 2 of <code>agency.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th>agency_name</th><th>agency_url</th><th>agency_timezone</th><th class="problem">agency_lang</th><th>agency_phone</th></tr>
+<tr><td>秋田市</td><td>秋田市都市整備部交通政策課</td><td>https://www.city.akita.lg.jp/kurashi/kotsu/1012207/1007651.html</td><td>Asia/Tokyo</td><td class="problem">JA</td><td>018-888-5766</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value JA in field <code>agency_lang</code><br>langは，日本の場合「ja」である必要があります。（GTFS-JP仕様書(第２版) 2-1.等参照）</div>in line 3 of <code>agency.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th>agency_name</th><th>agency_url</th><th>agency_timezone</th><th class="problem">agency_lang</th><th>agency_phone</th></tr>
+<tr><td>キングタクシー</td><td>キングタクシー（午前6時～午後5時、出発１時間前まで予約可）</td><td>https://www.city.akita.lg.jp/kurashi/kotsu/1012207/1007474/1007534.html</td><td>Asia/Tokyo</td><td class="problem">JA</td><td>018-865-3355</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value JA in field <code>agency_lang</code><br>langは，日本の場合「ja」である必要があります。（GTFS-JP仕様書(第２版) 2-1.等参照）</div>in line 4 of <code>agency.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th>agency_name</th><th>agency_url</th><th>agency_timezone</th><th class="problem">agency_lang</th><th>agency_phone</th></tr>
+<tr><td>高尾</td><td>高尾ハイヤー（午前7時～午後6時、起点出発１時間前まで予約可）</td><td>https://www.city.akita.lg.jp/kurashi/kotsu/1012207/1007474/1007533.html</td><td>Asia/Tokyo</td><td class="problem">JA</td><td>018-839-9156</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value JA in field <code>agency_lang</code><br>langは，日本の場合「ja」である必要があります。（GTFS-JP仕様書(第２版) 2-1.等参照）</div>in line 5 of <code>agency.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th>agency_name</th><th>agency_url</th><th>agency_timezone</th><th class="problem">agency_lang</th><th>agency_phone</th></tr>
+<tr><td>トランスポート</td><td>秋田中央トランスポート</td><td>https://www.bus-taxi.jp/my-town-bus</td><td>Asia/Tokyo</td><td class="problem">JA</td><td>018-853-6901</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 3 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>金足</td><td>キングタクシー</td><td>金足線（予約制）</td><td>マイタウンバス北部線金足コース</td><td></td><td class="problem">1501</td><td>948a54</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 4 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下新城</td><td>キングタクシー</td><td>下新城（予約制）</td><td>マイタウンバス北部線下新城コース</td><td></td><td class="problem">1501</td><td>e26b0a</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 5 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>上新城</td><td>キングタクシー</td><td>上新城（予約制）</td><td>マイタウンバス北部線上新城コース</td><td></td><td class="problem">1501</td><td>16365c</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 6 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>笹岡</td><td>キングタクシー</td><td>笹岡線（予約制）</td><td>マイタウンバス笹岡線</td><td></td><td class="problem">1501</td><td>92d050</td><td>0D0048</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 7 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ａ</td><td>高尾</td><td>河辺Ａ</td><td>マイタウンバス南部線（河辺Ａコース）</td><td></td><td class="problem">1501</td><td>00b0f0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 8 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ｂ</td><td>高尾</td><td>河辺Ｂ（予約制）</td><td>マイタウンバス南部線（河辺Ｂコース）</td><td></td><td class="problem">1501</td><td>7030a0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 9 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ｃ</td><td>高尾</td><td>河辺Ｃ（予約制）</td><td>マイタウンバス南部線（河辺Ｃコース）</td><td></td><td class="problem">1501</td><td>ffc000</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 10 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>雄和Ａ</td><td>高尾</td><td>雄和Ａ</td><td>マイタウンバス南部線（雄和Ａコース）</td><td></td><td class="problem">1501</td><td>948a54</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 11 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>雄和Ｂ</td><td>高尾</td><td>雄和Ｂ</td><td>マイタウンバス南部線（雄和Ｂコース）</td><td></td><td class="problem">1501</td><td>e26b0a</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 12 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>川添</td><td>高尾</td><td>川添（予約制）</td><td>マイタウンバス南部線（川添コース）</td><td></td><td class="problem">1501</td><td>16365c</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 13 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>種平</td><td>高尾</td><td>種平（予約制）</td><td>マイタウンバス南部線（種平コース）</td><td></td><td class="problem">1501</td><td>ffff00</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 14 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>豊岩（石）</td><td>トランスポート</td><td>豊岩</td><td>マイタウンバス豊岩線</td><td></td><td class="problem">1501</td><td>963634</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 15 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>豊岩（湯）</td><td>トランスポート</td><td>豊岩</td><td>マイタウンバス豊岩線</td><td></td><td class="problem">1501</td><td>963634</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 16 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下浜（浜）</td><td>トランスポート</td><td>下浜</td><td>マイタウンバス下浜線</td><td></td><td class="problem">1501</td><td>00b050</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 17 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下浜（境）</td><td>トランスポート</td><td>下浜</td><td>マイタウンバス下浜線</td><td></td><td class="problem">1501</td><td>00b050</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 18 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>浜田</td><td>トランスポート</td><td>浜田</td><td>マイタウンバス浜田線</td><td></td><td class="problem">1501</td><td>92d050</td><td>0D0048</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 19 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>木曽石</td><td>トランスポート</td><td>木曽石</td><td>マイタウンバス木曽石線</td><td></td><td class="problem">1501</td><td>00b0f0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 20 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>中北手</td><td>トランスポート</td><td>中北手</td><td>マイタウンバス中北手線</td><td></td><td class="problem">1501</td><td>7030a0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code><br>route_typeは「3」固定です。</div>in line 21 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>上北手</td><td>トランスポート</td><td>上北手</td><td>マイタウンバス上北手線</td><td></td><td class="problem">1501</td><td>ffc000</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value JA in field <code>feed_lang</code><br>langは，日本の場合「ja」である必要があります。（GTFS-JP仕様書(第２版) 2-1.等参照）</div>in line 2 of <code>feed_info.txt</code><br>
+<table class="dump"><tr><th>feed_publisher_name</th><th>feed_publisher_url</th><th class="problem">feed_lang</th><th>feed_start_date</th><th>feed_end_date</th><th>feed_version</th></tr>
+<tr><td>国際教養大学アジア地域研究連携機構</td><td>http://web.aiu.ac.jp/iasrc</td><td class="problem">JA</td><td>20180401</td><td>20200331</td><td>ver14</td></tr></table>
+<br></li>
+</ul>
+<h4 class="issueHeader"><a name="ErrorMissingFile">Missing File</a></h4><ul>
+<li><div class="problem">File <code>agency_jp.txt</code> is not found</div>in <code>agency_jp.txt</code><br>
+<br></li>
+</ul>
+<h3 class="issueHeader">Warnings:</h3><h4 class="issueHeader"><a name="WarningInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value 金足線（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 3 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>金足</td><td>キングタクシー</td><td class="problem">金足線（予約制）</td><td>マイタウンバス北部線金足コース</td><td></td><td>1501</td><td>948a54</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 3 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>金足</td><td>キングタクシー</td><td>金足線（予約制）</td><td>マイタウンバス北部線金足コース</td><td></td><td class="problem">1501</td><td>948a54</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 下新城（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 4 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下新城</td><td>キングタクシー</td><td class="problem">下新城（予約制）</td><td>マイタウンバス北部線下新城コース</td><td></td><td>1501</td><td>e26b0a</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 4 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下新城</td><td>キングタクシー</td><td>下新城（予約制）</td><td>マイタウンバス北部線下新城コース</td><td></td><td class="problem">1501</td><td>e26b0a</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 上新城（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 5 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>上新城</td><td>キングタクシー</td><td class="problem">上新城（予約制）</td><td>マイタウンバス北部線上新城コース</td><td></td><td>1501</td><td>16365c</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 5 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>上新城</td><td>キングタクシー</td><td>上新城（予約制）</td><td>マイタウンバス北部線上新城コース</td><td></td><td class="problem">1501</td><td>16365c</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 笹岡線（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 6 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>笹岡</td><td>キングタクシー</td><td class="problem">笹岡線（予約制）</td><td>マイタウンバス笹岡線</td><td></td><td>1501</td><td>92d050</td><td>0D0048</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 6 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>笹岡</td><td>キングタクシー</td><td>笹岡線（予約制）</td><td>マイタウンバス笹岡線</td><td></td><td class="problem">1501</td><td>92d050</td><td>0D0048</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 7 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ａ</td><td>高尾</td><td>河辺Ａ</td><td>マイタウンバス南部線（河辺Ａコース）</td><td></td><td class="problem">1501</td><td>00b0f0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 河辺Ｂ（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 8 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ｂ</td><td>高尾</td><td class="problem">河辺Ｂ（予約制）</td><td>マイタウンバス南部線（河辺Ｂコース）</td><td></td><td>1501</td><td>7030a0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 8 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ｂ</td><td>高尾</td><td>河辺Ｂ（予約制）</td><td>マイタウンバス南部線（河辺Ｂコース）</td><td></td><td class="problem">1501</td><td>7030a0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 河辺Ｃ（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 9 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ｃ</td><td>高尾</td><td class="problem">河辺Ｃ（予約制）</td><td>マイタウンバス南部線（河辺Ｃコース）</td><td></td><td>1501</td><td>ffc000</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 9 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>河辺Ｃ</td><td>高尾</td><td>河辺Ｃ（予約制）</td><td>マイタウンバス南部線（河辺Ｃコース）</td><td></td><td class="problem">1501</td><td>ffc000</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 10 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>雄和Ａ</td><td>高尾</td><td>雄和Ａ</td><td>マイタウンバス南部線（雄和Ａコース）</td><td></td><td class="problem">1501</td><td>948a54</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 11 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>雄和Ｂ</td><td>高尾</td><td>雄和Ｂ</td><td>マイタウンバス南部線（雄和Ｂコース）</td><td></td><td class="problem">1501</td><td>e26b0a</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 川添（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 12 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>川添</td><td>高尾</td><td class="problem">川添（予約制）</td><td>マイタウンバス南部線（川添コース）</td><td></td><td>1501</td><td>16365c</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 12 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>川添</td><td>高尾</td><td>川添（予約制）</td><td>マイタウンバス南部線（川添コース）</td><td></td><td class="problem">1501</td><td>16365c</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 種平（予約制） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 13 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>種平</td><td>高尾</td><td class="problem">種平（予約制）</td><td>マイタウンバス南部線（種平コース）</td><td></td><td>1501</td><td>ffff00</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 13 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>種平</td><td>高尾</td><td>種平（予約制）</td><td>マイタウンバス南部線（種平コース）</td><td></td><td class="problem">1501</td><td>ffff00</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 14 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>豊岩（石）</td><td>トランスポート</td><td>豊岩</td><td>マイタウンバス豊岩線</td><td></td><td class="problem">1501</td><td>963634</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 15 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>豊岩（湯）</td><td>トランスポート</td><td>豊岩</td><td>マイタウンバス豊岩線</td><td></td><td class="problem">1501</td><td>963634</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 16 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下浜（浜）</td><td>トランスポート</td><td>下浜</td><td>マイタウンバス下浜線</td><td></td><td class="problem">1501</td><td>00b050</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 17 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>下浜（境）</td><td>トランスポート</td><td>下浜</td><td>マイタウンバス下浜線</td><td></td><td class="problem">1501</td><td>00b050</td><td>10000A</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 18 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>浜田</td><td>トランスポート</td><td>浜田</td><td>マイタウンバス浜田線</td><td></td><td class="problem">1501</td><td>92d050</td><td>0D0048</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 19 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>木曽石</td><td>トランスポート</td><td>木曽石</td><td>マイタウンバス木曽石線</td><td></td><td class="problem">1501</td><td>00b0f0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 20 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>中北手</td><td>トランスポート</td><td>中北手</td><td>マイタウンバス中北手線</td><td></td><td class="problem">1501</td><td>7030a0</td><td>FFFFFF</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 1501 in field <code>route_type</code></div>in line 21 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th>route_short_name</th><th>route_long_name</th><th>route_desc</th><th class="problem">route_type</th><th>route_color</th><th>route_text_color</th></tr>
+<tr><td>上北手</td><td>トランスポート</td><td>上北手</td><td>マイタウンバス上北手線</td><td></td><td class="problem">1501</td><td>ffc000</td><td>10000A</td></tr></table>
+<br></li>
+</ul>
+<h4 class="issueHeader"><a name="WarningUnrecognizedColumn">Unrecognized Column</a></h4><ul>
+<li><div class="problem">Unrecognized column <code>agency_id</code> in file <code>fare_attributes.txt</code>. This might be a misspelled column name (capitalization matters!). Or it could be extra information (such as a proposed feed extension) that the validator doesn't know about yet. Extra information is fine; this warning is here to catch misspelled optional column names.</div>in line 1 of <code>fare_attributes.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>price</th><th>currency_type</th><th>payment_method</th><th>transfers</th><th class="problem">agency_id</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td class="problem"></td></tr></table>
+<br></li>
+</ul>
+
+<div class="footer">
+Generated by <a href="https://github.com/google/transitfeed/wiki/FeedValidator">
+FeedValidator</a> version 1.2.16 on May 02, 2019 at 12:11 AM UTC.
+</div>
+</body>
+</html>

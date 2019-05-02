@@ -1,0 +1,56 @@
+validating inputs/gtfs.0003.lim.GMA.zip
+FeedValidator extension used: extensions.GTFS-JP
+All services are defined on a weekly basis from 2019-04-01 to 2020-03-30 with
+no single day variations. If there are exceptions such as holiday service
+dates please ensure they are listed in calendar_dates.txt
+ column route_long_name
+Invalid value 成田空港線［前橋］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1193"
+and "R1192".
+ column route_long_name
+Invalid value 成田空港線［前橋］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1190"
+and "R1192".
+ column route_long_name
+Invalid value 成田空港線［前橋］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1191"
+and "R1192".
+ column route_long_name
+Invalid value 成田空港線［前橋］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1194"
+and "R1192".
+ column route_long_name
+Invalid value 成田空港線［前橋］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1195"
+and "R1192".
+ column route_long_name
+Invalid value 成田空港線［桐生］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1088"
+and "R1087".
+ column route_long_name
+Invalid value 成田空港線［桐生］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1089"
+and "R1087".
+ column route_long_name
+Invalid value 成田空港線［太田］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1206"
+and "R1208".
+ column route_long_name
+Invalid value 成田空港線［太田］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1207"
+and "R1208".
+ column route_long_name
+Invalid value 成田空港線［太田］ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R1205"
+and "R1208".
+ERROR: 14 errors and 1 warning found

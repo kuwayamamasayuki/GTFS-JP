@@ -1,0 +1,20 @@
+validating inputs/gtfs.1022.minakamimachi_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+There are 129 consecutive days, from 2019-12-16 to 2020-04-22, without any
+scheduled service. Please ensure this is intentional.
+ column route_long_name
+Invalid value 法師線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value 法師線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 法師線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R002".
+ERROR: 5 warnings found

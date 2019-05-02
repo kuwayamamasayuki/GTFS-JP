@@ -1,0 +1,21 @@
+validating inputs/gtfs.1040.gunma_takayamamura_com.zip
+FeedValidator extension used: extensions.GTFS-JP
+All services are defined on a weekly basis from 2018-08-29 to 2019-09-30 with
+no single day variations. If there are exceptions such as holiday service
+dates please ensure they are listed in calendar_dates.txt
+ column route_long_name
+Invalid value ２中山本宿～日赤病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R003"
+and "R002".
+ column route_long_name
+Invalid value １中山本宿～中之条駅線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R000".
+ column route_long_name
+Invalid value ３中山本宿～原町ベイシア線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R004".
+ERROR: 1 warning found

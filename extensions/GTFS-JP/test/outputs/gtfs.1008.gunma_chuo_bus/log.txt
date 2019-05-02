@@ -1,0 +1,68 @@
+validating inputs/gtfs.1008.gunma_chuo_bus.zip
+FeedValidator extension used: extensions.GTFS-JP
+国領町一丁目 (ID S00072AGC7070001000969H002) is too far from its parent
+station 国領町一丁目 (ID S00072AGC7070001000969T000) : 100.92 meters.
+国領町一丁目 (ID S00072AGC7070001000969H001) is too far from its parent
+station 国領町一丁目 (ID S00072AGC7070001000969T000) : 100.92 meters.
+ column route_long_name
+Invalid value 前橋大島駅～日赤病院線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R017"
+and "R018".
+ column route_long_name
+Invalid value 伊勢崎駅～文化会館～スマーク線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R001"
+and "R002".
+ column route_long_name
+Invalid value 伊勢崎病院北～敷島公園ｂｔ線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R006"
+and "R003".
+ column route_long_name
+Invalid value 伊勢崎病院北～敷島公園ｂｔ線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R004"
+and "R003".
+ column route_long_name
+Invalid value 伊勢崎病院北～敷島公園ｂｔ線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R005"
+and "R003".
+ column route_long_name
+Invalid value 前橋駅前～芝塚～高崎駅前線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R015"
+and "R016".
+ column route_long_name
+Invalid value 前橋駅前～芝塚～高崎駅前線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R014"
+and "R016".
+ column route_long_name
+Invalid value 群大病院～高崎駅前線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R008"
+and "R007".
+ column route_long_name
+Invalid value 県立女子大学～病院～伊勢崎駅線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R010"
+and "R009".
+ column route_long_name
+Invalid value 前橋駅前～芝塚～高崎駅前線 in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R013"
+and "R016".
+ column route_long_name
+Invalid value 高崎駅前～上滝～県立女子大学線 in field
+route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "R012"
+and "R011".
+ERROR: 1 warning found

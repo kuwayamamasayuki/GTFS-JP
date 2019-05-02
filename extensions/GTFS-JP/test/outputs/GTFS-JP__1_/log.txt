@@ -1,0 +1,5 @@
+validating inputs/GTFS-JP (1).zip
+FeedValidator extension used: extensions.GTFS-JP
+The stops "塩生浜" (ID 4300_01) and "塩生浜" (ID 6835_01) are 0.00m
+apart and probably represent the same location.
+ERROR: 2 errors and 34 warnings found

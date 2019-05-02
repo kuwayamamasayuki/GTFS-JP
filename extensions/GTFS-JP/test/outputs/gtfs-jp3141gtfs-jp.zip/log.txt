@@ -1,0 +1,3 @@
+validating inputs/gtfs-jp3141gtfs-jp.zip.zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 1 error found

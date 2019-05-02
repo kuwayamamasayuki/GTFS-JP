@@ -1,0 +1,608 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FeedValidator: GTFS (2).zip</title>
+<style>
+body {font-family: Georgia, serif; background-color: white}
+.path {color: gray}
+div.problem {max-width: 500px}
+table.dump td,th {background-color: khaki; padding: 2px; font-family:monospace}
+table.dump td.problem,th.problem {background-color: dc143c; color: white; padding: 2px; font-family:monospace}
+table.count_outside td {vertical-align: top}
+table.count_outside {border-spacing: 0px; }
+table {border-spacing: 5px 0px; margin-top: 3px}
+h3.issueHeader {padding-left: 0.5em}
+h4.issueHeader {padding-left: 1em}
+.pass {background-color: lightgreen}
+.fail {background-color: yellow}
+.notice {background-color: yellow}
+.pass, .fail {font-size: 16pt}
+.header {background-color: white; font-family: Georgia, serif; padding: 0px}
+th.header {text-align: right; font-weight: normal; color: gray}
+.footer {font-size: 10pt}
+</style>
+</head>
+<body>
+GTFS validation results for feed:<br>
+<code><span class="path">inputs/</span><b>GTFS (2).zip</b></code><br>
+FeedValidator extension used: extensions.GTFS-JP
+<br><br>
+<table>
+<tr><th class="header">Agencies:</th><td class="header"><a href="http://www.city.susono.shizuoka.jp/">すその～る</a></td></tr>
+<tr><th class="header">Routes:</th><td class="header">6</td></tr>
+<tr><th class="header">Stops:</th><td class="header">180</td></tr>
+<tr><th class="header">Trips:</th><td class="header">38</td></tr>
+<tr><th class="header">Shapes:</th><td class="header">3</td></tr>
+<tr><th class="header">Effective:</th><td class="header">April 01, 2019 to March 31, 2020</td></tr>
+</table>
+<br>
+During the upcoming service dates Thu May 02 to Sun Jun 30:
+<table>
+<tr><th class="header">Average trips per date:</th><td class="header">24</td></tr>
+<tr><th class="header">Most trips on a date:</th><td class="header">38, on 39 service dates (Tue May 07, Wed May 08, Thu May 09, ...)</td></tr>
+<tr><th class="header">Least trips on a date:</th><td class="header">0, on 21 service dates (Thu May 02, Fri May 03, Sat May 04, ...)</td></tr>
+</table>
+<br>
+<span class="fail">Found these problems:</span>
+<table class="count_outside">
+<tr><td><span class="fail">125 errors</span></td><td><span class="fail">8 warnings</span></td></tr>
+<tr><td>
+<table><tr><td>1</td><td><a href="#ErrorInvalidValue">Invalid Value</a></td></tr>
+<tr><td>124</td><td><a href="#ErrorMissingValue">Missing Values</a></td></tr>
+</table>
+</td>
+<td>
+<table><tr><td>6</td><td><a href="#WarningInvalidValue">Invalid Values</a></td></tr>
+<tr><td>2</td><td><a href="#WarningUnrecognizedColumn">Unrecognized Columns</a></td></tr>
+</table>
+</td>
+</table>
+<br><br>
+<h3 class="issueHeader">Errors:</h3><h4 class="issueHeader"><a name="ErrorInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value 410-1192 in field <code>agency_zip_number</code><br>agency_zip_numberは，ハイフンなしの半角数字７桁である必要があります。（GTFS-JP仕様書(第２版) 2-1.参照）</div>in line 2 of <code>agency_jp.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th>agency_official_name</th><th class="problem">agency_zip_number</th><th>agency_address</th><th>agency_president_pos</th><th>agency_president_name</th></tr>
+<tr><td>3000020222208</td><td>裾野市</td><td class="problem">410-1192</td><td>静岡県裾野市佐野１０５９番地</td><td>市長</td><td>髙村　謙二</td></tr></table>
+<br></li>
+</ul>
+<h4 class="issueHeader"><a name="ErrorMissingValue">Missing Value</a></h4><ul>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 2 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6532</td><td></td><td>葛山</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 2 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6532</td><td></td><td>葛山</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 5 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6533</td><td></td><td>葛山下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 5 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6533</td><td></td><td>葛山下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 8 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6502</td><td></td><td>岩波駅</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 8 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6502</td><td></td><td>岩波駅</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 11 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6503</td><td></td><td>岩波下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 11 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6503</td><td></td><td>岩波下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 14 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6534</td><td></td><td>景ケ島橋</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 14 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6534</td><td></td><td>景ケ島橋</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 17 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6535</td><td></td><td>御宿宮原</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 17 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6535</td><td></td><td>御宿宮原</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 20 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1784</td><td></td><td>佐野</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 20 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1784</td><td></td><td>佐野</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 23 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6506</td><td></td><td>上原</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 23 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6506</td><td></td><td>上原</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 26 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6505</td><td></td><td>上須</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 26 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6505</td><td></td><td>上須</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 29 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6510</td><td></td><td>深良グランド前</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 29 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6510</td><td></td><td>深良グランド前</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 32 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6504</td><td></td><td>深良橋</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 32 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6504</td><td></td><td>深良橋</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 35 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6507</td><td></td><td>深良支所</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 35 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6507</td><td></td><td>深良支所</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 38 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6508</td><td></td><td>切久保</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 38 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6508</td><td></td><td>切久保</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 41 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6509</td><td></td><td>切久保下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 41 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6509</td><td></td><td>切久保下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 44 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6551</td><td></td><td>滝頭</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 44 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6551</td><td></td><td>滝頭</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 47 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6552</td><td></td><td>中丸</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 47 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6552</td><td></td><td>中丸</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 50 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6556</td><td></td><td>長泉なめり駅</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 50 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6556</td><td></td><td>長泉なめり駅</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 52 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6554</td><td></td><td>二ツ屋</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 52 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6554</td><td></td><td>二ツ屋</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 55 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6555</td><td></td><td>二ツ屋下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 55 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6555</td><td></td><td>二ツ屋下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 58 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6553</td><td></td><td>二ツ屋上</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 58 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6553</td><td></td><td>二ツ屋上</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 61 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6501</td><td></td><td>富士見橋</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 61 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6501</td><td></td><td>富士見橋</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 63 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6531</td><td></td><td>柳端</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 63 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6531</td><td></td><td>柳端</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 66 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1777</td><td></td><td>富沢南</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 66 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1777</td><td></td><td>富沢南</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 69 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1778</td><td></td><td>富沢</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 69 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1778</td><td></td><td>富沢</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 72 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1785</td><td></td><td>裾野高校入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 72 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1785</td><td></td><td>裾野高校入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 75 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1786</td><td></td><td>裾野郵便局前</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 75 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1786</td><td></td><td>裾野郵便局前</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 78 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1787</td><td></td><td>市立鈴木図書館入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 78 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1787</td><td></td><td>市立鈴木図書館入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 81 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1794</td><td></td><td>裾野市民体育館前</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 81 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1794</td><td></td><td>裾野市民体育館前</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 84 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1795</td><td></td><td>大畑橋</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 84 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1795</td><td></td><td>大畑橋</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 87 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1796</td><td></td><td>中央公園前</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 87 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1796</td><td></td><td>中央公園前</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 90 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1797</td><td></td><td>御宿平山湧水</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 90 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1797</td><td></td><td>御宿平山湧水</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 93 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1798</td><td></td><td>富岡中学校グランド入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 93 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1798</td><td></td><td>富岡中学校グランド入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 96 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1800</td><td></td><td>御宿上谷</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 96 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1800</td><td></td><td>御宿上谷</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 99 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1801</td><td></td><td>御宿八幡宮前</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 99 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1801</td><td></td><td>御宿八幡宮前</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 102 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1803</td><td></td><td>裾野市民文化センター</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 102 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1803</td><td></td><td>裾野市民文化センター</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 104 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1804</td><td></td><td>和市</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 104 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1804</td><td></td><td>和市</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 107 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1805</td><td></td><td>町田東</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 107 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n1805</td><td></td><td>町田東</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 110 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n2170</td><td></td><td>新愛鷹橋</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 110 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n2170</td><td></td><td>新愛鷹橋</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 113 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6045</td><td></td><td>裾野駅入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 113 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6045</td><td></td><td>裾野駅入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 115 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6046</td><td></td><td>裾野駅</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 115 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6046</td><td></td><td>裾野駅</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 117 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6047</td><td></td><td>裾野二本松</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 117 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6047</td><td></td><td>裾野二本松</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 120 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6103</td><td></td><td>千福</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 120 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6103</td><td></td><td>千福</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 123 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6116</td><td></td><td>御宿下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 123 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6116</td><td></td><td>御宿下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 126 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6119</td><td></td><td>御宿</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 126 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6119</td><td></td><td>御宿</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 129 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6208</td><td></td><td>峰下入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 129 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6208</td><td></td><td>峰下入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 132 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6209</td><td></td><td>平松上</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 132 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6209</td><td></td><td>平松上</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 135 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6211</td><td></td><td>裾野赤十字病院</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 135 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6211</td><td></td><td>裾野赤十字病院</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 138 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6216</td><td></td><td>向田小学校前</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 138 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6216</td><td></td><td>向田小学校前</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 141 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6217</td><td></td><td>鈴原入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 141 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6217</td><td></td><td>鈴原入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 144 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6218</td><td></td><td>鈴原</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 144 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6218</td><td></td><td>鈴原</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 147 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6219</td><td></td><td>県営茶畑団地西</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 147 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6219</td><td></td><td>県営茶畑団地西</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 150 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6220</td><td></td><td>県営茶畑団地</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 150 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6220</td><td></td><td>県営茶畑団地</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 153 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6221</td><td></td><td>青葉台団地入口</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 153 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6221</td><td></td><td>青葉台団地入口</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 156 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6222</td><td></td><td>青葉台団地中</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 156 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6222</td><td></td><td>青葉台団地中</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 159 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6223</td><td></td><td>青葉台団地</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 159 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6223</td><td></td><td>青葉台団地</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 161 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6224</td><td></td><td>公文名</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 161 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6224</td><td></td><td>公文名</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 164 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6225</td><td></td><td>久根</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 164 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6225</td><td></td><td>久根</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 167 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6226</td><td></td><td>町田下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 167 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6226</td><td></td><td>町田下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 170 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6227</td><td></td><td>町田</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 170 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6227</td><td></td><td>町田</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 173 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6228</td><td></td><td>南堀下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 173 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6228</td><td></td><td>南堀下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 176 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6254</td><td></td><td>水窪</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 176 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6254</td><td></td><td>水窪</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lat</code></div>in line 179 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th class="problem">stop_lat</th><th>stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6483</td><td></td><td>千福下</td><td></td><td class="problem"></td><td></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Missing value for column <code>stop_lon</code></div>in line 179 of <code>stops.txt</code><br>
+<table class="dump"><tr><th>stop_id</th><th>stop_code</th><th>stop_name</th><th>stop_desc</th><th>stop_lat</th><th class="problem">stop_lon</th><th>zone_id</th><th>stop_url</th><th>location_type</th><th>parent_station</th><th>stop_timezone</th><th>wheelchair_boarding</th></tr>
+<tr><td>n6483</td><td></td><td>千福下</td><td></td><td></td><td class="problem"></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr></table>
+<br></li>
+</ul>
+<h3 class="issueHeader">Warnings:</h3><h4 class="issueHeader"><a name="WarningInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value 裾野・岩波線（富士見橋行き） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 2 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>susoiwa_iwa</td><td>3000020222208</td><td class="problem">裾野・岩波線（富士見橋行き）</td><td></td><td></td><td>3</td><td>http://www.city.susono.shizuoka.jp/kurashi/4/1/9165.html</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 裾野・岩波線（裾野駅行き） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 3 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>susoiwa_suso</td><td>3000020222208</td><td class="problem">裾野・岩波線（裾野駅行き）</td><td></td><td></td><td>3</td><td>http://www.city.susono.shizuoka.jp/kurashi/4/1/9165.html</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 裾野・富岡線（文化センター行き） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 4 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>susotomi_bunka</td><td>3000020222208</td><td class="problem">裾野・富岡線（文化センター行き）</td><td></td><td></td><td>3</td><td>http://www.city.susono.shizuoka.jp/kurashi/4/1/9165.html</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 裾野・富岡線（裾野駅行き） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 5 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>susotomi_suso</td><td>3000020222208</td><td class="problem">裾野・富岡線（裾野駅行き）</td><td></td><td></td><td>3</td><td>http://www.city.susono.shizuoka.jp/kurashi/4/1/9165.html</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青葉台・長泉なめり線（青葉台行き） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 6 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>aobanaga_aoba</td><td>3000020222208</td><td class="problem">青葉台・長泉なめり線（青葉台行き）</td><td></td><td></td><td>3</td><td>http://www.city.susono.shizuoka.jp/kurashi/4/1/9165.html</td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 青葉台・長泉なめり線（長泉なめり駅行き） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 7 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>aobanaga_naga</td><td>3000020222208</td><td class="problem">青葉台・長泉なめり線（長泉なめり駅行き）</td><td></td><td></td><td>3</td><td>http://www.city.susono.shizuoka.jp/kurashi/4/1/9165.html</td><td></td><td></td><td></td></tr></table>
+<br></li>
+</ul>
+<h4 class="issueHeader"><a name="WarningUnrecognizedColumn">Unrecognized Column</a></h4><ul>
+<li><div class="problem">Unrecognized column <code>wheelchair_accesible</code> in file <code>trips.txt</code>. This might be a misspelled column name (capitalization matters!). Or it could be extra information (such as a proposed feed extension) that the validator doesn't know about yet. Extra information is fine; this warning is here to catch misspelled optional column names.</div>in line 1 of <code>trips.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>service_id</th><th>trip_id</th><th>trip_headsign</th><th>trip_short_name</th><th>direction_id</th><th>block_id</th><th>shape_id</th><th class="problem">wheelchair_accesible</th><th>bikes_allowed</th><th>jp_trip_desc</th><th>jp_trip_desc_symbol</th><th>jp_office_id</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="problem"></td><td></td><td></td><td></td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Unrecognized column <code>shape_dist_travel</code> in file <code>stop_times.txt</code>. This might be a misspelled column name (capitalization matters!). Or it could be extra information (such as a proposed feed extension) that the validator doesn't know about yet. Extra information is fine; this warning is here to catch misspelled optional column names.</div>in line 1 of <code>stop_times.txt</code><br>
+<table class="dump"><tr><th>trip_id</th><th>arrival_time</th><th>departure_time</th><th>stop_id</th><th>stop_sequence</th><th>stop_headsign</th><th>pickup_type</th><th>drop_off_type</th><th class="problem">shape_dist_travel</th><th>timepoint</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="problem"></td><td></td></tr></table>
+<br></li>
+</ul>
+
+<div class="footer">
+Generated by <a href="https://github.com/google/transitfeed/wiki/FeedValidator">
+FeedValidator</a> version 1.2.16 on May 02, 2019 at 12:10 AM UTC.
+</div>
+</body>
+</html>

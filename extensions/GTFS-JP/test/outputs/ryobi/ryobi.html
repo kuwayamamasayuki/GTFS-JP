@@ -1,0 +1,831 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FeedValidator: ryobi.zip</title>
+<style>
+body {font-family: Georgia, serif; background-color: white}
+.path {color: gray}
+div.problem {max-width: 500px}
+table.dump td,th {background-color: khaki; padding: 2px; font-family:monospace}
+table.dump td.problem,th.problem {background-color: dc143c; color: white; padding: 2px; font-family:monospace}
+table.count_outside td {vertical-align: top}
+table.count_outside {border-spacing: 0px; }
+table {border-spacing: 5px 0px; margin-top: 3px}
+h3.issueHeader {padding-left: 0.5em}
+h4.issueHeader {padding-left: 1em}
+.pass {background-color: lightgreen}
+.fail {background-color: yellow}
+.notice {background-color: yellow}
+.pass, .fail {font-size: 16pt}
+.header {background-color: white; font-family: Georgia, serif; padding: 0px}
+th.header {text-align: right; font-weight: normal; color: gray}
+.footer {font-size: 10pt}
+</style>
+</head>
+<body>
+GTFS validation results for feed:<br>
+<code><span class="path">inputs/</span><b>ryobi.zip</b></code><br>
+FeedValidator extension used: extensions.GTFS-JP
+<br><br>
+<table>
+<tr><th class="header">Agencies:</th><td class="header"><a href="http://www.ryobi-holdings.jp/bus/">両備バス</a></td></tr>
+<tr><th class="header">Routes:</th><td class="header">153</td></tr>
+<tr><th class="header">Stops:</th><td class="header">1830</td></tr>
+<tr><th class="header">Trips:</th><td class="header">2497</td></tr>
+<tr><th class="header">Shapes:</th><td class="header">139</td></tr>
+<tr><th class="header">Effective:</th><td class="header">April 01, 2019 to August 02, 2019</td></tr>
+</table>
+<br>
+During the upcoming service dates Thu May 02 to Sun Jun 30:
+<table>
+<tr><th class="header">Average trips per date:</th><td class="header">858</td></tr>
+<tr><th class="header">Most trips on a date:</th><td class="header">957, on 39 service dates (Tue May 07, Wed May 08, Thu May 09, ...)</td></tr>
+<tr><th class="header">Least trips on a date:</th><td class="header">669, on 5 service dates (Sat Jun 01, Sat Jun 08, Sat Jun 15, ...)</td></tr>
+</table>
+<br>
+<span class="fail">Found these problems:</span>
+<table class="count_outside">
+<tr><td><span class="fail">36 errors</span></td><td><span class="fail">156 warnings</span></td></tr>
+<tr><td>
+<table><tr><td>36</td><td><a href="#ErrorInvalidValue">Invalid Values</a></td></tr>
+</table>
+</td>
+<td>
+<table><tr><td>151</td><td><a href="#WarningInvalidValue">Invalid Values</a></td></tr>
+<tr><td>5</td><td><a href="#WarningOtherProblem">Other Problems</a></td></tr>
+</table>
+</td>
+</table>
+<br><br>
+<h3 class="issueHeader">Errors:</h3><h4 class="issueHeader"><a name="ErrorInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value 小嶋 光信 in field <code>agency_president_name</code><br>agency_president_nameは，姓と名の間は全角スペース１文字である必要があります。（GTFS-JP仕様書(第２版) 2-1.参照）</div>in line 2 of <code>agency_jp.txt</code><br>
+<table class="dump"><tr><th>agency_id</th><th>agency_official_name</th><th>agency_zip_number</th><th>agency_address</th><th>agency_president_pos</th><th class="problem">agency_president_name</th></tr>
+<tr><td>7260001007086</td><td>両備バス</td><td>7000902</td><td>岡山市北区錦町7-23</td><td>代表取締役会長</td><td class="problem">小嶋 光信</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 843_2 in field <code>origin_id</code></div>in line 48221 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">843_2</td><td>842_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 843_2 in field <code>origin_id</code></div>in line 48222 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">843_2</td><td>841_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 843_2 in field <code>origin_id</code></div>in line 48223 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">843_2</td><td>840_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 843_2 in field <code>origin_id</code></div>in line 48224 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">843_2</td><td>839_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 19_9 in field <code>origin_id</code></div>in line 74030 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_100</td><td>21002_210074_1</td><td class="problem">19_9</td><td>27_9</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 22_9 in field <code>origin_id</code></div>in line 74067 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_100</td><td>21002_210074_1</td><td class="problem">22_9</td><td>27_9</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74305 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">149_2</td><td>150_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74307 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">149_2</td><td>221_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74308 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">149_2</td><td>223_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74309 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">149_2</td><td>225_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74310 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">149_2</td><td>227_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74311 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">149_2</td><td>229_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74312 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_190</td><td>21002_210074_1</td><td class="problem">149_2</td><td>231_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74313 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_220</td><td>21002_210074_1</td><td class="problem">149_2</td><td>233_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74314 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_220</td><td>21002_210074_1</td><td class="problem">149_2</td><td>234_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74315 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_250</td><td>21002_210074_1</td><td class="problem">149_2</td><td>235_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74316 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_250</td><td>21002_210074_1</td><td class="problem">149_2</td><td>236_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74317 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_270</td><td>21002_210074_1</td><td class="problem">149_2</td><td>237_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74318 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_300</td><td>21002_210074_1</td><td class="problem">149_2</td><td>238_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74319 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_300</td><td>21002_210074_1</td><td class="problem">149_2</td><td>239_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74320 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_320</td><td>21002_210074_1</td><td class="problem">149_2</td><td>240_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74321 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_350</td><td>21002_210074_1</td><td class="problem">149_2</td><td>241_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74322 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_350</td><td>21002_210074_1</td><td class="problem">149_2</td><td>242_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74323 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_350</td><td>21002_210074_1</td><td class="problem">149_2</td><td>243_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74324 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_380</td><td>21002_210074_1</td><td class="problem">149_2</td><td>244_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74326 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_400</td><td>21002_210074_1</td><td class="problem">149_2</td><td>844_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74330 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_410</td><td>21002_210074_1</td><td class="problem">149_2</td><td>842_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74331 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_410</td><td>21002_210074_1</td><td class="problem">149_2</td><td>841_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74332 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_410</td><td>21002_210074_1</td><td class="problem">149_2</td><td>840_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 149_2 in field <code>origin_id</code></div>in line 74333 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_410</td><td>21002_210074_1</td><td class="problem">149_2</td><td>839_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 245_2 in field <code>origin_id</code></div>in line 74725 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">245_2</td><td>844_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 245_2 in field <code>origin_id</code></div>in line 74729 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">245_2</td><td>842_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 245_2 in field <code>origin_id</code></div>in line 74730 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">245_2</td><td>841_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 245_2 in field <code>origin_id</code></div>in line 74731 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">245_2</td><td>840_2</td><td></td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 245_2 in field <code>origin_id</code></div>in line 74732 of <code>fare_rules.txt</code><br>
+<table class="dump"><tr><th>fare_id</th><th>route_id</th><th class="problem">origin_id</th><th>destination_id</th><th>contains_id</th></tr>
+<tr><td>21002_210074_1_170</td><td>21002_210074_1</td><td class="problem">245_2</td><td>839_2</td><td></td></tr></table>
+<br></li>
+</ul>
+<h3 class="issueHeader">Warnings:</h3><h4 class="issueHeader"><a name="WarningInvalidValue">Invalid Value</a></h4><ul>
+<li><div class="problem">Invalid value 渋川三丁目→荘内・日赤病院入口・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 2 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250621_1</td><td>7260001007086</td><td class="problem">渋川三丁目→荘内・日赤病院入口・天満屋→岡山駅</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 玉野光南高校→秀天橋・永井・企業団地・玉原→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 3 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250881_1</td><td>7260001007086</td><td class="problem">玉野光南高校→秀天橋・永井・企業団地・玉原→宇野駅</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 93_玉島中央町→玉島支所入口→新倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 4 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29008_290851_1</td><td>7260001007086</td><td class="problem">93_玉島中央町→玉島支所入口→新倉敷駅</td><td>玉島中央町線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉島中央町線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西宝伝直行バス　西宝伝→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 5 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21000_210009_1</td><td>7260001007086</td><td class="problem">西宝伝直行バス　西宝伝→岡山駅</td><td>岡山西宝伝線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西宝伝線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院入口・宇野駅→渋川三丁目 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 6 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21007_210612_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院入口・宇野駅→渋川三丁目</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 日ノ田門前→玉橋・（ループ橋）・秀天橋→西高崎 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 7 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250862_1</td><td>7260001007086</td><td class="problem">日ノ田門前→玉橋・（ループ橋）・秀天橋→西高崎</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 岡山駅→ダイヤモンド瀬戸内マリンホテル in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 8 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_506_1</td><td>7260001007086</td><td class="problem">特急 岡山駅→ダイヤモンド瀬戸内マリンホテル</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東児市民センター→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 9 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250621_1</td><td>7260001007086</td><td class="problem">東児市民センター→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 渋川三丁目→宇野駅・日赤病院入口・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 10 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250611_1</td><td>7260001007086</td><td class="problem">渋川三丁目→宇野駅・日赤病院入口・天満屋→岡山駅</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 新屋敷団地高島駅前→旭川荘北 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 11 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21006_211082_1</td><td>7260001007086</td><td class="problem">新屋敷団地高島駅前→旭川荘北</td><td>高島駅旭川荘線</td><td></td><td>3</td><td></td><td></td><td></td><td>高島駅旭川荘線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→玉原・企業団地→秀天橋 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 12 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250752_1</td><td>7260001007086</td><td class="problem">宇野駅→玉原・企業団地→秀天橋</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 21_倉敷駅→小溝・連島→倉敷芸科大学 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 13 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29003_290552_1</td><td>7260001007086</td><td class="problem">21_倉敷駅→小溝・連島→倉敷芸科大学</td><td>小溝車庫線、倉敷芸大線、JFE本線</td><td></td><td>3</td><td></td><td></td><td></td><td>小溝車庫線、倉敷芸大線、JFE本線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→西大寺駅・久々井→東宝伝 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 14 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200171_1</td><td>7260001007086</td><td class="problem">西大寺→西大寺駅・久々井→東宝伝</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 ダイヤモンド瀬戸内マリンホテル→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 15 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_505_1</td><td>7260001007086</td><td class="problem">特急 ダイヤモンド瀬戸内マリンホテル→岡山駅</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東区役所前→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 16 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20007_200075_1</td><td>7260001007086</td><td class="problem">東区役所前→西大寺</td><td>東区役所線</td><td></td><td>3</td><td></td><td></td><td></td><td>東区役所線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→西大寺駅→東宝伝 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 17 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200151_1</td><td>7260001007086</td><td class="problem">西大寺→西大寺駅→東宝伝</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東宝伝→久々井・西大寺駅→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 18 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200172_1</td><td>7260001007086</td><td class="problem">東宝伝→久々井・西大寺駅→西大寺</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・東山→海吉 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 19 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210031_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・東山→海吉</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・築港新町・小串→鉾立 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 20 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25001_250462_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・築港新町・小串→鉾立</td><td>小串・鉾立線</td><td></td><td>3</td><td></td><td></td><td></td><td>小串・鉾立線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 97_クラレ正門→玉島警察署前→新倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 21 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290875_1</td><td>7260001007086</td><td class="problem">97_クラレ正門→玉島警察署前→新倉敷駅</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 王子ヶ岳登山口→渋川・日比・商工高校前→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 22 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250931_1</td><td>7260001007086</td><td class="problem">王子ヶ岳登山口→渋川・日比・商工高校前→宇野駅</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value すこやかセンター→日赤玉野分院→東児市民センター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 23 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250672_1</td><td>7260001007086</td><td class="problem">すこやかセンター→日赤玉野分院→東児市民センター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→玉野市役所前・日比市民センター→渋川三丁目 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 24 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250914_1</td><td>7260001007086</td><td class="problem">宇野駅→玉野市役所前・日比市民センター→渋川三丁目</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東児市民センター→日赤玉野分院→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 25 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250671_1</td><td>7260001007086</td><td class="problem">東児市民センター→日赤玉野分院→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院入口・荘内→日比 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 26 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250944_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院入口・荘内→日比</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・東山・岡山国際ホテル→操南台団地 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 27 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21004_210062_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・東山・岡山国際ホテル→操南台団地</td><td>操南台団地線</td><td></td><td>3</td><td></td><td></td><td></td><td>操南台団地線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山南支援学校→日赤病院入口・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 28 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250591_1</td><td>7260001007086</td><td class="problem">岡山南支援学校→日赤病院入口・天満屋→岡山駅</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value ハーバーアイランド→クラレ入口・玉島警察署前→新倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 29 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290873_1</td><td>7260001007086</td><td class="problem">ハーバーアイランド→クラレ入口・玉島警察署前→新倉敷駅</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 深夜バス　岡山駅→天満屋・東山→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 30 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210013_1</td><td>7260001007086</td><td class="problem">深夜バス　岡山駅→天満屋・東山→西大寺</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 三井E&S→大池・玉原→秀天橋 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 31 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250812_1</td><td>7260001007086</td><td class="problem">三井E&S→大池・玉原→秀天橋</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 90_新倉敷駅北口→作陽学園正門→中国能開大 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 32 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29009_290902_1</td><td>7260001007086</td><td class="problem">90_新倉敷駅北口→作陽学園正門→中国能開大</td><td>作陽学園・能開大線</td><td></td><td>3</td><td></td><td></td><td></td><td>作陽学園・能開大線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 牛窓→邑久駅（市民病院通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 33 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20002_200244_1</td><td>7260001007086</td><td class="problem">牛窓→邑久駅（市民病院通過）</td><td>北回り牛窓線</td><td></td><td>3</td><td></td><td></td><td></td><td>北回り牛窓線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院入口→岡山南支援学校 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 34 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21007_210592_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院入口→岡山南支援学校</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 海吉→東山・天満屋・イオンモール岡山→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 35 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210032_1</td><td>7260001007086</td><td class="problem">海吉→東山・天満屋・イオンモール岡山→岡山駅</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 91_新倉敷駅→倉敷芸科大学 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 36 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29006_290812_1</td><td>7260001007086</td><td class="problem">91_新倉敷駅→倉敷芸科大学</td><td>新倉敷芸大線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷芸大線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・荘内→旭橋通り in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 37 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250605_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・荘内→旭橋通り</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 新倉敷駅→玉島警察署前・クラレ入口→ハーバーアイランド in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 38 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290878_1</td><td>7260001007086</td><td class="problem">新倉敷駅→玉島警察署前・クラレ入口→ハーバーアイランド</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 渋川三丁目→荘内・日赤病院入口・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 39 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21007_210621_1</td><td>7260001007086</td><td class="problem">渋川三丁目→荘内・日赤病院入口・天満屋→岡山駅</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 邑久駅→尻海・虫明→愛生園 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 40 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20003_200402_1</td><td>7260001007086</td><td class="problem">邑久駅→尻海・虫明→愛生園</td><td>虫明愛生園線</td><td></td><td>3</td><td></td><td></td><td></td><td>虫明愛生園線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・東山→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 41 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210012_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・東山→西大寺</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 おもちゃ王国→岡山駅（イオン通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 42 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_531_1</td><td>7260001007086</td><td class="problem">特急 おもちゃ王国→岡山駅（イオン通過）</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東児市民センター→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 43 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250631_1</td><td>7260001007086</td><td class="problem">東児市民センター→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→市役所入口・千日前・東山→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 44 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210042_1</td><td>7260001007086</td><td class="problem">岡山駅→市役所入口・千日前・東山→西大寺</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院入口・宇野駅→玉野市役所前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 45 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250602_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院入口・宇野駅→玉野市役所前</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→東山・千日前・市役所入口→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 46 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210041_1</td><td>7260001007086</td><td class="problem">西大寺→東山・千日前・市役所入口→岡山駅</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東区役所前→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 47 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20007_210075_1</td><td>7260001007086</td><td class="problem">東区役所前→西大寺</td><td>東区役所線</td><td></td><td>3</td><td></td><td></td><td></td><td>東区役所線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→東区役所前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 48 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20007_210076_1</td><td>7260001007086</td><td class="problem">西大寺→東区役所前</td><td>東区役所線</td><td></td><td>3</td><td></td><td></td><td></td><td>東区役所線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 岡山駅→ダイヤモンド瀬戸内マリンホテル（ろうさい病院経由） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 49 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_510_1</td><td>7260001007086</td><td class="problem">特急 岡山駅→ダイヤモンド瀬戸内マリンホテル（ろうさい病院経由）</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 25_倉敷駅→小溝・青葉町→JFE南門 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 50 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29003_290582_1</td><td>7260001007086</td><td class="problem">25_倉敷駅→小溝・青葉町→JFE南門</td><td>小溝車庫線、倉敷芸大線、JFE本線</td><td></td><td>3</td><td></td><td></td><td></td><td>小溝車庫線、倉敷芸大線、JFE本線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東区役所前→西大寺・東山・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 51 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210073_1</td><td>7260001007086</td><td class="problem">東区役所前→西大寺・東山・天満屋→岡山駅</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value すこやかセンター→東児市民センター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 52 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250622_1</td><td>7260001007086</td><td class="problem">すこやかセンター→東児市民センター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E56_中庄駅→コンベックス岡山・庭瀬・北長瀬駅→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 53 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29005_291052_1</td><td>7260001007086</td><td class="problem">E56_中庄駅→コンベックス岡山・庭瀬・北長瀬駅→岡山駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・沖元→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 54 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21003_210102_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・沖元→西大寺</td><td>沖元西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>沖元西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 渋川三丁目→日比・玉野市役所前→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 55 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250911_1</td><td>7260001007086</td><td class="problem">渋川三丁目→日比・玉野市役所前→宇野駅</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→玉原・企業団地・永井・秀天橋→玉野光南高校 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 56 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250882_1</td><td>7260001007086</td><td class="problem">宇野駅→玉原・企業団地・永井・秀天橋→玉野光南高校</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value C2_倉敷駅→成人病センター・堀南・市役所→倉敷駅（倉敷循環線左回り） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 57 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29004_290502_1</td><td>7260001007086</td><td class="problem">C2_倉敷駅→成人病センター・堀南・市役所→倉敷駅（倉敷循環線左回り）</td><td>倉敷循環線</td><td></td><td>3</td><td></td><td></td><td></td><td>倉敷循環線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→天満屋・イオン・岡山駅前→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 58 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210034_1</td><td>7260001007086</td><td class="problem">西大寺→天満屋・イオン・岡山駅前→西大寺</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 牛窓→神崎・西大寺駅→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 59 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20001_200212_1</td><td>7260001007086</td><td class="problem">牛窓→神崎・西大寺駅→西大寺</td><td>南回り牛窓線</td><td></td><td>3</td><td></td><td></td><td></td><td>南回り牛窓線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value A1_倉敷駅北口→イオンモール倉敷・水江→倉敷駅北口（水江循環線） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 60 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29001_290522_1</td><td>7260001007086</td><td class="problem">A1_倉敷駅北口→イオンモール倉敷・水江→倉敷駅北口（水江循環線）</td><td>イオンモール倉敷・水江循環線</td><td></td><td>3</td><td></td><td></td><td></td><td>イオンモール倉敷・水江循環線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 邑久駅→尻海・虫明→瀬溝 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 61 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20003_200291_1</td><td>7260001007086</td><td class="problem">邑久駅→尻海・虫明→瀬溝</td><td>虫明愛生園線</td><td></td><td>3</td><td></td><td></td><td></td><td>虫明愛生園線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 21_倉敷芸科大学→連島・小溝→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 62 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29003_290551_1</td><td>7260001007086</td><td class="problem">21_倉敷芸科大学→連島・小溝→倉敷駅</td><td>小溝車庫線、倉敷芸大線、JFE本線</td><td></td><td>3</td><td></td><td></td><td></td><td>小溝車庫線、倉敷芸大線、JFE本線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 93_新倉敷駅→玉島支所入口→玉島中央町 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 63 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29008_290852_1</td><td>7260001007086</td><td class="problem">93_新倉敷駅→玉島支所入口→玉島中央町</td><td>玉島中央町線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉島中央町線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E11_岡山駅→天満屋・庭瀬・川崎医大→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 64 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21001_211012_1</td><td>7260001007086</td><td class="problem">E11_岡山駅→天満屋・庭瀬・川崎医大→倉敷駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 新倉敷駅→玉島警察署前・クラレ正門→ハーバーアイランド in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 65 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290879_1</td><td>7260001007086</td><td class="problem">新倉敷駅→玉島警察署前・クラレ正門→ハーバーアイランド</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 愛生園→虫明・尻海→邑久駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 66 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20003_200401_1</td><td>7260001007086</td><td class="problem">愛生園→虫明・尻海→邑久駅</td><td>虫明愛生園線</td><td></td><td>3</td><td></td><td></td><td></td><td>虫明愛生園線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・東山・西大寺・西大寺駅→東区役所前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 67 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210074_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・東山・西大寺・西大寺駅→東区役所前</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 操南台団地→岡山国際ホテル・東山→山陽女子中学・高校前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 68 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21004_210063_1</td><td>7260001007086</td><td class="problem">操南台団地→岡山国際ホテル・東山→山陽女子中学・高校前</td><td>操南台団地線</td><td></td><td>3</td><td></td><td></td><td></td><td>操南台団地線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 築港新町→ダイヤモンド瀬戸内マリンホテル in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 69 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_509_1</td><td>7260001007086</td><td class="problem">特急 築港新町→ダイヤモンド瀬戸内マリンホテル</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東宝伝→西大寺駅→東区役所 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 70 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200154_1</td><td>7260001007086</td><td class="problem">東宝伝→西大寺駅→東区役所</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E12_岡山駅→天満屋・北長瀬駅・庭瀬・川崎医大→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 71 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21001_212012_1</td><td>7260001007086</td><td class="problem">E12_岡山駅→天満屋・北長瀬駅・庭瀬・川崎医大→倉敷駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西高崎→秀天橋・（ループ橋）・玉橋→日ノ田門前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 72 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250861_1</td><td>7260001007086</td><td class="problem">西高崎→秀天橋・（ループ橋）・玉橋→日ノ田門前</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東宝伝→久々井→東区役所 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 73 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200174_1</td><td>7260001007086</td><td class="problem">東宝伝→久々井→東区役所</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 旭川荘北→新屋敷団地高島駅前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 74 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21006_211081_1</td><td>7260001007086</td><td class="problem">旭川荘北→新屋敷団地高島駅前</td><td>高島駅旭川荘線</td><td></td><td>3</td><td></td><td></td><td></td><td>高島駅旭川荘線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 益野西→天満屋・イオン・岡山駅前→益野西 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 75 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210033_1</td><td>7260001007086</td><td class="problem">益野西→天満屋・イオン・岡山駅前→益野西</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 玉野営業所前→宇野駅・玉橋・三井E&S→三井玉原前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 77 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250842_1</td><td>7260001007086</td><td class="problem">玉野営業所前→宇野駅・玉橋・三井E&S→三井玉原前</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E12_倉敷駅→川崎医大・庭瀬・北長瀬駅・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 78 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21001_212011_1</td><td>7260001007086</td><td class="problem">E12_倉敷駅→川崎医大・庭瀬・北長瀬駅・天満屋→岡山駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E11_岡山駅→天満屋・庭瀬・川崎医大→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 79 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29005_291012_1</td><td>7260001007086</td><td class="problem">E11_岡山駅→天満屋・庭瀬・川崎医大→倉敷駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 旭川荘→原尾島・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 80 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21005_210331_1</td><td>7260001007086</td><td class="problem">旭川荘→原尾島・天満屋→岡山駅</td><td>岡山駅旭川荘線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山駅旭川荘線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→商工高校前・日比→渋川三丁目 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 81 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250712_1</td><td>7260001007086</td><td class="problem">宇野駅→商工高校前・日比→渋川三丁目</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 94_住友重機械西門→クラレ入口・玉島警察署前→新倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 82 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290871_1</td><td>7260001007086</td><td class="problem">94_住友重機械西門→クラレ入口・玉島警察署前→新倉敷駅</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 操南台団地→岡山国際ホテル・東山・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 83 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21004_210061_1</td><td>7260001007086</td><td class="problem">操南台団地→岡山国際ホテル・東山・天満屋→岡山駅</td><td>操南台団地線</td><td></td><td>3</td><td></td><td></td><td></td><td>操南台団地線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 岡山駅→ダイヤモンド瀬戸内マリンホテル in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 84 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_508_1</td><td>7260001007086</td><td class="problem">特急 岡山駅→ダイヤモンド瀬戸内マリンホテル</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 90_中国能開大→作陽学園正門→新倉敷駅北口 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 85 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29009_290901_1</td><td>7260001007086</td><td class="problem">90_中国能開大→作陽学園正門→新倉敷駅北口</td><td>作陽学園・能開大線</td><td></td><td>3</td><td></td><td></td><td></td><td>作陽学園・能開大線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 瀬溝→虫明・尻海→邑久駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 86 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20003_200292_1</td><td>7260001007086</td><td class="problem">瀬溝→虫明・尻海→邑久駅</td><td>虫明愛生園線</td><td></td><td>3</td><td></td><td></td><td></td><td>虫明愛生園線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東区役所→久々井→東宝伝 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 87 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200173_1</td><td>7260001007086</td><td class="problem">東区役所→久々井→東宝伝</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 おもちゃ王国→岡山駅（イオン通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 88 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_533_1</td><td>7260001007086</td><td class="problem">特急 おもちゃ王国→岡山駅（イオン通過）</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 秀天橋→玉原・大池→三井E&S in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 89 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250811_1</td><td>7260001007086</td><td class="problem">秀天橋→玉原・大池→三井E&S</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 96_新倉敷駅→玉島警察署前・クラレ入口→ハーバーアイランド３工区 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 90 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290111_1</td><td>7260001007086</td><td class="problem">96_新倉敷駅→玉島警察署前・クラレ入口→ハーバーアイランド３工区</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 邑久駅→牛窓（市民病院通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 91 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20002_200243_1</td><td>7260001007086</td><td class="problem">邑久駅→牛窓（市民病院通過）</td><td>北回り牛窓線</td><td></td><td>3</td><td></td><td></td><td></td><td>北回り牛窓線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 22_倉敷駅→小溝・連島→霞橋車庫 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 92 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29003_290542_1</td><td>7260001007086</td><td class="problem">22_倉敷駅→小溝・連島→霞橋車庫</td><td>小溝車庫線、倉敷芸大線、JFE本線</td><td></td><td>3</td><td></td><td></td><td></td><td>小溝車庫線、倉敷芸大線、JFE本線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 96_ハーバーアイランド３工区→クラレ入口・玉島警察署前→新倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 93 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290113_1</td><td>7260001007086</td><td class="problem">96_ハーバーアイランド３工区→クラレ入口・玉島警察署前→新倉敷駅</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 深山公園道の駅→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 94 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250663_1</td><td>7260001007086</td><td class="problem">深山公園道の駅→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→商工高校前・日比・渋川→王子ヶ岳登山口 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 95 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250932_1</td><td>7260001007086</td><td class="problem">宇野駅→商工高校前・日比・渋川→王子ヶ岳登山口</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 玉野光南高校→秀天橋・企業団地・玉原→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 96 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250781_1</td><td>7260001007086</td><td class="problem">玉野光南高校→秀天橋・企業団地・玉原→宇野駅</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value すこやかセンター→東児市民センター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 97 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250612_1</td><td>7260001007086</td><td class="problem">すこやかセンター→東児市民センター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 91_倉敷芸科大学→新倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 98 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29006_290811_1</td><td>7260001007086</td><td class="problem">91_倉敷芸科大学→新倉敷駅</td><td>新倉敷芸大線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷芸大線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 岡山駅→玉橋 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 99 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_538_1</td><td>7260001007086</td><td class="problem">特急 岡山駅→玉橋</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value すこやかセンター→深山公園道の駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 100 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250664_1</td><td>7260001007086</td><td class="problem">すこやかセンター→深山公園道の駅</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 32_倉敷駅→倉敷市役所・青葉町・連島→霞橋車庫 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 101 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29010_290632_1</td><td>7260001007086</td><td class="problem">32_倉敷駅→倉敷市役所・青葉町・連島→霞橋車庫</td><td>倉敷吉岡線</td><td></td><td>3</td><td></td><td></td><td></td><td>倉敷吉岡線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院入口・宇野駅→渋川三丁目 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 102 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250612_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院入口・宇野駅→渋川三丁目</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E11_倉敷駅→川崎医大・庭瀬・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 104 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29005_291011_1</td><td>7260001007086</td><td class="problem">E11_倉敷駅→川崎医大・庭瀬・天満屋→岡山駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東区役所→西大寺駅→東宝伝 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 105 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200153_1</td><td>7260001007086</td><td class="problem">東区役所→西大寺駅→東宝伝</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→玉原→企業団地北 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 106 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250772_1</td><td>7260001007086</td><td class="problem">宇野駅→玉原→企業団地北</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・築港新町・上山坂→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 107 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25002_250472_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・築港新町・上山坂→宇野駅</td><td>上山坂線</td><td></td><td>3</td><td></td><td></td><td></td><td>上山坂線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 渋川三丁目→日比市民センター・玉野市役所前→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 108 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250913_1</td><td>7260001007086</td><td class="problem">渋川三丁目→日比市民センター・玉野市役所前→宇野駅</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東児市民センター→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 109 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250661_1</td><td>7260001007086</td><td class="problem">東児市民センター→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西宝伝直行バス　岡山駅→西宝伝 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 110 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21000_210008_1</td><td>7260001007086</td><td class="problem">西宝伝直行バス　岡山駅→西宝伝</td><td>岡山西宝伝線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西宝伝線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 企業団地北→玉原→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 111 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250771_1</td><td>7260001007086</td><td class="problem">企業団地北→玉原→宇野駅</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E45_岡山駅→天満屋・庭瀬→川崎医大前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 112 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29005_291092_1</td><td>7260001007086</td><td class="problem">E45_岡山駅→天満屋・庭瀬→川崎医大前</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 95_新倉敷駅→玉島警察署前・クラレ正門→ハーバーアイランド３工区 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 113 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290112_1</td><td>7260001007086</td><td class="problem">95_新倉敷駅→玉島警察署前・クラレ正門→ハーバーアイランド３工区</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東児市民センター→玉野営業所前→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 114 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250681_1</td><td>7260001007086</td><td class="problem">東児市民センター→玉野営業所前→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 おもちゃ王国→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 115 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_534_1</td><td>7260001007086</td><td class="problem">特急 おもちゃ王国→岡山駅</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 25_JFE南門→青葉町・小溝→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 116 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29003_290581_1</td><td>7260001007086</td><td class="problem">25_JFE南門→青葉町・小溝→倉敷駅</td><td>小溝車庫線、倉敷芸大線、JFE本線</td><td></td><td>3</td><td></td><td></td><td></td><td>小溝車庫線、倉敷芸大線、JFE本線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 岡山駅→おもちゃ王国 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 117 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_535_1</td><td>7260001007086</td><td class="problem">特急 岡山駅→おもちゃ王国</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→東山・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 118 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210011_1</td><td>7260001007086</td><td class="problem">西大寺→東山・天満屋→岡山駅</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 牛窓→邑久駅→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 119 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20002_200232_1</td><td>7260001007086</td><td class="problem">牛窓→邑久駅→西大寺</td><td>北回り牛窓線</td><td></td><td>3</td><td></td><td></td><td></td><td>北回り牛窓線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→上山坂・築港新町・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 120 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25002_250471_1</td><td>7260001007086</td><td class="problem">宇野駅→上山坂・築港新町・天満屋→岡山駅</td><td>上山坂線</td><td></td><td>3</td><td></td><td></td><td></td><td>上山坂線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→邑久駅→牛窓 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 121 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20002_200231_1</td><td>7260001007086</td><td class="problem">西大寺→邑久駅→牛窓</td><td>北回り牛窓線</td><td></td><td>3</td><td></td><td></td><td></td><td>北回り牛窓線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E12_岡山駅→天満屋・北長瀬駅・庭瀬・川崎医大→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 122 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29005_292012_1</td><td>7260001007086</td><td class="problem">E12_岡山駅→天満屋・北長瀬駅・庭瀬・川崎医大→倉敷駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→沖元・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 123 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21003_210101_1</td><td>7260001007086</td><td class="problem">西大寺→沖元・天満屋→岡山駅</td><td>沖元西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>沖元西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 玉橋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 124 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_537_1</td><td>7260001007086</td><td class="problem">特急 玉橋→岡山駅</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value モーニングライナー　西大寺→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 125 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21002_210072_1</td><td>7260001007086</td><td class="problem">モーニングライナー　西大寺→岡山駅</td><td>岡山西大寺線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山西大寺線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value すこやかセンター→深山公園道の駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 126 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250614_1</td><td>7260001007086</td><td class="problem">すこやかセンター→深山公園道の駅</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 玉橋→岡山ろうさい病院 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 127 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_539_1</td><td>7260001007086</td><td class="problem">特急 玉橋→岡山ろうさい病院</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→西大寺駅・神崎→牛窓 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 128 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20001_200211_1</td><td>7260001007086</td><td class="problem">西大寺→西大寺駅・神崎→牛窓</td><td>南回り牛窓線</td><td></td><td>3</td><td></td><td></td><td></td><td>南回り牛窓線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 深山公園道の駅→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 129 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250613_1</td><td>7260001007086</td><td class="problem">深山公園道の駅→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 22_霞橋車庫→連島・小溝→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 130 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29003_290541_1</td><td>7260001007086</td><td class="problem">22_霞橋車庫→連島・小溝→倉敷駅</td><td>小溝車庫線、倉敷芸大線、JFE本線</td><td></td><td>3</td><td></td><td></td><td></td><td>小溝車庫線、倉敷芸大線、JFE本線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 西大寺→東区役所前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 131 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20007_200076_1</td><td>7260001007086</td><td class="problem">西大寺→東区役所前</td><td>東区役所線</td><td></td><td>3</td><td></td><td></td><td></td><td>東区役所線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 ダイヤモンド瀬戸内マリンホテル→岡山駅（イオン通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 132 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_517_1</td><td>7260001007086</td><td class="problem">特急 ダイヤモンド瀬戸内マリンホテル→岡山駅（イオン通過）</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→玉原・企業団地・秀天橋→玉野光南高校 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 133 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250782_1</td><td>7260001007086</td><td class="problem">宇野駅→玉原・企業団地・秀天橋→玉野光南高校</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value すこやかセンター→東児市民センター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 134 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250662_1</td><td>7260001007086</td><td class="problem">すこやかセンター→東児市民センター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 ダイヤモンド瀬戸内マリンホテル→岡山駅（三井E&S通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 135 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_511_1</td><td>7260001007086</td><td class="problem">特急 ダイヤモンド瀬戸内マリンホテル→岡山駅（三井E&S通過）</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value E12_倉敷駅→川崎医大・庭瀬・北長瀬駅・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 136 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29005_292011_1</td><td>7260001007086</td><td class="problem">E12_倉敷駅→川崎医大・庭瀬・北長瀬駅・天満屋→岡山駅</td><td>岡倉線（旧2号線）</td><td></td><td>3</td><td></td><td></td><td></td><td>岡倉線（旧2号線）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 玉野市役所前→宇野駅・日赤病院入口・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 137 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250601_1</td><td>7260001007086</td><td class="problem">玉野市役所前→宇野駅・日赤病院入口・天満屋→岡山駅</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東宝伝→西大寺駅→西大寺 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 138 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>20005_200152_1</td><td>7260001007086</td><td class="problem">東宝伝→西大寺駅→西大寺</td><td>宝伝・久々井線</td><td></td><td>3</td><td></td><td></td><td></td><td>宝伝・久々井線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 鉾立→小串・築港新町・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 139 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25001_250461_1</td><td>7260001007086</td><td class="problem">鉾立→小串・築港新町・天満屋→岡山駅</td><td>小串・鉾立線</td><td></td><td>3</td><td></td><td></td><td></td><td>小串・鉾立線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 東児市民センター→すこやかセンター in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 140 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25007_2250611_1</td><td>7260001007086</td><td class="problem">東児市民センター→すこやかセンター</td><td>シーバス</td><td></td><td>3</td><td></td><td></td><td></td><td>シーバス</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 94_新倉敷駅→玉島警察署前・クラレ入口→住友重機械西門 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 141 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29007_290872_1</td><td>7260001007086</td><td class="problem">94_新倉敷駅→玉島警察署前・クラレ入口→住友重機械西門</td><td>新倉敷住友重機械線、ハーバーアイランド線</td><td></td><td>3</td><td></td><td></td><td></td><td>新倉敷住友重機械線、ハーバーアイランド線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 33_倉敷駅→倉敷市役所→水島協同病院前 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 142 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29010_290634_1</td><td>7260001007086</td><td class="problem">33_倉敷駅→倉敷市役所→水島協同病院前</td><td>倉敷吉岡線</td><td></td><td>3</td><td></td><td></td><td></td><td>倉敷吉岡線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value C1_倉敷駅→市役所・堀南・成人病センター→倉敷駅（倉敷循環線右回り） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 143 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29004_290501_1</td><td>7260001007086</td><td class="problem">C1_倉敷駅→市役所・堀南・成人病センター→倉敷駅（倉敷循環線右回り）</td><td>倉敷循環線</td><td></td><td>3</td><td></td><td></td><td></td><td>倉敷循環線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 秀天橋→企業団地・玉原→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 144 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25006_250751_1</td><td>7260001007086</td><td class="problem">秀天橋→企業団地・玉原→宇野駅</td><td>企業団地・秀天橋・光南高校線</td><td></td><td>3</td><td></td><td></td><td></td><td>企業団地・秀天橋・光南高校線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 01_倉敷駅北口⇔イオンモール倉敷 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 145 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29001_290512_1</td><td>7260001007086</td><td class="problem">01_倉敷駅北口⇔イオンモール倉敷</td><td>イオンモール倉敷・水江循環線</td><td></td><td>3</td><td></td><td></td><td></td><td>イオンモール倉敷・水江循環線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院→南支援学校 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 146 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250592_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院→南支援学校</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 32_霞橋車庫→連島・青葉町・倉敷市役所→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 147 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29010_290631_1</td><td>7260001007086</td><td class="problem">32_霞橋車庫→連島・青葉町・倉敷市役所→倉敷駅</td><td>倉敷吉岡線</td><td></td><td>3</td><td></td><td></td><td></td><td>倉敷吉岡線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 渋川三丁目→日比・商工高校前→宇野駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 148 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250711_1</td><td>7260001007086</td><td class="problem">渋川三丁目→日比・商工高校前→宇野駅</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 旭橋通り→荘内・天満屋→岡山駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 149 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250606_1</td><td>7260001007086</td><td class="problem">旭橋通り→荘内・天満屋→岡山駅</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・原尾島→旭川荘 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 150 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>21005_210332_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・原尾島→旭川荘</td><td>岡山駅旭川荘線</td><td></td><td>3</td><td></td><td></td><td></td><td>岡山駅旭川荘線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 33_水島協同病院前→倉敷市役所→倉敷駅 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 151 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>29010_290633_1</td><td>7260001007086</td><td class="problem">33_水島協同病院前→倉敷市役所→倉敷駅</td><td>倉敷吉岡線</td><td></td><td>3</td><td></td><td></td><td></td><td>倉敷吉岡線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 岡山駅→天満屋・日赤病院入口・荘内→渋川三丁目 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 152 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25004_250622_1</td><td>7260001007086</td><td class="problem">岡山駅→天満屋・日赤病院入口・荘内→渋川三丁目</td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td><td></td><td>3</td><td></td><td></td><td></td><td>国道30号各線（渋川三丁目、玉野市役所、岡山南支援学校）</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 特急 ダイヤモンド瀬戸内マリンホテル→岡山駅（イオン通過） in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 153 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25003_503_1</td><td>7260001007086</td><td class="problem">特急 ダイヤモンド瀬戸内マリンホテル→岡山駅（イオン通過）</td><td>玉野渋川特急線</td><td></td><td>3</td><td></td><td></td><td></td><td>玉野渋川特急線</td></tr></table>
+<br></li>
+<li><div class="problem">Invalid value 宇野駅→玉野市役所前・日比→渋川三丁目 in field <code>route_short_name</code><br>This route_short_name is relatively long, which probably means that it contains a place name.  You should only use this field to hold a short code that riders use to identify a route.  If this route doesn't have such a code, it's OK to leave this field empty.</div>in line 154 of <code>routes.txt</code><br>
+<table class="dump"><tr><th>route_id</th><th>agency_id</th><th class="problem">route_short_name</th><th>route_long_name</th><th>route_desc</th><th>route_type</th><th>route_url</th><th>route_color</th><th>route_text_color</th><th>jp_parent_route_id</th></tr>
+<tr><td>25005_250912_1</td><td>7260001007086</td><td class="problem">宇野駅→玉野市役所前・日比→渋川三丁目</td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td><td></td><td>3</td><td></td><td></td><td></td><td>新道渋川・王子ヶ岳線、藤井海岸渋川線</td></tr></table>
+<br></li>
+</ul>
+<h4 class="issueHeader"><a name="WarningOtherProblem">Other Problem</a></h4><ul>
+<li><div class="problem">Service period with service_id "29_236_20190401" doesn't have service on any days of the week.</div>in line 16 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "29_238_20190401" doesn't have service on any days of the week.</div>in line 18 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "29_237_20190401" doesn't have service on any days of the week.</div>in line 17 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "25_231_20190401" doesn't have service on any days of the week.</div>in line 11 of <code>calendar.txt</code><br>
+<br></li>
+<li><div class="problem">Service period with service_id "25_232_20190401" doesn't have service on any days of the week.</div>in line 12 of <code>calendar.txt</code><br>
+<br></li>
+</ul>
+
+<div class="footer">
+Generated by <a href="https://github.com/google/transitfeed/wiki/FeedValidator">
+FeedValidator</a> version 1.2.16 on May 02, 2019 at 12:12 AM UTC.
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+validating inputs/GTFS_TSUAIRPORTLINE.zip
+FeedValidator extension used: extensions.GTFS-JP
+This feed will soon expire, on May 31, 2019 (feed_end_date in feed_info.txt)
+ column route_long_name
+Invalid value 津ベルライン in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "101001"
+and "102001".
+ERROR: 4 errors found

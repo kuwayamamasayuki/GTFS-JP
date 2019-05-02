@@ -1,0 +1,3 @@
+validating inputs/GTFS (2).zip
+FeedValidator extension used: extensions.GTFS-JP
+ERROR: 125 errors and 8 warnings found

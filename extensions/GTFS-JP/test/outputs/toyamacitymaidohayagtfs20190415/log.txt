@@ -1,0 +1,3 @@
+validating inputs/toyamacitymaidohayagtfs20190415.zip
+FeedValidator extension used: extensions.GTFS-JP
+feed validated successfully

@@ -1,0 +1,16 @@
+validating inputs/city_uozu_shimin_gtfs.zip
+FeedValidator extension used: extensions.GTFS-JP
+The stations "魚津駅前" (ID 303) and "魚津駅前" (ID 45) are 0.00m
+apart and probably represent the same location.
+The parent_station of stop "魚津駅前" (ID 45_1) is not station
+"魚津駅前" (ID 303) but they are only 0.00m apart.
+The parent_station of stop "魚津駅前" (ID 303_1) is not station
+"魚津駅前" (ID 45) but they are only 0.00m apart.
+The stops "魚津駅前" (ID 303_1) and "魚津駅前" (ID 45_1) are 0.00m
+apart and probably represent the same location.
+ column route_long_name
+Invalid value 上野方ルート（第4便） in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used
+for more than one route, as it is for the for the two routes with IDs "41_1"
+and "37_1".
+feed validated successfully

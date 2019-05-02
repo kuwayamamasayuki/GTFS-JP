@@ -1,0 +1,6 @@
+validating inputs/GTFS(2019-03-25_1541).zip
+FeedValidator extension used: extensions.GTFS-JP
+All services are defined on a weekly basis from 2019-03-25 to 2020-03-23 with
+no single day variations. If there are exceptions such as holiday service
+dates please ensure they are listed in calendar_dates.txt
+ERROR: 10 warnings found
