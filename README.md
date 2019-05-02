@@ -50,7 +50,8 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 ![出力例](キャプチャ.PNG)
 
 これ以外の各交通事業者のGTFSファイルを検証した結果は，[http://35.192.87.3/FeedValidator-extension-for-GTFS-JP/output.html](http://35.192.87.3/FeedValidator-extension-for-GTFS-JP/output.html)にあります。
-(2019/4/30～5/1にかけてダウンロードしたデータを用いて検証したものですので，最新の情報ではないかもしれません。)
+後述のバグのせいで，各交通事業者につき，HTMLファイルとTXTファイルの二つをご確認いただく必要があります。
+また，2019/4/30～5/1にかけてダウンロードしたデータを用いて検証したものですので，最新の情報ではないかもしれません。
 
 ## 主な拡張内容
 
