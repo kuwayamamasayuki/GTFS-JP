@@ -1,4 +1,4 @@
-validating inputs/saga-2019-03-31.zip
+validating inputs/saga-current.zip
 FeedValidator extension used: extensions.GTFS-JP
 佐賀大学前(2) (ID 1003018-02) is too far from its parent station
 佐賀大学前 (ID 1003018) : 101.00 meters.
