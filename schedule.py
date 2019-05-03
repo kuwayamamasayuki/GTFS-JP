@@ -89,3 +89,29 @@ class Schedule(transitfeed.Schedule):
     if validate:
       office_jp.Validate(problem_reporter)
     self._office_jps[office_jp.office_id] = office_jp
+
+  def ValidateRouteNames(self, problems, validate_children):
+    # Check for multiple routes using same short + long name
+    #route_names = {}
+    for route in self.routes.values():
+      if validate_children:
+        route.Validate(problems)
+      #short_name = ''
+      #if not util.IsEmpty(route.route_short_name):
+      #  short_name = route.route_short_name.lower().strip()
+      #long_name = ''
+      #if not util.IsEmpty(route.route_long_name):
+      #  long_name = route.route_long_name.lower().strip()
+      #name = (short_name, long_name)
+      #if name in route_names:
+      #  problems.InvalidValue('route_long_name',
+      #                        long_name,
+      #                        'The same combination of '
+      #                        'route_short_name and route_long_name '
+      #                        'shouldn\'t be used for more than one '
+      #                        'route, as it is for the for the two routes '
+      #                        'with IDs "%s" and "%s".' %
+      #                        (route.route_id, route_names[name].route_id),
+      #                        type=problems_module.TYPE_WARNING)
+      #else:
+      #  route_names[name] = route
