@@ -120,4 +120,8 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 
 ## 既知のバグ
 
-（2019/5/3時点ではありません。）
+「Invalid value ○○ in field route_long_name
+The same combination of route_short_name and route_long_name shouldn't be used for more than one route, as it is for the for the two routes with IDs "△△" and "□□".」という警告メッセージが出るのは，GTFSとGTFS-JPとのrouteの使い方の違い（※）によるものです。気にしなくてかまいません。
+
+※ GTFSでは，往路・復路，経由違いや途中止まりを同一経路とするが，GTFS-JPでは，原則，経路を通過停留所別・方向別に分けるという点。
+
