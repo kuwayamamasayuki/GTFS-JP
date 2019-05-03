@@ -20,12 +20,23 @@ Googleの[FeedValidator](https://github.com/google/transitfeed/wiki/FeedValidato
 
 #### gitを使う場合
 
-````sh
-git clone https://github.com/google/transitfeed.git
-cd transitfeed/extensions
-git clone https://github.com/kuwayamamasayuki/GTFS-JP.git
-cd ..
+1. `git clone https://github.com/google/transitfeed.git`
+1. `cd transitfeed/extensions`
+1. `git clone https://github.com/kuwayamamasayuki/GTFS-JP.git`
+1. `cd ..`
+1. feedvalidator.pyの593行目，RunValidation()の中でschedule.Validate()を呼び出しているところの引数として，「problems=problems」を追加。
+もう少し具体的に言うと，
 ````
+  schedule.Validate(service_gap_interval=options.service_gap_interval,
+                    validate_children=False)
+````
+の部分を，
+````
+  schedule.Validate(service_gap_interval=options.service_gap_interval,
+                    validate_children=False, problems=problems)
+````
+に変更する必要があります。
+
 
 #### gitなど使いたくない or 使えないという場合
 
@@ -37,6 +48,7 @@ cd ..
 1. ダウンロードしたGTFS-JP拡張を展開する。
 1. 展開してできたフォルダ「GTFS-JP-master」の名前を「GTFS-JP」に変更する。
 1. `cd ..` して，feedvalidator.pyのあるフォルダに移動する。
+1. feedvalidato.pyを修正（上の「gitを使う場合」の5.と同じ。）
 
 ### 実際の使用
 
@@ -108,12 +120,4 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 
 ## 既知のバグ
 
-いくつかの警告については，HTMLファイルに出力されず，標準出力に出力されてしまいます。
-
-このため，「feed validated successfully」と表示されたからといって安心しきってはいけません。
-feedvalidator.pyを起動した画面も確認してください。
-
-標準出力に出力されてしまう警告の例としては，以下のようなものがあります。
-
-- 田沼下町 (ID 24_1) is too far from its parent station 田沼下町 (ID 24) : 107.26 meters.
-- The stops "高崎バスセンター" (ID 236_02) and "高崎バスセンター" (ID H0006_01) are 0.00m apart and probably represent the same location.
+（2019/5/3時点ではありません。）
