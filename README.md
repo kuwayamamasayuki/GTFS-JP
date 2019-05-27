@@ -1,4 +1,9 @@
-# extensions/GTFS-JP
+# extensions/GTFS-JP ![ロゴマーク](images/img_works_260_col_tr.png)
+<---
+ロゴは，GTFS-JP啓発サイト
+http://wwwtb.mlit.go.jp/chubu/gifu/gtfsjp_201905/index.html
+より。
+--->
 
 ## これは何？
 
@@ -59,7 +64,7 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 ## 出力結果例
 
 次の図は，福岡県古賀市のコガバス（古賀市公共施設等連絡バス）様のデータを，テスト用にわざと誤りが含まれるように修正したものを検証した結果の一部です。
-![出力例](キャプチャ.PNG)
+![出力例](images/キャプチャ.PNG)
 
 これ以外の各交通事業者のGTFSファイルを検証した結果は，[http://35.192.87.3/FeedValidator-extension-for-GTFS-JP/output.html](http://35.192.87.3/FeedValidator-extension-for-GTFS-JP/output.html)にあります。
 2019/4/30～5/1にかけてダウンロードしたデータを用いて検証したものですので，最新の情報ではないかもしれません。
