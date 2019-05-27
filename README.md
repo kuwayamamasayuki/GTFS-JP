@@ -1,5 +1,5 @@
 # extensions/GTFS-JP ![ロゴマーク](images/img_works_260_col_tr.png)
-<---
+<!---
 ロゴは，GTFS-JP啓発サイト
 http://wwwtb.mlit.go.jp/chubu/gifu/gtfsjp_201905/index.html
 より。
