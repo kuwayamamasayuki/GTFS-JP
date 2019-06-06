@@ -130,6 +130,11 @@ python feedvalidator.py --extension=extensions.GTFS-JP (対象のGTFSファイ�
 
 ## 既知のバグ
 
-（2019/5/3時点ではありません。）
+### 2019/6/6
+
+- GTFSファイルのファイル名が日本語だと，エラーとなることがあります。
+- GTFS-JPでは，translations.txtでは日本語「ja」及びふりがな「ja-Hrkt」は必須となっていますが，そのチェックは行っていません。
+
+
 
 
